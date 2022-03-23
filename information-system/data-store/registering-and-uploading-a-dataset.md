@@ -6,9 +6,11 @@ grand_parent: Information System
 parent: Data store
 
 ---
-
 # Registering and uploading a dataset
-
+## Table of contents
+{: .no_toc .text-delta }
+* TOC
+{:toc}
 ## Overview
 
 Diagram of the steps and what happens at each step
