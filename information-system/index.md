@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Information System (IS)
+title: Information System
 nav_order: 2
 has_children: true
 ---
