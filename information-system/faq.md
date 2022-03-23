@@ -5,4 +5,5 @@ nav_order: 4
 parent: Information System
 ---
 
-# Frequently asked questions (FAQ)
+# Frequently asked questions (FAQs)
+
