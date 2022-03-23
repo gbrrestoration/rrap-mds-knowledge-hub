@@ -7,7 +7,7 @@ has_children: true
 
 # RRAP M&DS Information System (RRAP M&DS IS)
 
-The RRAP M&DS IS aims to facilitate:
+## The RRAP M&DS IS aims to facilitate:
 
 - Data and information capture and access, 
 - Information to support management decisions in RRAPflows between modelling and decision support teams
@@ -21,7 +21,7 @@ Learn more about the M&DS IS via our Design specification documents:
 
 - link 2 - detailed spec doc (TODO Jonathan to upload to s3 bucket)
 
-## RRAP-IS components
+### RRAP-IS components
 - Landing portal
 - Data Registry
 - Identity Service

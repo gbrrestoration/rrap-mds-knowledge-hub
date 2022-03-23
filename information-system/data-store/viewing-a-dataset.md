@@ -8,5 +8,8 @@ parent: Data store
 ---
 
 # Viewing a dataset
-
+## Table of contents
+{: .no_toc .text-delta }
+* TOC
+{:toc}
 TODO

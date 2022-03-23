@@ -19,17 +19,32 @@ Diagram of the steps and what happens at each step
 
 ### Filling out form fields
 
-What is mandatory...
+Mandatory fields are denoted by an astrix (*)
+- Author
+    - Name*
+    - Email*
+    - Orcid
+- Publisher
+    - Organisation*
+    - Research Organisation Registry ID
+- Dataset
+    - Dataset name*
+    - Dataset description*
+    - Publish date [autofilled]
+    - Usage license *
+    - Dataset files
+- Keywords
 
-#### Organisation name
-
-TODO 
+### Missing fields
+If a mandatory field is not given a popup will appear indicating a important missing piece of information
 
 #### Usage licence
 
-TODO 
+TODO a dropdown list will be provided.  Users can just select the appropreiate licence 
 
 ### What happens during the minting dataset process?
+
+
 
 ## How do I upload dataset files?
 
