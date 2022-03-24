@@ -35,7 +35,8 @@ Mandatory fields are denoted by an astrix (*)
 - Keywords
 
 ### Missing fields
-After clicking 'Submit' if a mandatory field is not given a popup will appear indicating a important missing piece of information
+After clicking 'Submit' if a mandatory field is not given a popup will appear indicating that important information is missing.<br>
+Users will not be able to progress unless all reqired fields are entered.
 
 ### Usage licence
 
@@ -55,3 +56,4 @@ After clicking ***Submit*** button a form will appear that lists the steps for u
 
 >> **Upload data via AWS Command Line Interface (CLI)** -
 >>If your dataset is large (>1-5GB) and/or you would prefer to use the AWS CLI to upload your data steps for this are listed on the form after submitting.
+
