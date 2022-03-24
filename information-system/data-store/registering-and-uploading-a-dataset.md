@@ -37,7 +37,7 @@ Mandatory fields are denoted by an astrix (*)
 ### Missing fields
 After clicking 'Submit' if a mandatory field is not given a popup will appear indicating a important missing piece of information
 
-#### Usage licence
+### Usage licence
 
 TODO a dropdown list will be provided.  Users can just select the appropreiate licence 
 
@@ -46,11 +46,12 @@ TODO a dropdown list will be provided.  Users can just select the appropreiate l
 ### Maximum file size
 
 ## How do I upload dataset files?
-After clicking 'Submit' a form will appear that lists the steps for uploading your data. There are currently two options to complete this task.
- {% include note.html content="You will require AWS access to perform a dataset upload." %}
+{% include notes.html content="You will require a RRAP-IS AWS account to be able to upload data to the AWS S3 data store." %}
 
-### Upload data via AWS Web Console
-If your dataset is not too large (<1-5GB) and you would like to use a GUI to upload your data, you can upload data using the AWS web interface
+After clicking ***Submit*** button a form will appear that lists the steps for uploading your data. There are currently two options to complete this task.
 
-### Upload data via AWS Command Line Interface (CLI)
-If your dataset is large (>1-5GB) and/or you would prefer to use the AWS CLI to upload your data steps for this are listed on the form after submitting.
+>> **Upload data via AWS Web Console** -
+>> If your dataset is not too large (<1-5GB) and you would like to use a GUI to upload your data, you can upload data using the AWS web interface
+
+>> **Upload data via AWS Command Line Interface (CLI)** -
+>>If your dataset is large (>1-5GB) and/or you would prefer to use the AWS CLI to upload your data steps for this are listed on the form after submitting.
