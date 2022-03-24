@@ -35,7 +35,8 @@ Mandatory fields are denoted by an astrix (*)
 - Keywords
 
 ### Missing fields
-After clicking 'Submit' if a mandatory field is not given a popup will appear indicating a important missing piece of information
+After clicking 'Submit' if a mandatory field is not given a popup will appear indicating that important information is missing.<br>
+Users will not be able to progress unless all reqired fields are entered.
 
 #### Usage licence
 
