@@ -6,10 +6,15 @@ parent: Information System
 ---
 
 # Frequently asked questions (FAQs)
-## Table of contents
-{: .no_toc .text-delta }
+<details  open markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+{: .text-delta }
 * TOC
 {:toc}
+____
+</details>
 
 
 ## How do I find a dataset someone has uploaded?

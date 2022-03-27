@@ -6,10 +6,14 @@ parent: Information System
 ---
 
 # About digital object identifiers
-## Table of contents
-{: .no_toc .text-delta }
-* TOC
+<details  open markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+- TOC
 {:toc}
+____
+</details>
 ## What digital object identifier infrastructure is RRAP IS using? 
 
 ### Handle.net 

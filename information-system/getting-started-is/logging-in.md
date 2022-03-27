@@ -8,10 +8,15 @@ parent: Getting started with M&DS IS
 ---
 
 # Logging in to M&DS IS
-## Table of contents
-{: .no_toc .text-delta }
+<details  open markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+{: .text-delta }
 * TOC
 {:toc}
+____
+</details>
 TODO
 
 TODO - explain that requesting access to IS applications is a separate step and link to that

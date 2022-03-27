@@ -8,8 +8,14 @@ parent: Data store
 ---
 
 # Dataset metadata
-## Table of contents
-{: .no_toc .text-delta }
+<details  open markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+{: .text-delta }
 * TOC
 {:toc}
+____
+</details>
+
 TODO
