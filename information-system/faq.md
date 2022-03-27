@@ -4,7 +4,7 @@ title: FAQ
 nav_order: 4
 parent: Information System
 ---
-
+{: .no_toc }
 # Frequently asked questions (FAQs)
 <details  open markdown="block">
   <summary>

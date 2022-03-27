@@ -6,7 +6,7 @@ grand_parent: Information System
 parent: Data store
 
 ---
-
+{: .no_toc }
 # Dataset metadata
 <details  open markdown="block">
   <summary>

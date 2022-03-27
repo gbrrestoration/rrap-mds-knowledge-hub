@@ -6,7 +6,7 @@ grand_parent: Information System
 parent: Getting started with M&DS IS
 
 ---
-
+{: .no_toc }
 # Logging in to M&DS IS
 <details  open markdown="block">
   <summary>
