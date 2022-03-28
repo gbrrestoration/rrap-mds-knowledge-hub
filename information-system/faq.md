@@ -17,13 +17,7 @@ grand_parent: Reef Restoration and Adaptation Program M&DS
 ____
 </details>
 ## How do I request access to the data store?
-TO DO
-
 ## How do I find a dataset someone else has uploaded?
-TO DO
-
 ## How do I find datasets that have been uploaded by my organisation?
-TO DO
 
-## 
 
