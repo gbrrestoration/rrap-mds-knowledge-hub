@@ -1,10 +1,9 @@
 ---
 layout: default
 title: Logging in to M&DS IS
-nav_order: 2
+nav_order: 1
 grand_parent: Information System
 parent: Getting started with M&DS IS
-
 ---
 {: .no_toc }
 # Logging in to M&DS IS

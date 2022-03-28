@@ -1,10 +1,10 @@
 ---
 layout: default
 title: Digital object identifiers
-nav_order: 3
+nav_order: 4
 parent: Information System
+grand_parent: Reef Restoration and Adaptation Program M&DS 
 ---
-
 # About digital object identifiers
 <details  open markdown="block">
   <summary>

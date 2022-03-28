@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Requesting access to IS applications
-nav_order: 3
+nav_order: 2
 grand_parent: Information System
 parent: Getting started with M&DS IS
 ---
