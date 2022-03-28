@@ -16,6 +16,12 @@ parent: Getting started with M&DS IS
 {:toc}
 ____
 </details>
-TODO
+## Access
+The M&DS IS is a suite of applications for data and information capture and access. Two access types are required:
 
-TODO - explain that requesting access to IS applications is a separate step and link to that
+1. M&DS access
+    - Access to M&DS Data Store, Provenance Store and Decision Register
+1. AWS access
+    - Access to S3 bucket (Amazon Simple Storage Service), for synchronising data
+
+To request access...

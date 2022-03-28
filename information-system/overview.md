@@ -20,14 +20,3 @@ Learn more about the M&DS IS via our Design specification documents:
 - link 1 - abstract doc (TODO Jonathan to upload to s3 bucket)
 
 - link 2 - detailed spec doc (TODO Jonathan to upload to s3 bucket)
-
-### RRAP-IS components
-- Landing portal
-- Data Registry
-- Identity Service
-- Entity Identity Service
-- Data Store
-- Provenance Store
-- Authorisation
-- Decision Register
-- Public Documentation
