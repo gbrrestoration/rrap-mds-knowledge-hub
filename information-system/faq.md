@@ -26,3 +26,5 @@ TO DO
 ## How do I find datasets that have been uploaded by my organisation?
 TO DO
 
+## How do I log a fault?
+TO DO
