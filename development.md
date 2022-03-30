@@ -18,7 +18,7 @@ ____
 
 We are using a Jekyll Site to host documentation, and the 'Just-The-Docs' for theming. 
 
-Documentation repository is hosted on Github here https://github.com/gbrrestoration/rrap-mds-knowledge-hub.
+Documentation repository is hosted on Github here → https://github.com/gbrrestoration/rrap-mds-knowledge-hub.
 
 There are a number of ways to edit/develop the documentation:
 
@@ -40,7 +40,7 @@ ___
 ## Documentation writing/development 
 Documents are written using [Markdown](https://www.markdownguide.org/cheat-sheet/) syntax
 
-The Jekyll site is built with - ```jekyll b``` and the servered with ```jekyll server --config _config_development.yml```, note that we use a specific ```config.yml``` for development as the theme is local and we include this file in the site. 
+The Jekyll site is built with ```jekyll b``` and the servered with ```jekyll server --config _config_development.yml```, note that we use a specific ```config.yml``` for development as the theme is local and we include this file in the site. 
 
 After pushing code back to the repository GitHub actions will build and deploy the site using ```config.yml```
 
@@ -48,20 +48,34 @@ See Jekyll [notes](https://jekyllrb.com/docs/usage/) for further documentation o
 
 ___
 ### Further documentation on Just-The-Docs
-https://just-the-docs.github.io/just-the-docs/
+[Just the Docs](https://just-the-docs.github.io/just-the-docs/)
 
 ___
 ## Markdown
-Cheat sheet --> https://www.markdownguide.org/cheat-sheet/
+[Cheat sheet](https://www.markdownguide.org/cheat-sheet/)
 
-Markdown tables can become a little difficult to build, so here is a link to a online tool to make the process a little easier, MD Table builder --> https://www.tablesgenerator.com/markdown_tables
+Markdown tables can become a little difficult to build, so here is a link to a online tool to make the process a little easier, [MD Table builder](https://www.tablesgenerator.com/markdown_tables)
 
 Here is examples of our callouts
-
-{% include warning.html content="Warning example text." %}
-
-{% include danger.html content="Danger example text." %}
-
-{% include success.html content="Success example text." %}
-
-{% include notes.html content="Note example text." %}
+<table text-align=center>
+  <tr>
+    <th>Raw  </th>
+    <th>Result   </th>
+  </tr>
+  <tr>
+    <td>{%raw%}{% include warning.html content="Warning example text." %}{%endraw%}</td>
+    <td>{% include warning.html content="Warning example text." %}</td>
+  </tr>
+  <tr>
+    <td>{%raw%}{% include danger.html content="Danger example text." %}{%endraw%}</td>
+    <td>{% include danger.html content="Danger example text." %}</td>
+  </tr>
+  <tr>
+    <td>{%raw%}{% include success.html content="Success example text." %}{%endraw%}</td>
+    <td>{% include success.html content="Success example text." %}</td>
+  </tr>
+  <tr>
+    <td>{%raw%}{% include notes.html content="Note example text." %}{%endraw%}</td>
+    <td>{% include notes.html content="Note example text." %}</td>
+  </tr>    
+</table>
