@@ -7,5 +7,5 @@ heading_anchors: true
 last_edit_timestamp: true
 markdown: kramdown
 
-exclude:
-  - development.md
+# exclude:
+#   - development.md
