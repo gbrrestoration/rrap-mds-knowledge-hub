@@ -57,25 +57,25 @@ ___
 Markdown tables can become a little difficult to build, so here is a link to a online tool to make the process a little easier, [MD Table builder](https://www.tablesgenerator.com/markdown_tables)
 
 Here is examples of our callouts
-<table text-align=center>
-  <tr>
-    <th>Raw  </th>
-    <th>Result   </th>
+<table>
+  <tr align=center>
+    <th>Raw</th>
+    <th>Result</th>
   </tr>
-  <tr>
-    <td>{%raw%}{% include warning.html content="Warning example text." %}{%endraw%}</td>
-    <td>{% include warning.html content="Warning example text." %}</td>
+  <tr align=center>
+    <td text-align=center>{%raw%}{% include warning.html content="Watch out" %}{%endraw%}</td>
+    <td text-align=center>{% include warning.html content="Watch out." %}</td>
   </tr>
-  <tr>
-    <td>{%raw%}{% include danger.html content="Danger example text." %}{%endraw%}</td>
-    <td>{% include danger.html content="Danger example text." %}</td>
+  <tr align=center>
+    <td>{%raw%}{% include danger.html content="DO NOT ENTER." %}{%endraw%}</td>
+    <td>{% include danger.html content="DO NOT ENTER" %}</td>
   </tr>
-  <tr>
-    <td>{%raw%}{% include success.html content="Success example text." %}{%endraw%}</td>
-    <td>{% include success.html content="Success example text." %}</td>
+  <tr align=center>
+    <td>{%raw%}{% include success.html content="Well done!" %}{%endraw%}</td>
+    <td>{% include success.html content="Well done!" %}</td>
   </tr>
-  <tr>
-    <td>{%raw%}{% include notes.html content="Note example text." %}{%endraw%}</td>
-    <td>{% include notes.html content="Note example text." %}</td>
+  <tr align=center>
+    <td>{%raw%}{% include notes.html content="You can do it" %}{%endraw%}</td>
+    <td>{% include notes.html content="You can do it" %}</td>
   </tr>    
 </table>
