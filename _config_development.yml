@@ -5,6 +5,7 @@ search_enabled: true
 toc: false
 heading_anchors: true
 last_edit_timestamp: true
+aux_links_new_tab: True
 markdown: kramdown
 
 # exclude:

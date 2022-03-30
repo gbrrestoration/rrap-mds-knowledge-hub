@@ -5,8 +5,17 @@ nav_order: 1
 parent: Information System
 grand_parent: Reef Restoration and Adaptation Program M&DS 
 ---
+{: .no_toc }
 # RRAP M&DS Information System (RRAP M&DS IS)
-
+<details  open markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+{: .text-delta }
+* TOC
+{:toc}
+____
+</details>
 ## The RRAP M&DS IS aims to facilitate:
 
 - Data and information capture and access, 
