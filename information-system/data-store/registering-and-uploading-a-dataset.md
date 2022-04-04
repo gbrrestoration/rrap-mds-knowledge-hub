@@ -20,7 +20,14 @@ ____
 
 ## Overview
 
-Diagram of the steps and what happens at each step
+Diagram of the steps and what happens at each step  
+Draft diagram 
+
+![Workflow digram](../../assets/images/DRAFTv2_upload_data.png)
+
+
+User logs into the RRAP information system & selects DATASETS then ADD DATASET.  A metadata form prefilled with the user’s name & email address opens and the User fills out information relating to the data being uploaded. After the metadata form is completed the User uploads the dataset by one of two methods depending on the size of the file(s). The data is assigned its own PID (Persistent Identifier).  The data is securely stored and ready for future reference.
+
 
 ## Registering a dataset
 When registering a dataset with the RRAP-IS Data Store you are initially required to complete a metadata record. The inputs request are listed below, make sure you have these prior to filling out the form. After submitting the system generates a persistent unquie identifier that can be used similarly to a Digital Object Identifier (DOI).  The generation of metadata records will facilitate the sharing and discovery of data.
