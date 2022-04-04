@@ -20,6 +20,9 @@ ____
 ## How do I request access to the data store?
 TO DO
 
+## How do I get an RRAP-IS AWS account?
+TO DO
+
 ## How do I find a dataset someone else has uploaded?
 TO DO
 

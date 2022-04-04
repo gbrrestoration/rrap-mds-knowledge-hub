@@ -17,4 +17,9 @@ parent: Data store
 {:toc}
 ____
 </details>
-TODO
+
+A dataset can be viewed two different ways.
+
+The first way to to type the dataset name in the *Search Dataset* field.  
+The second way is to click on the *DATASETS* button located in the top right of the screen.
+![View dataset digram](../../assets/images/viewDataset.PNG)
