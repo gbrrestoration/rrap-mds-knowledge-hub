@@ -29,5 +29,13 @@ TO DO
 ## How do I log a fault?
 TO DO
 
-## And other questions...
+## Can I upload data on behalf of someone, as I'm not the owner of the data?
+TO DO
 
+## My computer crashed while uploading the data - how do I see what was loaded?
+TO DO
+## I have new data to add to a data set, how do I go about this?
+TO DO
+
+## Can I add to someone elses data set?
+TO DO

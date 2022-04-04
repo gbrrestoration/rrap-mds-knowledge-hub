@@ -50,6 +50,8 @@ Users will not be able to progress unless all reqired fields are entered.
 TODO a dropdown list will be provided.  Users can just select the appropreiate licence 
 
 ### What happens during the minting dataset process?
+TO TO
+
 
 ### Maximum file size
 
@@ -59,7 +61,7 @@ TODO a dropdown list will be provided.  Users can just select the appropreiate l
 After clicking ***Submit*** button a form will appear that lists the steps for uploading your data. There are currently two options to complete this task.
 
 >> **Upload data via AWS Web Console** -
->> If your dataset is not too large (<1-5GB) and you would like to use a GUI to upload your data, you can upload data using the AWS web interface
+>> If your dataset is not too large (<1-5GB) and you would like to use a GUI to upload your data, you can upload data using the AWS web interface.
 
 >> **Upload data via AWS Command Line Interface (CLI)** -
 >>If your dataset is large (>1-5GB) and/or you would prefer to use the AWS CLI to upload your data steps for this are listed on the form after submitting.
