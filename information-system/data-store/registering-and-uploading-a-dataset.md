@@ -20,17 +20,15 @@ ____
 
 ## Overview
 
-Diagram of the steps and what happens at each step  
-Draft diagram 
+The diagram below outlines the steps undertaken when registering and uploading a dataset.  
+*Note: draft figure*
 
 ![Workflow digram](../../assets/images/DRAFTv2_upload_data.png)
-
-
-User logs into the RRAP information system & selects DATASETS then ADD DATASET.  A metadata form prefilled with the user’s name & email address opens and the User fills out information relating to the data being uploaded. After the metadata form is completed the User uploads the dataset by one of two methods depending on the size of the file(s). The data is assigned its own PID (Persistent Identifier).  The data is securely stored and ready for future reference.
-
+*A User logs into the RRAP information system & selects DATASETS then ADD DATASET from the website.  A metadata form prefilled with the User’s name & email address opens and the User fills out information relating to the data being uploaded (see [Filling out form fields](#filling-out-form-fields) for more detailed information). After the metadata form is completed the User uploads the dataset by one of [two methods](#how-do-i-upload-dataset-files), depending on the size of the file(s). The data is assigned its own unique PID (Persistent Identifier).  The data is securely stored on an AWS S3 server and ready for future reference.*
+<br>
 
 ## Registering a dataset
-When registering a dataset with the RRAP-IS Data Store you are initially required to complete a metadata record. The inputs request are listed below, make sure you have these prior to filling out the form. After submitting the system generates a persistent unquie identifier that can be used similarly to a Digital Object Identifier (DOI).  The generation of metadata records will facilitate the sharing and discovery of data.
+When registering a dataset with the RRAP-IS Data Store you are initially required to complete a metadata record. The inputs request are listed below, make sure you have these prior to filling out the form. After submitting, the system generates a persistent unique identifier that can be used similarly to a Digital Object Identifier (DOI).  The generation of metadata records will facilitate the sharing and discovery of data.
 ### Filling out form fields
 Mandatory fields are denoted by an astrix (*)
 - Author
