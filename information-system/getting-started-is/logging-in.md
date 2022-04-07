@@ -39,7 +39,8 @@ Click the Google option which will take you to your Google login screen, enter y
 
 ### Australian Access Federation (AAF)
  Click the 'Australian Access Federation' option which will take you to the AAF Central login page
-| AAF Access dialoge|
+
+| AAF Access dialog|
 |:-:|
 |<img src="../../assets/images/access/aaf_access.png" alt="drawing" width="400"/>|
 
@@ -48,6 +49,7 @@ Search and select your orgainisation then select 'Continue to your organisation'
 ## User Roles
 Currently users will need to select roles to be able to perform tasks.  Select 'Roles' under your user menu item (silhouette of a person) from the top right of page. From the 'Roles' page users can request levels of 
 access (read only, read and write, administration) to particular parts of the system
+
 | User Roles|
 |:-:|
 |<img src="../../assets/images/access/user_roles.png" alt="drawing" width="400"/>|
