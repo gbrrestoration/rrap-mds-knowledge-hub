@@ -5,6 +5,7 @@ nav_order: 1
 grand_parent: Information System
 parent: Getting started with M&DS IS
 ---
+<link href="styles.css" rel="stylesheet"></link>
 {: .no_toc }
 # Logging in to M&DS IS
 <details  open markdown="block">
@@ -46,16 +47,5 @@ Click the Google option which will take you to your Google login screen, enter y
 
 Search and select your orgainisation then select 'Continue to your organisation'.  You will then sign in with your usual organisation credentials, you will be redirected back to RRAP M&DS IS if successful.
 
-## User Roles
-Currently users will need to select roles to be able to perform tasks.  Select 'Roles' under your user menu item (silhouette of a person) from the top right of page. From the 'Roles' page users can request levels of 
-access (read only, read and write, administration) to particular parts of the system
-
-| User Roles|
-|:-:|
-|<img src="../../assets/images/access/user_roles.png" alt="drawing" width="400"/>|
-
-| User Roles Request|
-|:-:|
-|<img src="../../assets/images/access/roles_request.png" alt="drawing" width="400"/>|
-
-We are intending to identify users without roles applied and provide a 'Welcome' page with further instructions to requests roles. 
+## Access Roles
+After signing in for the first time you will need to request access to appropriate roles. To perform this task please see [Requesting Access](/information-system/getting-started-is/requesting-access-is.html#user-roles)
