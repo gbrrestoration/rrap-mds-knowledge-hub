@@ -21,11 +21,10 @@ Currently users will need to select **Roles** to be able to perform tasks.  Sele
 
 | Application  | Role  |  Access Level |
 |:-:|:-:|:-:|
-| Data Store | data-store-read  |   read only |
+| **Data Store** | data-store-read  |   read only |
 |   | data-store-write  | write |
 |   | data-store-admin  | admin |
-| ____  | ____  | ____ |
-| Handle Service  | handle-service-read  |   read only |
+| **Handle Service**  | handle-service-read  |   read only |
 |   | handle-service-write  |  write |
 |   | handle-service-admin  |   admin |
 
