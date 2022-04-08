@@ -14,12 +14,18 @@ grand_parent: Reef Restoration and Adaptation Program M&DS
 {:toc}
 ____
 </details>
+
 ## What digital object identifier infrastructure is RRAP IS using? 
+RRAP M&DS IS is using Australian Research Data Commons (ARDC) [Handle Service](https://ardc.edu.au/services/identifier/handle/) for creating persistent references to digital research objects.
 
+___
 ### Handle.net 
+Handle.net is a service which maintains a registry of digital identifiers that are used to persistently identify digital objects.  It also provides a service to resolve the location of previously minted objects.
 
-Overview of what Handle is.
+___
+### Minting
+Minting a digital identifier is the process of requesting a unquie number from a Handle Service and associating it with a Uniform Resource Locator (URL), a unique sequence of characters that identifies a logical or physical resource used by web technologies.. 
 
+___
 ### What can I do with a Handle identifier?
-
-Link out to ARDC documentation?
+The identifier can be used to persistently find a digital resource. Over time a URL may change as digital assesets are relocated. However the Handle record which is made up of the identifier and the URL that can be maintained by updating the URL to point to the new location.  

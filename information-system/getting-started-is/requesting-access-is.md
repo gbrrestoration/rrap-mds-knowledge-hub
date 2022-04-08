@@ -22,10 +22,10 @@ Currently users will need to select **Roles** to be able to perform tasks.  Sele
 
 | Application  | Role  |  Access Level |
 |:-:|:-:|:-:|
-| **Data Store** | data-store-read  |   read only, viewing and searching dataset |
+| **Data Store** | data-store-read  |   reading/viewing and searching dataset |
 |   | data-store-write  | write/generate new dataset records and uploading to the store |
 |   | data-store-admin  | administration, adding and removing users etc |
-| **Handle Service**  | handle-service-read  |   read only |
+| [**Handle Service**](../digital-object-identifiers.md)  | handle-service-read  |   read only |
 |   | handle-service-write  |  write, modifying old and adding new handle identifiers |
 |   | handle-service-admin  |   admin |
 
@@ -41,5 +41,5 @@ Once you have completed selecting roles click the **Request Roles Update** butto
 |:-:|
 |<img src="../../assets/images/access/roles_request.png" alt="drawing" width="600"/>|
 
-{% include notes.html content="We are intending to identify users without roles applied and provide a 'Welcome' page with further instructions to requests roles." %}
+{% include notes.html content="We are intending to identify users without roles applied and provide a <strong>Welcome</strong> page with further instructions to requests roles." %}
  
