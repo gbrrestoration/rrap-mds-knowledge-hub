@@ -24,8 +24,10 @@ Handle.net is a service which maintains a registry of digital identifiers that a
 
 ___
 ### Minting
-Minting a digital identifier is the process of requesting a unquie number from a Handle Service and associating it with a Uniform Resource Locator (URL), a unique sequence of characters that identifies a logical or physical resource used by web technologies.. 
+Minting a digital identifier is the process of requesting a unquie number from a Handle Service and associating it with a Uniform Resource Locator (URL), a unique sequence of characters that identifies a logical or physical resource used by web technologies.
+
+As part of using the **Data Store** functionality to registry a dataset a Handle Identifier is minted and will associated with the dataset metadata. 
 
 ___
 ### What can I do with a Handle identifier?
-The identifier can be used to persistently find a digital resource. Over time a URL may change as digital assesets are relocated. However the Handle record which is made up of the identifier and the URL that can be maintained by updating the URL to point to the new location.  
+The identifier can be used to persistently find a digital resource. Over time a URL may change as digital assesets are relocated. In this scenario the URL Handle record which is made up of the identifier and the URL that can be maintained by updating the URL to point to the new location.  
