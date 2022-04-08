@@ -5,7 +5,6 @@ nav_order: 1
 grand_parent: Information System
 parent: Getting started with M&DS IS
 ---
-<link href="styles.css" rel="stylesheet"></link>
 {: .no_toc }
 # Logging in to M&DS IS
 <details  open markdown="block">
@@ -34,18 +33,18 @@ You can use a number of different existing credentials
 |<img src="../../assets/images/access/access_types.png" alt="drawing" width="400"/>|
 
 ### GitHub
-Click the GITHUB option which will take you to your GitHub login screen, enter your GitHub credentials and click 'Sign in', you will be redirected back to RRAP M&DS IS if successful.
+Click the GITHUB option which will take you to your GitHub login screen, enter your GitHub credentials and click **Sign in**, you will be redirected back to RRAP M&DS IS if successful.
 ### Google
-Click the Google option which will take you to your Google login screen, enter your Google credentials and click 'Sign in', you will be redirected back to RRAP M&DS IS if successful.
+Click the Google option which will take you to your Google login screen, enter your Google credentials and click **Sign in**, you will be redirected back to RRAP M&DS IS if successful.
 
 ### Australian Access Federation (AAF)
- Click the 'Australian Access Federation' option which will take you to the AAF Central login page
+ Click the **Australian Access Federation** option which will take you to the AAF Central login page
 
 | AAF Access dialog|
 |:-:|
 |<img src="../../assets/images/access/aaf_access.png" alt="drawing" width="400"/>|
 
-Search and select your orgainisation then select 'Continue to your organisation'.  You will then sign in with your usual organisation credentials, you will be redirected back to RRAP M&DS IS if successful.
+Search and select your orgainisation then select **Continue to your organisation**.  You will then sign in with your usual organisation credentials, you will be redirected back to RRAP M&DS IS if successful.
 
 ## Access Roles
 After signing in for the first time you will need to request access to appropriate roles. To perform this task please see [Requesting Access](requesting-access-is.md#user-roles)
