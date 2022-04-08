@@ -5,6 +5,7 @@ nav_order: 2
 grand_parent: Information System
 parent: Getting started with M&DS IS
 ---
+
 {: .no_toc }
 # Requesting access to IS applications
 <details  open markdown="block">
@@ -21,18 +22,20 @@ Currently users will need to select **Roles** to be able to perform tasks.  Sele
 
 | Application  | Role  |  Access Level |
 |:-:|:-:|:-:|
-| **Data Store** | data-store-read  |   read only |
-|   | data-store-write  | write |
-|   | data-store-admin  | admin |
+| **Data Store** | data-store-read  |   read only, viewing and searching dataset |
+|   | data-store-write  | write/generate new dataset records and uploading to the store |
+|   | data-store-admin  | administration, adding and removing users etc |
 | **Handle Service**  | handle-service-read  |   read only |
-|   | handle-service-write  |  write |
+|   | handle-service-write  |  write, modifying old and adding new handle identifiers |
 |   | handle-service-admin  |   admin |
+
+Below is an image of the **Profile** page with **Roles** option selected. Request access to roles by sliding the appropriate slider to the right
 
 | User Roles|
 |:-:|
 |<img src="../../assets/images/access/user_roles.png" alt="drawing" width="600"/>|
 
-Request access to roles by sliding the appropriate slider to the right
+Once you have completed selecting roles click the **Request Roles Update** button
 
 | User Roles Request|
 |:-:|
