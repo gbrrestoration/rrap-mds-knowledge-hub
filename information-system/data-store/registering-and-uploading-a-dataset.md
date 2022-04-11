@@ -57,7 +57,11 @@ Users will not be able to progress unless all reqired fields are entered.
 ___
 ### Usage licence
 
-TODO a dropdown list will be provided.  Users can just select the appropreiate licence 
+Users can just select the appropreiate licence from the dropdown list.  There are four licenses to choose from;
+- [CCO-1.0](https://creativecommons.org/publicdomain/zero/1.0/)
+- [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/)
+- [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/)
+- [CC-BY-NC-4.0](https://creativecommons.org/licenses/by-nc/4.0/)
 
 ___
 ### What happens during the minting dataset process?
