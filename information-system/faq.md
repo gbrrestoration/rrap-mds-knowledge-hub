@@ -3,10 +3,13 @@ layout: default
 title: FAQ
 nav_order: 5
 parent: Information System
-grand_parent: Reef Restoration and Adaptation Program M&DS 
+grand_parent: Reef Restoration and Adaptation Program M&DS
 ---
+
 {: .no_toc }
+
 # Frequently asked questions (FAQs)
+
 <details  open markdown="block">
   <summary>
     Table of contents
@@ -18,27 +21,37 @@ ____
 </details>
 
 ## How do I request access to the data store?
-TO DO
+
+You should make a user access request by visiting the [landing portal](https://rrap-is.com) and pressing your profile (user silhouette in the top right) then choosing Roles. Information about how to use this menu and which roles you should request is available at [request access](./getting-started-is/requesting-access-is.html).
 
 ## How do I get an RRAP-IS AWS account?
-TO DO
+
+If you have logged in to the RRAP IS system and have requested the appropriate roles then you are setup and ready to access protected AWS resources. Users of the RRAP-IS do not directly possess or own AWS accounts, rather we broker temporary credentials on your behalf as an authorised user of the system. When undertaking actions that require AWS access credentials, they will be generated automatically for you. For information about logging in see [logging in](./getting-started-is/logging-in.html). For information about requesting access see [requesting access](./getting-started-is/requesting-access-is.html).
 
 ## How do I find a dataset someone else has uploaded?
-TO DO
+
+Firstly, ensure that you have [logged in](./getting-started-is/logging-in.html) and have requested data store [access](./getting-started-is/requesting-access-is.html) (at least read level). You can now visit the [data store](https://data.rrap-is.com), login and select Datasets from the banner. From this menu, you will see a list of registered datasets. You can search this list (noting that the search functionality is currently limited) and filter by organisation. Once you have selected the dataset you wish to view, you can click it in the list. From here, there are instructions on how to [view this dataset](./data-store/viewing-a-dataset.html) or [download the files](./data-store/downloading-datasets.md).
 
 ## How do I find datasets that have been uploaded by my organisation?
-TO DO
+
+By following the above procedure, you will have access to the list of datasets in the [data store](https://data.rrap-is.com). You can filter by organisation using the clickable tick boxes in the left panel.
 
 ## How do I log a fault?
+
 TO DO
 
 ## Can I upload data on behalf of someone, as I'm not the owner of the data?
+
 TO DO
 
 ## My computer crashed while uploading the data - how do I see what was loaded?
-TO DO
+
+The answer to this question depends on how far you made it before the big bang. If you successfully [registered the dataset](./data-store/registering-and-uploading-a-dataset.md) then the entry exists in the registry and upload can be resumed. If you did not complete registration, you will need to start the process again. Once an entry exists (through registration), you can add files to it at any point by visiting the entry in the [data store](https://data.rrap-is.com). After registering the dataset you may also like to take note of the handle link so that you can easily get back there later. If you were in the middle of uploading files when a crash occurred, you can use the instructions on the 'upload' tab of the dataset view in the data store as required to continue the upload. To view what's there you can use the AWS console GUI or the `aws s3 ls` command. If you want to resume your upload using the GUI you will need to assess what uploads were complete and choose the remaining files to upload (or simply upload the whole dataset again, noting that this will require uploading all the files again). If you used the AWS CLI, then you will be able to use the same `aws s3 sync` command again (the `s3 sync` command **will not upload the same data if it hasn't changed** meaning that your upload will be safely resumed). For this reason (and others) we would recommend using the AWS CLI for large datasets, and particularly for large datasets with numerous files.
+
 ## I have new data to add to a data set, how do I go about this?
+
 TO DO
 
 ## Can I add to someone elses data set?
+
 TO DO
