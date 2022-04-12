@@ -56,7 +56,7 @@ Once you select the dataset you want to download, you can click the entry and yo
 
 Doing so will provide you with detailed instructions on how to download the dataset.
 
-### First time download
+### First time download (`aws cp` command)
 
 If you have not downloaded this dataset before, you can use the provided AWS CLI commands to download the files.
 
@@ -66,9 +66,9 @@ The data store provides a command ready to copy and paste - you will just need t
 
 If you have issues following these instructions, please don't hesistate to contact the M&DS IS team for more detailed assistance.
 
-### Updating local files from updated dataset
+### Updating local files from updated dataset (`aws sync` command)
 
-The AWS CLI provides more than one option for copying data from a bucket to your local machine. The `cp` command above assumes that you don't have any of the files on your local machine. The `sync` command will only download **new files** or **files that have changed**. This means that if only some of a dataset is updated, you don't need to download it all again.
+The AWS CLI provides more than one option for copying data from a bucket to your local machine. The `cp` command above assumes that you don't have any of the files on your local machine. The `sync` command will only download **new files** or **files that have changed**. This means that if only some of a dataset is updated, you don't need to download it all again. For more information about how the sync command works, please see the official [AWS documentation](https://docs.aws.amazon.com/cli/latest/reference/s3/sync.html).
 
 {% include notes.html content="Files that exist locally which have been removed from the dataset will not be deleted locally. To enable this optional behaviour, you can use the --delete flag. Please use with caution as improperly using this option (for example, if you are in the wrong working directory in your AWS CLI terminal environment) could cause significant damage to your local filesystem." %}
 
