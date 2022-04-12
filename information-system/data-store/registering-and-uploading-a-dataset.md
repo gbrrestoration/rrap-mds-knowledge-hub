@@ -24,7 +24,7 @@ The diagram below outlines the steps undertaken when registering and uploading a
 *Note: draft figure*
 
 ![Workflow digram](../../assets/images/DRAFTv2_upload_data.png)
-*A User logs into the RRAP information system & selects DATASETS then ADD DATASET from the website.  A metadata form prefilled with the User’s name & email address opens and the User fills out information relating to the data being uploaded (see [Filling out form fields](#filling-out-form-fields) for more detailed information). After the metadata form is completed the User uploads the dataset by one of [two methods](#how-do-i-upload-dataset-files), depending on the size of the file(s). The data is assigned its own unique PID (Persistent Identifier).  The data is securely stored on an AWS S3 server and ready for future reference.*
+*A User logs into the RRAP information system & selects DATASETS then ADD DATASET from the website.  A metadata form prefilled with the User’s name & email address opens and the User fills out information relating to the data being uploaded (see [Filling out form fields](#filling-out-form-fields) for more detailed information). After the metadata form is completed the User uploads the dataset by one of [two methods](#how-do-i-upload-dataset-files), depending on the size of the file(s). The data is assigned its own unique PID (Persistent Identifier).  The data is securely stored on an AWS S3 server, ready for future reference and usage.*
 <br>
 
 ___
@@ -35,17 +35,17 @@ ___
 ### Filling out form fields
 Mandatory fields are denoted by an astrix (*)
 - Author
-    - Name*
-    - Email*
+    - Name* [autofilled]
+    - Email* [autofilled]
     - Orcid
 - Publisher
-    - Organisation*
-    - Research Organisation Registry ID
+    - Organisation* [search menu]
+    - Research Organisation Registry ID [search menu]
 - Dataset
     - Dataset name*
     - Dataset description*
-    - Publish date [autofilled]
-    - Usage license *
+    - Publish date* [autofilled]
+    - Usage license* [drop-down list]
     - Dataset files
 - Keywords
 
@@ -69,20 +69,24 @@ A Handle Identifier is minted with each dataset that is registered and will asso
 
 ___
 ### Maximum file size
-If you have any issues related to file sizes please contact the RRAP M&DS IS team
+While the AWS CLI can handle large files (>100GB) and the AWS Console GUI can handle up to 160GB uploads, please contact the RRAP M&DS IS team if you know you will be uploading large or numerous files.
 
-___
 ## How do I upload dataset files?
 
-{% include notes.html content="You will require a RRAP-IS AWS token to be able to upload data to the AWS S3 data store.  See details on the dataset metadata page obtaining a AWS token" %}
+{% include notes.html content="You will require a set of RRAP-IS AWS credentials to be able to upload data to the AWS S3 data store.  See details on the dataset metadata page obtaining AWS credentials." %}
+
+### Setting up the AWS CLI v2
+In order to use the CLI for uploading (and downloading) you will need to install it first. Please see [this page](./setting-up-the-aws-cli.html) for instructions on how to setup the AWS CLI v2 on your system.
+
+### Uploading files after registration
 
 After clicking ***Submit*** button a form will appear that lists the steps for uploading your data. There are currently two options to complete this task.
 
 >> **Upload data via AWS Web Console** -
->> If your dataset is not too large (<1-5GB) and you would like to use a GUI to upload your data, you can upload data using the AWS web interface.
->> 1. Open this [link](https://auth.dev.rrap-is.com/auth/realms/rrap/protocol/saml/clients/amazon-aws) to login to the AWS system - choose read/write user. And return to this page (you can close the other page if you wish).
+>> If your dataset is not too large (<5GB) and you would like to use a GUI to upload your data, you can upload data using the AWS web interface.
+>> 1. Open this [link](https://auth.rrap-is.com/auth/realms/rrap/protocol/saml/clients/amazon-aws) to login to the AWS system - choose read/write user. And return to this page (you can close the other page if you wish).
 >> 1. This [link](https://s3.console.aws.amazon.com/s3/buckets/rrap-storage-bucket?region=ap-southeast-2&prefix=datasets/) will take you to the S3 bucket location which contains your data. You can upload the data using the AWS console - click the orange "Upload" button, then press choose files and select your dataset files.
 
 >> **Upload data via AWS Command Line Interface (CLI)** -
->>If your dataset is large (>1-5GB) and/or you would prefer to use the AWS CLI to upload your data steps for this are listed on the form after submitting.
+>>If your dataset is large (>5GB) and/or you would prefer to use the AWS CLI to upload your data steps for this are listed on the form after submitting.
 
