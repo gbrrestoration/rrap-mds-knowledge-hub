@@ -57,7 +57,7 @@ Users will not be able to progress unless all reqired fields are entered.
 ___
 ### Usage licence
 
-Users can just select the appropreiate licence from the dropdown list.  There are four licenses to choose from;
+Users can just select the appropreiate licence from the dropdown list.  There are four licenses to choose from (follow the links below to determine the appropriate license to use);
 - [CCO-1.0](https://creativecommons.org/publicdomain/zero/1.0/)
 - [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/)
 - [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/)
@@ -80,6 +80,8 @@ After clicking ***Submit*** button a form will appear that lists the steps for u
 
 >> **Upload data via AWS Web Console** -
 >> If your dataset is not too large (<1-5GB) and you would like to use a GUI to upload your data, you can upload data using the AWS web interface.
+>> 1. Open this [link](https://auth.dev.rrap-is.com/auth/realms/rrap/protocol/saml/clients/amazon-aws) to login to the AWS system - choose read/write user. And return to this page (you can close the other page if you wish).
+>> 1. This [link](https://s3.console.aws.amazon.com/s3/buckets/rrap-storage-bucket?region=ap-southeast-2&prefix=datasets/) will take you to the S3 bucket location which contains your data. You can upload the data using the AWS console - click the orange "Upload" button, then press choose files and select your dataset files.
 
 >> **Upload data via AWS Command Line Interface (CLI)** -
 >>If your dataset is large (>1-5GB) and/or you would prefer to use the AWS CLI to upload your data steps for this are listed on the form after submitting.
