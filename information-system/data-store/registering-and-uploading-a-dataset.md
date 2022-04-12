@@ -94,6 +94,12 @@ While the AWS CLI can handle large files (>100GB) and the AWS Console GUI can ha
 
 In order to use the CLI for uploading (and downloading) you will need to install it first. Please see [this page](./setting-up-the-aws-cli.html) for instructions on how to setup the AWS CLI v2 on your system.
 
+>> **Upload data via AWS Web Console** -
+>> If your dataset is not too large (<5GB) and you would like to use a GUI to upload your data, you can upload data using the AWS web interface.
+
+>> 1. Open this [link](https://auth.dev.rrap-is.com/auth/realms/rrap/protocol/saml/clients/amazon-aws) to login to the AWS system - choose read/write user. And return to this page (you can close the other page if you wish).
+>> 1. This [link](https://s3.console.aws.amazon.com/s3/buckets/rrap-storage-bucket?region=ap-southeast-2&prefix=datasets/) will take you to the S3 bucket location which contains all datasets.  Browse or search for your unquie folder using the handle number #####.#/#######. You can upload the data using the AWS console - click the orange "Upload" button, then press choose files and select your dataset files.
+
 ### Uploading files after registration
 
 After clicking **_Submit_** button a form will appear that lists the steps for uploading your data. There are currently two options to complete this task.
