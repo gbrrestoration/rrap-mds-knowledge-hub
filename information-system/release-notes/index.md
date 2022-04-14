@@ -9,4 +9,3 @@ has_children: true
 
 #  Release notes
 
-TODO - Linda
