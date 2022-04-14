@@ -104,3 +104,11 @@ Here is examples of our callouts
     <td>{% include notes.html content="You can do it" %}</td>
   </tr>    
 </table>
+
+{% include notes.html content="You can<b> bold</b> with html tags" %}
+
+Currently the callouts will not except html link tags, so here is a work around
+
+ <div class="info">
+  <p><strong>Note! </strong> I would like to hyperlink to another page please,  <a href='www.google.com'>go to Google</a></p>
+</div> 
