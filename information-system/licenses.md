@@ -31,7 +31,7 @@ ___
 
 This material is protected by copyright under the laws of Australia.
 
-The moment an idea or creative concept is documented on paper or electronically it is automatically protected by copyright in Australia.
+The moment an idea or creative concept is documented on paper or electronically it is automatically protected by copyright in Australia see [An Introduction to Copyright in Australia](https://s3-ap-southeast-2.amazonaws.com/dimoacc/factsheets/INFO010.pdf) for more information.
 
 ___
 ### [CCO-1.0](https://creativecommons.org/publicdomain/zero/1.0/) No Copyright
