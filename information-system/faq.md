@@ -38,7 +38,7 @@ By following the above procedure, you will have access to the list of datasets i
 
 ## How do I log a fault?
 
-In all of the M&DS IS web pages there is a button in the bottom right of the page; "Contact RRAP IS". Pressing this button will show a structured form you can fill out to report an issue to the development team. Please include as much pertinent information as you can to help us quickly identify and resolve the issue. We will contact you via the email provided as the status of the issue changes.
+In all of the M&DS IS web pages there is a button in the bottom right of the page; "Contact Us". Pressing this button will show a structured form you can fill out to report an issue to the development team. Please include as much pertinent information as you can to help us quickly identify and resolve the issue. We will contact you via the email provided as the status of the issue changes.
 
 ## Can I upload data on behalf of someone, as I'm not the owner of the data?
 
