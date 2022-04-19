@@ -33,4 +33,4 @@ On the Datasets page, Users can filter datasets by clicking the check boxes next
 
 ![View dataset digram3](../../assets/images/viewDataset3.png)
 
-From here, Users can download the data, upload additional data and share the data via the Handle link.
+From here, Users can [download the dataset](../data-store/downloading-datasets.html), [upload additional data](../data-store/registering-and-uploading-a-dataset.html) and share the data via the Handle link.
