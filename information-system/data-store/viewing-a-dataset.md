@@ -18,8 +18,19 @@ parent: Data store
 ____
 </details>
 
-A dataset can be viewed two different ways.
+A dataset can be searched for and viewed using a number of ways.
 
-The first way to to type the dataset name in the *Search Dataset* field.  
-The second way is to click on the *DATASETS* button located in the top right of the screen.
+
+## Searching for a dataset
+TO DO
+
+## Viewing a dataset
+The first way to to type the dataset name in the *Search Dataset* field.
+
+The second way is to click on the *Browse datasets* link located 
+
+click on the *DATASETS* button located in the top right of the screen.
 ![View dataset digram](../../assets/images/viewDataset.PNG)
+
+
+
