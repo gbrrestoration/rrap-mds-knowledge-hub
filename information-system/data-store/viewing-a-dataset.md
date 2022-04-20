@@ -18,13 +18,12 @@ parent: Data store
 ____
 </details>
 
-A dataset can be searched for a number of ways.
 
+Once you are logged into the RRAP M&DS Data Store, you can search for a  dataset by entering information, such as the dataset name, in the **Search Dataset** field and clicking the magnifying glass button.
+You can also click the **Browse datasets** link located under the Find out more menu.
 
-If Users know the dataset name, publishing organisation or person the dataset is linked to, then Users can type the known information in the **Search Dataset** field.
+You are then taken to the Datasets page.  
+On this page, you can quickly filter datasets by organisation name by selecting the check boxes beside each name. Once you have found the dataset you are looking for, click on the dataset name and you will be taken to the dataset's metadata page.
 
-Users can also click the **Browse datasets** link located under **Find out more** to be taken to the Datasets page.
-
-On the Datasets page, Users can filter datasets by clicking the check boxes next to the publishing organisation's name. Once a dataset is found, Users then click on the dataset link, this will bring up the Metadata and Dataset Information associated with the dataset. 
-
-From here, Users can [download the dataset](../data-store/downloading-datasets.html), [upload additional data](../data-store/registering-and-uploading-a-dataset.html) and share the data via the Handle link.
+The metadata page has the Handle and storage location for the dataset on the left hand side.
+On the right hand side you can get dataset informtion, [download the dataset](../data-store/downloading-datasets.html) and [upload additional data](../data-store/registering-and-uploading-a-dataset.html) by clicking each of the tabs.
