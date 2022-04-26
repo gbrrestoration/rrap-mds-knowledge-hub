@@ -61,14 +61,15 @@ ___
 
 ### Missing fields
 
-After clicking **Submit** if a mandatory field is not given a popup will appear indicating that important information is missing.<br>
+After clicking **Submit** if a mandatory field is not given a popup will appear indicating that important information is missing.
+
 Users will not be able to progress unless all reqired fields are entered.
 
 ___
 
 ### Usage licence
 
-Users can just attribute the appropreiate licence from the dropdown list. There are four licenses to choose from, although all data produced by RRAP is by default attributed copyright. For details of each license please see the [Licenses](../licenses.md) page.
+Users can attribute the appropriate licence from the dropdown list. There are a number of licenses to choose from, although all data produced by RRAP is by default attributed copyright. For details of each license please see the [Licenses](../licenses.md) page.
 
 ___
 
