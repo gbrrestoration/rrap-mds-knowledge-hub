@@ -26,4 +26,4 @@ You are then taken to the Datasets page.
 On this page, you can quickly filter datasets by organisation name by selecting the check boxes beside each name. Once you have found the dataset you are looking for, click on the dataset name and you will be taken to the dataset's metadata page.
 
 The metadata page has the Handle and storage location for the dataset on the left hand side.
-On the right hand side you can get dataset informtion, [download the dataset](../data-store/downloading-datasets.html) and [upload additional data](../data-store/registering-and-uploading-a-dataset.html) by clicking each of the tabs.
+On the right hand side you can get dataset information, [download the dataset](../data-store/downloading-datasets.html) and [upload additional data](../data-store/registering-and-uploading-a-dataset.html) by clicking each of the tabs.
