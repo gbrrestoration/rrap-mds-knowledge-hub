@@ -30,14 +30,11 @@ _A User logs into the RRAP information system & selects DATASETS then ADD DATASE
 <br>
 
 ___
-___
-
 ## Registering a dataset
 
 When registering a dataset with the RRAP-IS Data Store you are initially required to complete a metadata record. The inputs request are listed below, make sure you have these prior to filling out the form. After submitting, the system generates a persistent unique identifier that can be used similarly to a Digital Object Identifier (DOI). The generation of metadata records will facilitate the sharing and discovery of data.
 
----
-
+___
 ### Filling out form fields
 
 Mandatory fields are denoted by an astrix (\*)
@@ -58,31 +55,26 @@ Mandatory fields are denoted by an astrix (\*)
 - Keywords
 
 ___
-
 ### Missing fields
 
 After clicking **Submit** if a mandatory field is not given a popup will appear indicating that important information is missing.<br>
 Users will not be able to progress unless all reqired fields are entered.
 
 ___
-
 ### Usage licence
 
 Users can just attribute the appropreiate licence from the dropdown list. There are four licenses to choose from, although all data produced by RRAP is by default attributed copyright. For details of each license please see the [Licenses](../licenses.md) page.
 
 ___
-
 ### What happens during the minting dataset process?
 
 A Handle Identifier is minted with each dataset that is registered and will associated with the dataset metadata. This minted identifier can be used to persistently locate your dataset in the future. See [Digital Object Identifiers](../digital-object-identifiers.md) for further details
 
 ___
-
 ### Maximum file size
 
 While the AWS CLI can handle large files (>100GB) and the AWS Console GUI can handle up to 160GB uploads, please contact the RRAP M&DS IS team if you know you will be uploading large or numerous files. For technical information about the storage limitations of the S3 service (which the data store is built on) you can review the AWS FAQ [here](https://aws.amazon.com/s3/faqs/#:~:text=How%20much%20data%20can%20I%20store%20in%20Amazon%20S3?).
 
-___
 ___
 ## How do I upload dataset files?
 
