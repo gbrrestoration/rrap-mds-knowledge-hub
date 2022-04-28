@@ -51,7 +51,7 @@ The metadata page has the following information
     - Author email
   - JSON Metadata
 
-Users can share the dataset with others using the Handle link. The Dataset lcoation information relates to the storage location on the AWS S3 server.
+Users can share the dataset with others using the Handle link. The Dataset location information relates to the storage location on the AWS S3 server.
 The JSON Metadata can be expanded and the information copied by first clicking **Expand details**, then the **copy** button. To close the expanded view, click on **Expand details** again.
 
 
