@@ -18,6 +18,12 @@ parent: Data store
 ____
 </details>
 
-The Data Store will have a minimal dataset metadata record schema using [RO-CRATE](https://w3id.org/ro/crate) as the metadata data file format. The minimal dataset metadata record fields can be found [here](../data-store/registering-and-uploading-a-dataset.html#filling-out-form-fields). The metadata fields included in Data Store enables data registration, upload, sharing via the S3 APIs to support current modelling activities in M&DS. Future releases will incrementally add additional capability to capture RRAP M&DS, ISO and Science related metadata for when we need wider data publication.
+The Data Store will have a minimal dataset metadata record schema using [RO-CRATE](https://w3id.org/ro/crate) as the metadata data file format. The minimal dataset metadata record fields are:
+
+{% include_relative user-metadata-fields.md %}
+
+{% include_relative generated-metadata-fields.md %}
+
+The metadata fields included in Data Store enables data registration, upload, sharing via the S3 APIs to support current modelling activities in M&DS. Future releases will incrementally add additional capability to capture RRAP M&DS, ISO and Science related metadata for when we need wider data publication.
 
 ___

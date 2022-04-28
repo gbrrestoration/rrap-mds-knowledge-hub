@@ -31,29 +31,19 @@ _A User logs into the RRAP information system & selects DATASTORE then REGISTER 
 
 ___
 ## Registering a dataset
-
 When registering a dataset with the RRAP-IS Data Store you are initially required to complete a metadata record. The inputs requested are listed below, make sure you have these prior to filling out the form. After submitting, the system generates a persistent unique identifier that can be used similarly to a Digital Object Identifier (DOI). The generation of metadata records will facilitate the sharing and discovery of data.
 
 ___
 ### Filling out form fields
+User entered metadata fields are listed below, some of which are prepopulated, others are selected or searched for with the help of form widgets. 
 
-Author details  
->>- **_Name_**: The name of the person who created the dataset - **[Autofilled & Required]**<br>
->>- **_Email_**: Email of the person currently filling out the form - **[Autofilled & Required]**<br>
->>- **_Orcid_**: This is optional and is associated to the data creator<br>
+{% include_relative user-metadata-fields.md %}
 
-Publisher details  
->>- **_Organisation_**: The name of the organisation from which the dataset originated - **[Searchable & Required]**<br>
+#### Auto generated metadata fields
 
-Dataset details  
->>- **_Dataset name_**: Identify the dataset to humans well enough to disambiguate it from other datasets - **[Required]**<br>
->>- **_Dataset description_**: Short description of the dataset, further elaborate on the name to provide a summary of the context in which the dataset is important - **[Required]**<br>
->>- **_Publish date_**: Current date **[Autofilled & Required]**<br>
->>- **_Usage license_**: Select from a dropdown list - **[Selectable & Required]**<br>
->>- **_Dataset version_**: This identifies unique versions of the dataset<br>
+After the user **Submits** the newly registered dataset the RRAP-IS system will mint a **Handle** and allocate a directory in RRAP-IS online data storage. The **Handle** identifier and data directory path will be included in the metadata record
 
-Keywords  
->>- **_Keyword_**: List of keywords that will be used for indexing<br>
+{% include_relative generated-metadata-fields.md %}
 
 ___
 ### Missing fields
