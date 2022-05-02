@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Downloading and synchronising datasets
-nav_order: 2
+nav_order: 6
 grand_parent: Information System
 parent: Data store
 ---
