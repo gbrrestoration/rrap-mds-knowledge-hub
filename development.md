@@ -25,9 +25,9 @@ Documentation repository is hosted on Github [here](https://github.com/gbrrestor
 
 There are a number of ways to edit/develop the documentation:
 
-- If making small changes (fixing a spelling error) this can be done within GitHub itself using the local editor
-- If making large/many changes you should clone the repository and make the changes and validate on your local machine prior to pushing back to the repository. After pushing back to the repository the changes will be built and deployed on GitHub → https://gbrrestoration.github.io/rrap-mds-knowledge-hub/
-- If making structure changes or adding complex html elements to be included with the markdown it would be best to have a local environment to build the site. See the repository development.md for steps in setting up your local environment
+-   If making small changes (fixing a spelling error) this can be done within GitHub itself using the local editor
+-   If making large/many changes you should clone the repository and make the changes and validate on your local machine prior to pushing back to the repository. After pushing back to the repository the changes will be built and deployed on GitHub → https://gbrrestoration.github.io/rrap-mds-knowledge-hub/
+-   If making structure changes or adding complex html elements to be included with the markdown it would be best to have a local environment to build the site. See the repository development.md for steps in setting up your local environment
 
 ---
 
@@ -39,10 +39,23 @@ Follow the guide [local installation using the gem based theme](https://just-the
 
 Note that the above guide is not very detailed about how to setup ruby. I had to install some extra dependencies on debian/ubuntu - namely
 
-- build-essential
-- libsqlite3-dev
-- ruby-full
-- ruby-dev
+-   build-essential
+-   libsqlite3-dev
+-   ruby-full
+-   ruby-dev
+
+Therefore, a full setup could be:
+
+```
+sudo apt install build-essential libsqlite3-dev ruby-full ruby-dev
+sudo gem install just-the-docs
+```
+
+then to serve the application locally:
+
+```
+./serve.sh
+```
 
 ### Windows development
 
@@ -111,4 +124,14 @@ Currently the callouts will not except html link tags, so here is a work around
 
  <div class="info">
   <p><strong>Note! </strong> I would like to hyperlink to another page please,  <a href='www.google.com'>go to Google</a></p>
-</div> 
+</div>
+
+## VS Code configuration
+
+### Settings.json
+
+This repo includes a `.vscode` directory which includes local settings for the workspace. These settings can be configured to enable the ideal workspace settings for markdown Jekyll development. Currently they specify intellisense to cooperate with snippets on markdown files, and autosave to occur automatically every 3 seconds.
+
+### Snippets
+
+If you find common markdown patterns you are using frequently, add it as a snippet. Current examples include links to new tabs, and a snippet for each of the above notes, danger and success. Snippets can be activated by typing the 'prefix' phrase, pressing tab or enter to select it, then tabbing between input locations. More info [here](https://code.visualstudio.com/docs/editor/userdefinedsnippets){:target="\_blank"}.

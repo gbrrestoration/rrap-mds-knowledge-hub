@@ -1,0 +1,9 @@
+{
+    "[markdown]": {
+        "editor.quickSuggestions": true,
+        "editor.suggest.showWords": false
+    },
+    "editor.snippetSuggestions": "top",
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 3000
+}
