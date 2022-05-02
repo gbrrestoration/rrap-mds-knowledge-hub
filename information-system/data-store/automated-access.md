@@ -24,10 +24,10 @@ ____
 
 ## Goals
 
-In order to facilitate data access in automated process such as modelling workflows, data analytics, dashboards etc. the M&DS IS data store is capable of delivering data in a non-interactive (automated/scriptable) manner. We want to be able to:
+In order to facilitate data access in automated processes such as modelling workflows, data analytics, dashboards etc. the M&DS IS data store is capable of delivering data in a non-interactive (automated/scriptable) manner. This guide will describe how to:
 
 -   produce a key/secret which provides access to the datastore
--   use this key/secret to get access to the data stores functions
+-   use this key/secret to get access to the data store's functions
 -   apply this process in a non-interactive/scripted workflow
 
 ## Prerequisites
@@ -83,7 +83,6 @@ The following steps will occur:
 This API key is essentially a long lived refresh token meaning that it can be exchanged for access tokens with your user permissions on demand. For this reason, it needs to be kept safe.
 
 Always use a secret management approach when including this key in your scripts. Use environment variables or other secret safe methods for utilising the key in your scripts.
-https://cloud.google.com/docs/authentication/api-keys#securing_an_api_key
 
 {% include danger.html content="Do not share your key with other users - instead each user should produce their own API key." %}
 
@@ -103,20 +102,48 @@ The steps below will cover this process in more detail and provides an automated
 
 ## Exchanging key for live access token
 
-The script `offline_access.py` provides a function `exchange_offline_for_access` which expects your API key to be present as an [environment variable](https://en.wikipedia.org/wiki/Environment_variable){:target="\_blank"} called `RRAP_OFFLINE_TOKEN`. This function will raise an exception (fail) if this environment variable is not present or if something else goes wrong. 
+The script `offline_access.py` provides a function `exchange_offline_for_access` which expects your API key to be present as an [environment variable](https://en.wikipedia.org/wiki/Environment_variable){:target="\_blank"} called `RRAP_OFFLINE_TOKEN`. This function will raise an exception (fail) if this environment variable is not present or if something else goes wrong.
 
 An example usage (on linux based system):
+
 ```bash
 export RRAP_OFFLINE_TOKEN="<your token here>"
 python offline_access.py
-``` 
+```
+
 the output should provide your token to the terminal.
+
+{% include notes.html content="In your production workflows, how you handle keeping your access token refreshed will depend on your requirements. The token lifespan is short (5 minutes) so if you need prolonged access to the APIs directly, you will need to setup a background refresh process. In the above API response, you will also receive a `refresh_token` which can be used at the token endpoint to receive a refreshed `access_token`. If you are only using the `access_token` to get AWS credentials to download a dataset, the lifespan of the AWS credentials will not be tied to the lifespan of the system `access_token` meaning that you will not need to refresh your token." %}
 
 ## Using token to access resources
 
+The `access_token` produced in the above process can be attached using a [bearer scheme](https://www.devopsschool.com/blog/what-is-bearer-token-and-how-it-works/){:target="\_blank"} `Authorization` header in the HTTP request.
 
+For examples of how to use this `access_token` in your automated workflows, see the below section.
 
+The overall flow in any automated environment will be:
+
+-   reading the previously generated key from an environment variable (or loading it dynamically from a secure password management service/API)
+-   using the key to exchange for a RRAP M&DS IS authorisation access token
+-   including this access token as a bearer token in API requests
+-   for downloading a dataset:
+    -   using the [data store API](https://data-api.rrap-is.com/docs){:target="\_blank"} to [fetch](https://data-api.stage.rrap-is.com/docs#/Registry%20Items/fetch_dataset_registry_items_fetch_dataset_get){:target="\_blank"} information about the location of the desired dataset (using a [handle](../digital-object-identifiers.md){:target="\_blank"})
+    -   using the [generate read credentials](https://data-api.stage.rrap-is.com/docs#/Registry%20credentials/generate_read_access_credentials_registry_credentials_generate_read_access_credentials_post){:target="\_blank"} API endpoint to generate AWS credentials enabling viewing/downloading of the data stored in that [handle's](../digital-object-identifiers.md){:target="\_blank"} dataset
+    -   export these AWS credentials to the environment and run AWS CLI commands which view, download, sync etc against the dataset files. More information about downloading can be found [here](./downloading-datasets.md){:target="\_blank"}, more information about the AWS CLI can be found [here](./setting-up-the-aws-cli.md){:target="\_blank"}. 
 
 ## End to end scripting examples
 
-### Python environment
+### Python
+
+The script `example_usage.py` (found in this [code repository](https://github.com/gbrrestoration/mds-is-client-tools){:target="\_blank"}) is provided as an end to end example of producing an API key if it isn't found as an environment variable, using the API key to generate a temporary access token, then using this token to make data store API requests to generate AWS credentials which allow downloading of a dataset.
+
+I'd recommend setting up an API key as described previously, exporting this as the `RRAP_OFFLINE_TOKEN` environment variable, then running this script, e.g.
+
+```bash
+export RRAP_OFFLINE_TOKEN="<your token here>"
+python example_usage.py
+```
+
+The outputs should include the `access_token`, some information about the first registry item pulled from the data store, and the AWS credentials which provide access into this location.
+
+It also provides some example commands of how you could view and download the data (for more information see [downloading datasets](./downloading-datasets.md){:target="\_blank"} and [setting up the AWS CLI](./setting-up-the-aws-cli.md){:target="\_blank"}).
