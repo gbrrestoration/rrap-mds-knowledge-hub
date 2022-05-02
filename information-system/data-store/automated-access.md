@@ -47,7 +47,7 @@ Begin by cloning this [code repository](https://github.com/gbrrestoration/mds-is
 
 The `get_offline_code.py` script can be used to generate your key.
 
-Setup a python virtual environment and install depedencies, on a linux like environment this can be achieved using:
+Setup a python virtual environment and install dependencies, on a linux like environment this can be achieved using:
 
 ```bash
 python3.10 -m venv .venv
@@ -57,7 +57,7 @@ pip install -r requirements.txt
 
 noting that the specific python version you use depends on your installation.
 
-On a Windows environment, dependending on how you have installed Python, you should use something like:
+On a Windows environment, depending on how you have installed Python, you should use something like:
 
 ```
 python -m venv virtual_env
@@ -74,7 +74,7 @@ python get_offline_code.py
 The following steps will occur:
 
 -   Initiate an [OAuth2 Device Auth Flow](https://auth0.com/docs/get-started/authentication-and-authorization-flow/device-authorization-flow#:~:text=With%20input%2Dconstrained%20devices%20that,easy%20way%20to%20enter%20text.){:target="\_blank"}.
--   Open a browser (if possible) to the challenge URL address with the code already pre-filled. If this fails, the URL will be presented in the console so you can manually navigate to this URL using another device. It is recommended to run this script in a computing environment where a browser is installed. Once you have recieved the token you can operate in a [headless](https://en.wikipedia.org/wiki/Headless_software){:target="\_blank"} environment.
+-   Open a browser (if possible) to the challenge URL address with the code already pre-filled. If this fails, the URL will be presented in the console so you can manually navigate to this URL using another device. It is recommended to run this script in a computing environment where a browser is installed. Once you have received the token you can operate in a [headless](https://en.wikipedia.org/wiki/Headless_software){:target="\_blank"} environment.
 -   Await your consent at the challenge URL in the browser tab that was opened.
 -   Once you confirm access, the offline token will be received from the authorisation server. This token will be output to the console.
 
@@ -129,7 +129,7 @@ The overall flow in any automated environment will be:
 -   for downloading a dataset:
     -   using the [data store API](https://data-api.rrap-is.com/docs){:target="\_blank"} to [fetch](https://data-api.stage.rrap-is.com/docs#/Registry%20Items/fetch_dataset_registry_items_fetch_dataset_get){:target="\_blank"} information about the location of the desired dataset (using a [handle](../digital-object-identifiers.md){:target="\_blank"})
     -   using the [generate read credentials](https://data-api.stage.rrap-is.com/docs#/Registry%20credentials/generate_read_access_credentials_registry_credentials_generate_read_access_credentials_post){:target="\_blank"} API endpoint to generate AWS credentials enabling viewing/downloading of the data stored in that [handle's](../digital-object-identifiers.md){:target="\_blank"} dataset
-    -   export these AWS credentials to the environment and run AWS CLI commands which view, download, sync etc against the dataset files. More information about downloading can be found [here](./downloading-datasets.md){:target="\_blank"}, more information about the AWS CLI can be found [here](./setting-up-the-aws-cli.md){:target="\_blank"}. 
+    -   export these AWS credentials to the environment and run AWS CLI commands which view, download, sync etc against the dataset files. More information about downloading can be found [here](./downloading-datasets.md){:target="\_blank"}, more information about the AWS CLI can be found [here](./setting-up-the-aws-cli.md){:target="\_blank"}.
 
 ## End to end scripting examples
 
