@@ -55,7 +55,7 @@ Users will not be able to progress unless all required fields are entered.
 ___
 ### Usage licence
 
-Users can just attribute the appropriate licence from the dropdown list. There are four licenses to choose from, although all data produced by RRAP is by default attributed copyright. For details of each license please see the [Licenses](../licenses.md) page.
+Users can just attribute the appropriate licence from the dropdown list. There are four licenses to choose from, although all data produced by RRAP is by default attributed Copyright 'All rights reserved'. For details of each license please see the [Licenses](../licenses.md) page.
 
 ___
 ### What happens during the minting dataset process?
