@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Dataset metadata
-nav_order: 4
+nav_order: 8
 grand_parent: Information System
 parent: Data store
 
