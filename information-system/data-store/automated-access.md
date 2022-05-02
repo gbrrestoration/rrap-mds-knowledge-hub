@@ -135,7 +135,7 @@ The overall flow in any automated environment will be:
 
 ### Python
 
-The script `example_usage.py` (found in this [code repository](https://github.com/gbrrestoration/mds-is-client-tools){:target="\_blank"}) is provided as an end to end example of producing an API key if it isn't found as an environment variable, using the API key to generate a temporary access token, then using this token to make data store API requests to generate AWS credentials which allow downloading of a dataset.
+The script `example_usage.py` (found in this [code repository](https://github.com/gbrrestoration/mds-is-client-tools){:target="\_blank"}) is provided as an end to end example of producing an API key if it isn't found as an environment variable, using the API key to generate a temporary access token, then using this token to make data store API requests to generate AWS credentials which allow downloading of a dataset. One method that you can use to download the dataset in Python is also demonstrated, making use of [cloudpathlib](https://cloudpathlib.drivendata.org/stable/){:target="\_blank"}.
 
 I'd recommend setting up an API key as described previously, exporting this as the `RRAP_OFFLINE_TOKEN` environment variable, then running this script, e.g.
 
@@ -144,6 +144,8 @@ export RRAP_OFFLINE_TOKEN="<your token here>"
 python example_usage.py
 ```
 
-The outputs should include the `access_token`, some information about the first registry item pulled from the data store, and the AWS credentials which provide access into this location.
+The outputs should include the `access_token`, some information about the first registry item pulled from the data store, and the AWS credentials which provide access into this location. The script will also download the data from that registry item into a folder called `test_directory`.
+
+The program will ask if you want to download an existing handle's data - in which case you can provide one from the data store. Otherwise, the first item in the registry will be used (meaning it could be a large file).
 
 It also provides some example commands of how you could view and download the data (for more information see [downloading datasets](./downloading-datasets.md){:target="\_blank"} and [setting up the AWS CLI](./setting-up-the-aws-cli.md){:target="\_blank"}).
