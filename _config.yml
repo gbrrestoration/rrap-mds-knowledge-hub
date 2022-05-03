@@ -7,6 +7,7 @@ search_enabled: true
 heading_anchors: true
 last_edit_timestamp: true
 markdown: kramdown
+aux_links_new_tab: true
 aux_links:
   "RRAP-IS M&DS":
     - "https://www.rrap-is.com/"
@@ -15,3 +16,7 @@ aux_links:
 
 exclude:
   - development.md
+
+# Back to top link
+back_to_top: true
+back_to_top_text: "Back to top"

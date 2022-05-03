@@ -7,7 +7,7 @@ search_enabled: true
 toc: false
 heading_anchors: true
 last_edit_timestamp: true
-aux_links_new_tab: True
+aux_links_new_tab: true
 markdown: kramdown
 aux_links:
   "RRAP-IS M&DS":
