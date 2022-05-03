@@ -135,3 +135,7 @@ This repo includes a `.vscode` directory which includes local settings for the w
 ### Snippets
 
 If you find common markdown patterns you are using frequently, add it as a snippet. Current examples include links to new tabs, and a snippet for each of the above notes, danger and success. Snippets can be activated by typing the 'prefix' phrase, pressing tab or enter to select it, then tabbing between input locations. More info [here](https://code.visualstudio.com/docs/editor/userdefinedsnippets){:target="\_blank"}.
+
+## External links example
+
+{% include external_link.html url="https://gbrrestoration.org/" dt="Reef Restoration and Adaptation Program" %}
