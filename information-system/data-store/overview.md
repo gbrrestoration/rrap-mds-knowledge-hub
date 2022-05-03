@@ -21,3 +21,7 @@ All datasets that are inputs or outputs for operational products must be registe
 - Disciplinary (science) based metadata which will describe aspects of the data relevant to the research community.
 - Program based metadata containing key information from a program perspective.
 - Provenance metadata which will most likely include a unique identifier for the dataset, and a reference to the identifier of the process used to generate the dataset.
+
+|                                    Simple Data Store                                    |
+| :------------------------------------------------------------------------------: |
+| <img src="../../assets/images/data_store/Data_Store_simple.jpg" alt="drawing" width="600"/> |
