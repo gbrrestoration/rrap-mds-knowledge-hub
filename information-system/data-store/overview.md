@@ -33,16 +33,16 @@ The Data Store facilitates registration and creation of datasets for RRAP M&DS. 
 ## What can users do in the Data Store?
 Users can now login to the RRAP M&DS Data Store to do the following.
 
-[**Register datasets**](./registering-and-uploading-a-dataset.md): Create a dataset record for a dataset relevant to M&DS. Dataset records could either point to a dataset that is managed externally (e.g. institutional repositories) or a location in the M&DS Data Store. Valid examples of dataset records include:
+[**Register datasets**](./registering-and-uploading-a-dataset.md){:target="\_blank"}: Create a dataset record for a dataset relevant to M&DS. Dataset records could either point to a dataset that is managed externally (e.g. institutional repositories) or a location in the M&DS Data Store. Valid examples of dataset records include:
 - CSV files 
 - a set of related NetCDF files
 
-[**Upload files**](./registering-and-uploading-a-dataset.md): Authorised users are able to upload files to a location registered in the Data Store. When a user registers a dataset, a digital identifier is minted for that dataset and a folder is created in the shared AWS S3 bucket. Users can then upload files to that location via AWS S3 tools. Learn more about RRAP M&DS IS Digital Identifiers here.
+[**Upload files**](./registering-and-uploading-a-dataset.md){:target="\_blank"}: Authorised users are able to upload files to a location registered in the Data Store. When a user registers a dataset, a digital identifier is minted for that dataset and a folder is created in the shared AWS S3 bucket. Users can then upload files to that location via AWS S3 tools. Learn more about RRAP M&DS IS Digital Identifiers here.
 
-[**Discover datasets**](./viewing-a-dataset.md): Authorised users can access the Data store to search for datasets and view their details. 
+[**Discover datasets**](./viewing-a-dataset.md){:target="\_blank"}: Authorised users can access the Data store to search for datasets and view their details. 
 
-[**Download and synchronise datasets**](./downloading-datasets.md): Authorised users are able to access files on the Data Store and download them to a local computing environment using AWS tools and the AWS web console. Users can also synchronise dataset folders to a local computing environment, which only downloads updated files optimising file transfer. This will allow users to share data and synchronise data updates. 
+[**Download and synchronise datasets**](./downloading-datasets.md){:target="\_blank"}: Authorised users are able to access files on the Data Store and download them to a local computing environment using AWS tools and the AWS web console. Users can also synchronise dataset folders to a local computing environment, which only downloads updated files optimising file transfer. This will allow users to share data and synchronise data updates. 
 
 **Automated archival**: Datasets that are registered and uploaded to the Data store will be archived using automation tools. Archival will allow RRAP to manage these datasets for future reference.
 
-Browse to the [IS Landing Page](https://www.rrap-is.com/)
+Browse to the [IS Landing Page](https://www.rrap-is.com/){:target="\_blank"}

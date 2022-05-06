@@ -10,7 +10,7 @@ Dataset details
 >>- **_Dataset name_**: Identify the dataset to humans well enough to disambiguate it from other datasets - **[Required]**<br>
 >>- **_Dataset description_**: Short description of the dataset, further elaborate on the name to provide a summary of the context in which the dataset is important - **[Required]**<br>
 >>- **_Publish date_**: Current date **[Autofilled & Required]**<br>
->>- **_Usage license_**: Select a [license](../licenses.md) from a dropdown list - **[Selectable & Required]**<br>
+>>- **_Usage license_**: Select a [license](../licenses.md){:target="\_blank"} from a dropdown list - **[Selectable & Required]**<br>
 >>- **_Dataset version_**: This identifies unique versions of the dataset<br>
 
 Keywords  

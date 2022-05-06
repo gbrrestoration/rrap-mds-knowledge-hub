@@ -19,7 +19,7 @@ ____
 </details>
 
 ## Metadata
-The Data Store will have a minimal dataset metadata record schema using [RO-CRATE](https://w3id.org/ro/crate) as the metadata data file format. The minimal dataset metadata record fields are:
+The Data Store will have a minimal dataset metadata record schema using [RO-CRATE](https://w3id.org/ro/crate){:target="\_blank"} as the metadata data file format. The minimal dataset metadata record fields are:
 
 ### User entered data fields
 {% include_relative user-metadata-fields.md %}

@@ -30,14 +30,14 @@ ___
 
 ### Appropriate access
 
-In order to **download** data you need to have **read** access for the data store. See [requesting access](../getting-started-is/requesting-access-is.html) for information on how to request access.
+In order to **download** data you need to have **read** access for the data store. See [requesting access](../getting-started-is/requesting-access-is.html){:target="\_blank"} for information on how to request access.
 
 {% include notes.html content="If you are also intending to upload data, you should request access to the 'write' level for the data store, as well as 'write' access to the handle service. The levels of access required for common sets of operations is described in more detail in the link above." %}
 
 ___
 ### AWS CLI installation
 
-Downloading data is possible using only the AWS web console, however the features are very limited (in particular, you can only download one file at a time). We recommend and will focus on supporting the usage of the AWS CLI v2. Instructions on how to install this easy to use tool are available [here](setting-up-the-aws-cli.html).
+Downloading data is possible using only the AWS web console, however the features are very limited (in particular, you can only download one file at a time). We recommend and will focus on supporting the usage of the AWS CLI v2. Instructions on how to install this easy to use tool are available [here](setting-up-the-aws-cli.html){:target="\_blank"}.
 
 ___
 ## Finding the dataset
@@ -47,14 +47,14 @@ In order to download a dataset, you must first identify it on the system. Once y
 ___
 ### Using the registry
 
-Once you open the [data store](https://data.rrap-is.com) and log in, you can navigate to datasets using the banner at the top and use the listing, filtering and searching functionality to locate the desired dataset to download. Select the dataset you wish to view and download from the list.
+Once you open the [data store](https://data.rrap-is.com){:target="\_blank"} and log in, you can navigate to datasets using the banner at the top and use the listing, filtering and searching functionality to locate the desired dataset to download. Select the dataset you wish to view and download from the list.
 
 {% include notes.html content="Currently the search functionality of the data store is not complete and will only select exact text matches." %}
 
 ___
 ### Using a shared link
 
-The [persistent identifier](../digital-object-identifiers.html) generated when a dataset is minted can be shared in a special form to enable one click persistent navigation to that dataset. If someone shares a M&DS data store link with you, you will be navigated to the dataset listing directly. You can follow on with the instructions below once you have reached the dataset listing.
+The [persistent identifier](../digital-object-identifiers.html){:target="\_blank"} generated when a dataset is minted can be shared in a special form to enable one click persistent navigation to that dataset. If someone shares a M&DS data store link with you, you will be navigated to the dataset listing directly. You can follow on with the instructions below once you have reached the dataset listing.
 
 ___
 ## Downloading files
@@ -68,7 +68,7 @@ ___
 
 If you have not downloaded this dataset before, you can use the provided AWS CLI commands to download the files.
 
-Ensure that you create a new folder on your system, and navigate (using the terminal environment in which your AWS CLI tool is installed) to the location containing that folder. You will also need to use the 'Generate Credentials' button in the data store to produce temporary access credentials. The data store provides the commands to set the required [environment variables](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-envvars.html) which enable access to the data. Be sure to choose the format which suits your terminal environment.
+Ensure that you create a new folder on your system, and navigate (using the terminal environment in which your AWS CLI tool is installed) to the location containing that folder. You will also need to use the 'Generate Credentials' button in the data store to produce temporary access credentials. The data store provides the commands to set the required [environment variables](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-envvars.html){:target="\_blank"} which enable access to the data. Be sure to choose the format which suits your terminal environment.
 
 The data store provides a command ready to copy and paste - you will just need to change the name `folder` to suit the name of the folder you created.
 
@@ -77,7 +77,7 @@ If you have issues following these instructions, please don't hesistate to conta
 ___
 ### Updating local files from updated dataset (`aws sync` command)
 
-The AWS CLI provides more than one option for copying data from a bucket to your local machine. The `cp` command above assumes that you don't have any of the files on your local machine. The `sync` command will only download **new files** or **files that have changed**. This means that if only some of a dataset is updated, you don't need to download it all again. For more information about how the sync command works, please see the official [AWS documentation](https://docs.aws.amazon.com/cli/latest/reference/s3/sync.html).
+The AWS CLI provides more than one option for copying data from a bucket to your local machine. The `cp` command above assumes that you don't have any of the files on your local machine. The `sync` command will only download **new files** or **files that have changed**. This means that if only some of a dataset is updated, you don't need to download it all again. For more information about how the sync command works, please see the official [AWS documentation](https://docs.aws.amazon.com/cli/latest/reference/s3/sync.html){:target="\_blank"}.
 
 {% include notes.html content="Files that exist locally which have been removed from the dataset will not be deleted locally. To enable this optional behaviour, you can use the --delete flag. Please use with caution as improperly using this option (for example, if you are in the wrong working directory in your AWS CLI terminal environment) could cause significant damage to your local filesystem." %}
 

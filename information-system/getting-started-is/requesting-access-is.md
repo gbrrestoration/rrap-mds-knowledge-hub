@@ -19,15 +19,16 @@ parent: Getting started with M&DS IS
 {:toc}
 ____
 </details>
+
 ## User Roles
-Currently users will need to select **Roles** to be able to perform tasks. Once you are on the RRAP M&DS IS [landing page](https://rrap-is.com) select **Roles** under your user menu item (silhouette of a person) from the top right of page. From the **Roles** page users can request levels of access (read only, read and write, administration) to particular parts of the system
+Currently users will need to select **Roles** to be able to perform tasks. Once you are on the RRAP M&DS IS [landing page](https://rrap-is.com){:target="\_blank"} select **Roles** under your user menu item (silhouette of a person) from the top right of page. From the **Roles** page users can request levels of access (read only, read and write, administration) to particular parts of the system
 
 |                      Application                       |         Role         |                         Access Level                          |
 | :----------------------------------------------------: | :------------------: | :-----------------------------------------------------------: |
 |                     **Data Store**                     |   data-store-read    |             reading/viewing and searching dataset             |
 |                                                        |   data-store-write   | write/generate new dataset records and uploading to the store |
 |                                                        |   data-store-admin   |         administration, adding and removing users etc         |
-| [**Handle Service**](../digital-object-identifiers.md) | handle-service-read  |                           read only                           |
+| [**Handle Service**](../digital-object-identifiers.md){:target="\_blank"} | handle-service-read  |                           read only                           |
 |                                                        | handle-service-write |    write, modifying old and adding new handle identifiers     |
 |                                                        | handle-service-admin |                             admin                             |
 

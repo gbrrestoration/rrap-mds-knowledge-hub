@@ -60,4 +60,4 @@ The metadata page has the following information
 Users can share the dataset with others using the Handle link. The Dataset location information relates to the storage location on the AWS S3 server.
 The JSON Metadata can be expanded and the information copied by first clicking **Expand details**, then the **copy** button. To close the expanded view, click on **Expand details** again.
 
-On the right hand side of the page, Users can also [download the dataset](../data-store/downloading-datasets.html) and [upload additional data](../data-store/registering-and-uploading-a-dataset.html) by clicking the corresponding tabs.
+On the right hand side of the page, Users can also [download the dataset](../data-store/downloading-datasets.html){:target="\_blank"} and [upload additional data](../data-store/registering-and-uploading-a-dataset.html){:target="\_blank"} by clicking the corresponding tabs.
