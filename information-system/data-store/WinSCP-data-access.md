@@ -24,8 +24,10 @@ ____
 
 [WinSCP](https://winscp.net/eng/index.php){:target="\_blank"} is a client tool for Microsoft Windows.  It allows for managing files between a local computer and remote servers.  As RRAP data is stored in AWS S3 buckets WinSCP can be used to transfer data to and from the data store.
 
+___
 ## Authentication
 
+___
 ### Required inputs to establish connection
 You can obtain authernitcation parameters from a dataset record from within [RRAP Data Store](https://data.rrap-is.com/datasets){:target="\_blank"}.  Select a target preconfigure dataset and then either the **'Download Data'** or **'Upload Data'** tab. Then click the **'Generate Credentials'** button.  You will notice that there are three parts to the credentials.
 1. AWS_ACCESS_KEY_ID
@@ -36,6 +38,7 @@ Also on Step 4. you will notice a command similar to ```aws s3 ls s3://rrap-stor
 
 These are the requirements to establish a connection
 
+___
 ## Estabishing a connection to Data Store S3 with WinSCP
 Open WinSCP and the Login dialog will appear, on the dialog enter the above credentials.
 1. Make sure the **'New site node'** is selected
@@ -59,6 +62,7 @@ Open WinSCP and the Login dialog will appear, on the dialog enter the above cred
 |:-:|
 |<img src="../../assets/images/data_store/winSCP-Login2.png" alt="drawing" width="900"/>|
 
+___
 ## Uploading
 
 1. Select folders or files for uploading
@@ -69,12 +73,13 @@ Open WinSCP and the Login dialog will appear, on the dialog enter the above cred
 |:-:|
 |<img src="../../assets/images/data_store/winSCP-Upload.png" alt="drawing" width="900"/>|
 
+___
 ## Downloading
 
 1. Select folder or file from the remote server
 1. Ensure you have selected the local folder to receive the download
 1. Select **Download**
- 
+
 | Downloading |
 |:-:|
 |<img src="../../assets/images/data_store/winSCP-Download.png" alt="drawing" width="900"/>|
