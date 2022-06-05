@@ -29,7 +29,7 @@ ___
 
 ___
 ### Required inputs to establish connection
-You can obtain authernitcation parameters from a dataset record from within [RRAP Data Store](https://data.rrap-is.com/datasets){:target="\_blank"}.  Select a target preconfigure dataset and then either the **'Download Data'** or **'Upload Data'** tab. Then click the **'Generate Credentials'** button.  You will notice that there are three parts to the credentials.
+You can obtain authernitcation parameters from a dataset record from within [RRAP Data Store](https://data.rrap-is.com/datasets){:target="\_blank"}.  Select a target preconfigure dataset and then the **'Upload Data'** tab. Then click the **'Generate Credentials'** button.  You will notice that there are three parts to the credentials.
 1. AWS_ACCESS_KEY_ID
 1. AWS_SECRET_ACCESS_KEY
 1. AWS_SESSION_TOKEN
