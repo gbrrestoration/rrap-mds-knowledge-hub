@@ -18,36 +18,17 @@ parent: Data store
 ____
 </details>
 
-<<<<<<< HEAD
-
 ## Viewing a dataset
----
-Users can view a dataset three ways in the Information System
-=======
-## Steps for browsing and viewing a record
->>>>>>> e1d95f10f4fdb296d5b6c48d854cb13c008f94da
+Users can view a dataset a number of ways once they are logged into the RRAP M&DS Data Store.
 
-## Datasets 
-To view a dataset once you are logged into the RRAP M&DS Data Store, click on **DATASETS** 
+- Using the **Broswe datasets** link under the under the **Find out more** menu.
+- Entering information, such as the dataset name, in the **Search Dataset** field and clicking the magnifying glass button
+
+ <img src="../../assets/images/viewDataset.png" alt="drawing" width="600"/> |
+
+Users are then taken to the Datasets page.
 
 
-
----
-## Search dataset ...
-
-or search for the dataset by entering information, such as the dataset name, in the **Search Dataset** field and clicking the magnifying glass button.
----
-## Browse datasets
-You can also click the **Browse datasets** link located under the *Find out more* menu.
-
-|                                    Browse Datasets                                    |
-| :------------------------------------------------------------------------------: |
-| <img src="../../assets/images/viewDataset.png" alt="drawing" width="600"/> |
-
-You are then taken to the Datasets page.
-
-|                                   All Datasets                                    |
-| :------------------------------------------------------------------------------: |
 | <img src="../../assets/images/viewDataset2.png" alt="drawing" width="600"/> |
 
 
@@ -59,19 +40,34 @@ On this page, Users can quickly filter datasets by organisation by selecting the
 
 ## Metadata fields
 The metadata page has the following information
-- Metadata
+
+- **Metadata**
     - Handle 
     - Dataset location
       - Bucket
       - Path
       - URI
-- Dataset Information
+    - Record Information
+      - Created time
+      - Updated time
+- **Dataset Information**
+  - Date created
   - Dataset name
   - Dataset description
-  - Author information
+- **Author information**
     - Author name
     - Author email
-  - JSON Metadata
+    - Author ORCID
+- **Author Organisation Information**
+    - Name
+    - ROR
+- **Publisher Information**
+    - Publisher name
+    - Publisher ROR  
+- **License**
+   - URL
+- **Keywords**   
+- **JSON Metadata**
 
 ## Collaborating
 Users can share the dataset with others using the Handle link. The Dataset location information relates to the storage location on the AWS S3 server.
