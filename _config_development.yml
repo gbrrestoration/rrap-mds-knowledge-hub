@@ -1,3 +1,5 @@
+title: RRAP-IS M&DS user documentation
+description: User documentation for use of the RRAP-IS M&DS system 
 theme: "just-the-docs"
 # remote_theme: pdmosses/just-the-docs@rec-nav-2
 logo: "/assets/images/iconRestoration.png"
@@ -5,8 +7,17 @@ search_enabled: true
 toc: false
 heading_anchors: true
 last_edit_timestamp: true
-aux_links_new_tab: True
+aux_links_new_tab: true
 markdown: kramdown
+aux_links:
+  "RRAP-IS M&DS":
+    - "https://www.rrap-is.com/"
+  "RRAP":
+    - "https://gbrrestoration.org/"
 
 # exclude:
 #   - development.md
+
+# Back to top link
+back_to_top: true
+back_to_top_text: "Back to top"

@@ -16,7 +16,7 @@ ____
 </details>
 
 ## What digital object identifier infrastructure is RRAP IS using? 
-RRAP M&DS IS is using Australian Research Data Commons (ARDC) [Handle Service](https://ardc.edu.au/services/identifier/handle/) for creating persistent references to digital research objects.
+RRAP M&DS IS is using Australian Research Data Commons (ARDC) [Handle Service](https://ardc.edu.au/services/identifier/handle/){:target="\_blank"} for creating persistent references to digital research objects.
 
 ___
 ### Handle.net 
