@@ -21,7 +21,7 @@ ____
 </details>
 
 ## User Roles
-Currently users will need to select **Roles** to be able to perform tasks. Once you are on the RRAP M&DS IS [landing page](https://rrap-is.com){:target="\_blank"} select **Roles** under your user menu item (silhouette of a person) from the top right of page. From the **Roles** page users can request levels of access (read only, read and write, administration) to particular parts of the system
+Currently users will need to select **Roles** to be able to perform tasks. Once you are on the RRAP M&DS IS [landing page](https://www.rrap-is.com){:target="\_blank"} select **Roles** under your user menu item (silhouette of a person) from the top right of page. From the **Roles** page users can request levels of access (read only, read and write, administration) to particular parts of the system
 
 |                      Application                       |         Role         |                         Access Level                          |
 | :----------------------------------------------------: | :------------------: | :-----------------------------------------------------------: |
