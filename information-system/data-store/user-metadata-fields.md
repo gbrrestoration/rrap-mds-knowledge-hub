@@ -8,7 +8,7 @@ Record Creator Identitiy
 Dataset Information  
 >>- **_Dataset name_**: Identify the dataset to humans well enough to disambiguate it from other datasets - **[Required]**<br>
 >>- **_Dataset description_**: Short description of the dataset, further elaborate on the name to provide a summary of the context in which the dataset is important - **[Required]**<br>
-<<<<<<< HEAD
+
 >>- **_Data custodian_**: The organisation which is publishing the data. This is RRAP - **[Autofilled & Required]**<br>
 >>- **_Dataset Creation Date_**: The dat on which this version of the dataset was produced or generated. **[Required]**<br>
 >>- **_Dataset Publish date_**: The date on which this version of the dataset was first published. If the data has never been published before, please use today's date. **[Autofilled & Required]**<br>
