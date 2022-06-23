@@ -18,7 +18,6 @@ Dataset Information
 >>- **_Publish date_**: Current date **[Autofilled & Required]**<br>
 >>- **_Usage license_**: Select a [license](../licenses.md){:target="\_blank"} from a dropdown list - **[Selectable & Required]**<br>
 >>- **_Dataset version_**: This identifies unique versions of the dataset<br>
->>>>>>> e1d95f10f4fdb296d5b6c48d854cb13c008f94da
 
 Keywords  
 >>- **_Keyword_**: List of keywords that will be used for indexing.<br>
