@@ -14,7 +14,6 @@ Dataset Information
 >>- **_Dataset Publish date_**: The date on which this version of the dataset was first published. If the data has never been published before, please use today's date. **[Autofilled & Required]**<br>
 >>- **_Usage license_**: Select a [license](../licenses.md) from a dropdown list - **[Selectable & Required]**<br>
 >>- **_Dataset version_**: This identifies unique versions of the dataset.<br>
-=======
 >>- **_Publish date_**: Current date **[Autofilled & Required]**<br>
 >>- **_Usage license_**: Select a [license](../licenses.md){:target="\_blank"} from a dropdown list - **[Selectable & Required]**<br>
 >>- **_Dataset version_**: This identifies unique versions of the dataset<br>
