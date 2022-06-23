@@ -19,8 +19,21 @@ ____
 </details>
 
 
+## Viewing a dataset
+---
+Users can view a dataset three ways in the Information System
 
-To view a dataset once you are logged into the RRAP M&DS Data Store, click on **DATASETS** or search for the dataset by entering information, such as the dataset name, in the **Search Dataset** field and clicking the magnifying glass button.
+## Datasets 
+To view a dataset once you are logged into the RRAP M&DS Data Store, click on **DATASETS** 
+
+
+
+---
+## Search dataset ...
+
+or search for the dataset by entering information, such as the dataset name, in the **Search Dataset** field and clicking the magnifying glass button.
+---
+## Browse datasets
 You can also click the **Browse datasets** link located under the *Find out more* menu.
 ![viewDataset diagram](../../assets/images/viewDataset.png)
 <br>
