@@ -82,7 +82,7 @@ Using the Handle link to share data is an easy way of sharing files. Updates to 
 
 To share, right click on the link and select *Copy link*. Then paste into email, document etc... that is to be shared with others. 
 
-{% include notes.html content=" Users <strong>must</strong> to be logged into the RRAP M&DS Information System to be able to access the data." %}
+{% include notes.html content=" Users <strong>must</strong> to be logged into the RRAP M&DS Information System to be able to access the data. Users without an Information System account will need to create one before viewing the data." %}
 
 The **Dataset location information** relates to the storage location on the AWS S3 server.
 The JSON Metadata can be expanded and the information copied by first clicking **Expand details**, then the **copy** button. To close the expanded view, click on **Expand details** again.
