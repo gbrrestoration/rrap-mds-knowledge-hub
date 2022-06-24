@@ -56,6 +56,11 @@ To add new data to a dataset you must first have write permissions into the data
 <div class="info"><strong>Note!</strong> If you use the CLI, you can run the usual sync command from the same directory and <strong>only the new files will be uploaded</strong>. For more information about how the <a href='https://docs.aws.amazon.com/cli/latest/reference/s3/sync.html'>AWS CLI sync command works</a></div>
 
 
-## Can I add to someone elses data set?
+## Can I add to someone elses dataset?
 
 TO DO
+
+
+## How do I share my dataset?
+You can share your dataset with others by using the handle link. See [Collaborating](./data-store/viewing-a-dataset.md.md){:target="\_blank"} for more information.
+
