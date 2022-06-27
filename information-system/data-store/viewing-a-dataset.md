@@ -73,7 +73,7 @@ The metadata page has the following information
 - **JSON Metadata**
 
 ## Collaborating
-Users can share the dataset with others using the Handle link. The Handle link is a persitent digital identifier (doi) for the dataset. See [About digital object identifiers](../digital-object-identifiers.md.html){:target="\_blank"} for more information.
+Users can share the dataset with others using the Handle link. The Handle link is a persitent digital identifier for the dataset. See [About digital object identifiers](../digital-object-identifiers.md.html){:target="\_blank"} for more information.
 Using the Handle link to share data is an easy way of sharing files. Updates to the data can be made and the user with the link will always have access the most up to date data.
 
 |                                     Share dataset                           |
