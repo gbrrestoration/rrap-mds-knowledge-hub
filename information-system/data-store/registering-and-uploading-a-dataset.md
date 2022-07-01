@@ -26,7 +26,7 @@ The diagram below outlines the steps undertaken when registering and uploading a
 _Note: draft figure_
 
 ![Workflow diagram](../../assets/images/DRAFTv2_upload_data.png)
-_A User logs into the RRAP information system & selects DATASTORE then REGISTER DATASET from the website. A metadata form prefilled with the User’s name & email address opens and the User fills out information relating to the data being uploaded (see [Filling out form fields](#filling-out-form-fields){:target="\_blank"} for more detailed information). After the metadata form is completed the User uploads the dataset by one of [two methods](#how-do-i-upload-dataset-files){:target="\_blank"}, depending on the size of the file(s). The data is assigned its own unique PID (Persistent Identifier). The data is securely stored on an AWS S3 server, ready for future reference and usage._
+_A User logs into the RRAP information system & selects DATASTORE then REGISTER DATASET from the website. A metadata form prefilled with the User’s name & email address opens and the User fills out information relating to the data being uploaded (see [Filling out form fields](#filling-out-form-fields){:target="\_blank"} for more detailed information). After the metadata form is completed the User uploads the dataset by one of these [methods](#how-do-i-upload-dataset-files){:target="\_blank"}, depending on the size of the file(s). The data is assigned its own unique PID (Persistent Identifier). The data is securely stored on an AWS S3 server, ready for future reference and usage._
 <br>
 
 ___
@@ -41,7 +41,7 @@ User entered metadata fields are listed below, some of which are prepopulated, o
 
 #### Auto generated metadata fields
 
-After the user **Submits** the newly registered dataset the RRAP-IS system will mint a **Handle** and allocate a directory in RRAP-IS online data storage. The **Handle** identifier and data directory path will be included in the metadata record
+After the user **Submits** the newly registered dataset the RRAP-IS system will mint a **Handle** and allocate a directory in RRAP-IS online data storage. The **Handle** identifier and data directory path will be included in the metadata record.
 
 {% include_relative generated-metadata-fields.md %}
 
@@ -63,9 +63,13 @@ ___
 A Handle Identifier is minted with each dataset that is registered and will associated with the dataset metadata. This minted identifier can be used to persistently locate your dataset in the future. See [Digital Object Identifiers](../digital-object-identifiers.md){:target="\_blank"} for further details.
 
 ___
-### Maximum file size
+## File types and maximum file size
+
+The M&DS IS Data Store can store a variety of data files e.g. text files, netCDF, word documents, images etc... Users can upload files or folders using either the AWS web console (GUI), AWS command line interface (AWS CLI) or a program like [WinSCP](../data-store/WinSCP-data-access.md).
 
 While the AWS CLI can handle large files (>100GB) and the AWS Console GUI can handle up to 160GB uploads, please contact the RRAP M&DS IS team if you know you will be uploading large or numerous files. For technical information about the storage limitations of the S3 service (which the data store is built on) you can review the AWS FAQ [here](https://aws.amazon.com/s3/faqs/#:~:text=How%20much%20data%20can%20I%20store%20in%20Amazon%20S3?){:target="\_blank"}.
+
+The maxium file size that can be uploaded is 5TB.  
 
 ___
 ## How do I upload dataset files?
@@ -73,15 +77,24 @@ ___
 {% include notes.html content="You will require a set of RRAP-IS AWS credentials to be able to upload data to the AWS S3 data store.  See details on the dataset metadata page obtaining AWS credentials." %}
 
 ___
+### Uploading data via AWS Web Console
+Once the metadata record is created, if you have a dataset that is not too large (<5GB) and you would like to use a GUI to upload your data, you can upload data using the AWS web console.
+
+|                                 Small to medium files                                  |
+| :---------------------------------------------------------------------------------:      |
+| <img src="../../assets/images/data_store/uploadSmallMediumFiles.png" alt="drawing" width="600"/> |
+
+
+Open the link to login to the AWS system - choose read/write user and click *Sign in*.
+You will then be taken to the AWS S3 bucket location which will contain the datasets. The associated metadata record will be seen as a ro-create-meatadata.json file.
+Click the orange "Upload" button, then click on *Add files* or *Add folder* depending on what you want to upload. Click on the orange "Upload" button to complete the process. Press "Close" to return to the S3 bucket. Close the browser to exit.
+
+___
 ### Setting up the AWS CLI v2
 
-In order to use the CLI for uploading (and downloading) you will need to install it first. Please see [this page](./setting-up-the-aws-cli.html){:target="\_blank"} for instructions on how to setup the AWS CLI v2 on your system.
+In order to use the AWS CLI for uploading (and downloading) you will need to install it first. Please see [this page](./setting-up-the-aws-cli.html){:target="\_blank"} for instructions on how to setup the AWS CLI v2 on your system.
 
->> **Upload data via AWS Web Console** -
->> If your dataset is not too large (<5GB) and you would like to use a GUI to upload your data, you can upload data using the AWS web interface.
 
->> 1. Open this [link](https://auth.dev.rrap-is.com/auth/realms/rrap/protocol/saml/clients/amazon-aws){:target="\_blank"} to login to the AWS system - choose read/write user. And return to this page (you can close the other page if you wish).
->> 1. This [link](https://s3.console.aws.amazon.com/s3/buckets/rrap-storage-bucket?region=ap-southeast-2&prefix=datasets/){:target="\_blank"} will take you to the S3 bucket location which contains all datasets.  Browse or search for your unique folder using the handle number #####.#/#######. You can upload the data using the AWS console - click the orange "Upload" button, then press choose files and select your dataset files.
 
 ___
 ### Uploading files after registration
