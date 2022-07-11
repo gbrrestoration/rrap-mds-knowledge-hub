@@ -77,35 +77,52 @@ ___
 {% include notes.html content="You will require a set of RRAP-IS AWS credentials to be able to upload data to the AWS S3 data store.  See details on the dataset metadata page obtaining AWS credentials." %}
 
 ___
-### Uploading data via AWS Web Console
-Once the metadata record is created, if you have a dataset that is not too large (<5GB) and you would like to use a GUI to upload your data, you can upload data using the AWS web console.
+### Uploading data via AWS Web Console - small to medium files
+Once the metadata record is created, if you have a dataset that is not too large (<5GB) and you would like to use a GUI to upload your data, you can upload data using the AWS web console. Click on the *Upload data* tab.
 
-|                                 Small to medium files                                  |
+|                                 Upload data                                              |
 | :---------------------------------------------------------------------------------:      |
-| <img src="../../assets/images/data_store/uploadSmallMediumFiles.png" alt="drawing" width="600"/> |
+| <img src="../../assets/images/data_store/uploadSmallMediumFilesStep1.png" alt="drawing" width="600"/> |
 
 
-Open the link to login to the AWS system - choose read/write user and click *Sign in*.
-You will then be taken to the AWS S3 bucket location which will contain the datasets. The associated metadata record will be seen as a ro-create-meatadata.json file.
-Click the orange "Upload" button, then click on *Add files* or *Add folder* depending on what you want to upload. Click on the orange "Upload" button to complete the process. Press "Close" to return to the S3 bucket. Close the browser to exit.
+Request credentials by clicking the *Request Credentials* button. 
+
+
+|                                 Uploading small to medium files                          |
+| :---------------------------------------------------------------------------------:      |
+| <img src="../../assets/images/data_store/uploadSmallMediumFilesStep2.png" alt="drawing" width="600"/> |
+
+
+
+
+Next, open the link to AWS system, you will then be taken to the AWS S3 bucket location which will contain the dataset files. The associated metadata record will be seen as a ro-create-meatadata.json file.  
+  
+Click the orange *Upload* button, then click on *Add files* or *Add folder* depending on what you want to upload. 
+Click on the orange *Upload* button at the bottom of the screen to complete the process. Press *Close* to return to the S3 bucket. Close the browser to exit.
+
+If you need to add additional files to your dataset, you can do this by repaeating the steps above.
 
 ___
-### Setting up the AWS CLI v2
 
+### Uploading files via WinSCP - any size files
+If you would prefer to use a GIU to upload larger files, then WinSCP can be used. Instructions on how to do this are [here](./WinSCP-data-access.html).
+
+___
+### Uploading files via the AWS Command Line Interface (AWS CLI) - any size files
+If your dataset is large (>5GB) or you would prefer to use a command line to upload your data, you can use the AWS CLI.
+<br>  
+**Setting up the AWS CLI v2**  
 In order to use the AWS CLI for uploading (and downloading) you will need to install it first. Please see [this page](./setting-up-the-aws-cli.html){:target="\_blank"} for instructions on how to setup the AWS CLI v2 on your system.
 
+**Uploading files**  
+Once the AWS CLI is installed copy the AWS access credentials you require (LINUX, Windows CMD or Powershell) by clicking on the *Click to copy* button.  
+Paste the credentials into your AWS CLI terminal.  
+Navigate to the location of your dataset (the XXXXX should be the folder where your dataset is)   
+`aws s3 sync dataset/ s3://dev-rrap-storage-bucket/XXXXX/10378-1-1687302/`   
+Verify that the files were uploaded correctly by running the following command and verifying the contents are accurate:  
+`aws s3 ls s3://dev-rrap-storage-bucket/datasets/10378-1-1687302/`  
 
+|                                 Uploading large files                                    |
+| :---------------------------------------------------------------------------------:      |
+| <img src="../../assets/images/data_store/uploadLargeFilesStep1.png" alt="drawing" width="600"/> |
 
-___
-### Uploading files after registration
-
-After clicking **_Submit_** button a form will appear that lists the steps for uploading your data. There are currently two options to complete this task.
-
-> > **Upload data via AWS Web Console** -
-> > If your dataset is not too large (<5GB) and you would like to use a GUI to upload your data, you can upload data using the AWS web interface.
-> >
-> > 1.  Open this [link](https://auth.rrap-is.com/auth/realms/rrap/protocol/saml/clients/amazon-aws){:target="\_blank"} to login to the AWS system - choose read/write user. And return to this page (you can close the other page if you wish).
-> > 1.  This [link](https://s3.console.aws.amazon.com/s3/buckets/rrap-storage-bucket?region=ap-southeast-2&prefix=datasets/){:target="\_blank"} will take you to the S3 bucket location which contains your data. You can upload the data using the AWS console - click the orange "Upload" button, then press choose files and select your dataset files.
-
-> > **Upload data via AWS Command Line Interface (CLI)** -
-> > If your dataset is large (>5GB) and/or you would prefer to use the AWS CLI to upload your data steps for this are listed on the form after submitting.
