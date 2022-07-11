@@ -31,6 +31,14 @@ _A User logs into the RRAP information system & selects DATASTORE then REGISTER 
 
 ___
 ## Registering a dataset
+To start the dataset registration process, click on *Data Store* at the top of the RRAP M&DS IS home page.  
+Then click on *Datasets*, then click on the *Regiser Dataset* button.  
+
+|                                 Registering a dataset                                    |
+| :---------------------------------------------------------------------------------:      |
+| <img src="../../assets/images/data_store/registerDataset.png" alt="drawing" width="600"/> |
+
+
 When registering a dataset with the RRAP-IS Data Store you are initially required to complete a metadata record. The inputs requested are listed below, make sure you have these prior to filling out the form. After submitting, the system generates a persistent unique identifier that can be used similarly to a Digital Object Identifier (DOI). The generation of metadata records will facilitate the sharing and discovery of data.
 
 ___
@@ -80,10 +88,6 @@ ___
 ### Uploading data via AWS Web Console - small to medium files
 Once the metadata record is created, if you have a dataset that is not too large (<5GB) and you would like to use a GUI to upload your data, you can upload data using the AWS web console. Click on the *Upload data* tab.
 
-|                                 Upload data                                              |
-| :---------------------------------------------------------------------------------:      |
-| <img src="../../assets/images/data_store/uploadSmallMediumFilesStep1.png" alt="drawing" width="600"/> |
-
 
 Request credentials by clicking the *Request Credentials* button. 
 
@@ -105,7 +109,7 @@ If you need to add additional files to your dataset, you can do this by repaeati
 ___
 
 ### Uploading files via WinSCP - any size files
-If you would prefer to use a GIU to upload larger files, then WinSCP can be used. Instructions on how to do this are [here](./WinSCP-data-access.html).
+If you would prefer to use WinSCP, instructions on how to do this are [here](./WinSCP-data-access.html).
 
 ___
 ### Uploading files via the AWS Command Line Interface (AWS CLI) - any size files

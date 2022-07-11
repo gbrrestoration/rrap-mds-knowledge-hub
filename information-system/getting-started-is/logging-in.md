@@ -26,7 +26,7 @@ The M&DS IS is a suite of applications for data and information capture and acce
     - Access to S3 bucket (Amazon Simple Storage Service), for synchronising data
 
 ## Accessing RRAP-M&DS IS
-You can use a number of different existing credentials
+After clicking the *Click to login* button on the top right on the home page, you can use a number of different existing credentials to log into the Data Store.
 
 | Existing account access option |
 |:-:|
