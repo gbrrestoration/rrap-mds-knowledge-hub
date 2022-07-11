@@ -20,7 +20,7 @@ parent: Data store
 ____
 </details>
 
-## Overview
+## Overview of the process
 
 The diagram below outlines the steps undertaken when registering and uploading a dataset.  
 _Note: draft figure_
@@ -31,8 +31,8 @@ _A User logs into the RRAP information system & selects DATASTORE then REGISTER 
 
 ___
 ## Registering a dataset
-To start the dataset registration process, click on *Data Store* at the top of the RRAP M&DS IS home page.  
-Then click on *Datasets*, then click on the *Regiser Dataset* button.  
+To start the dataset registration process, click on **Data Store** at the top of the RRAP M&DS IS home page.  
+Then click on **Datasets**, then click on the **Register Dataset** button.  
 
 |                                 Registering a dataset                                    |
 | :---------------------------------------------------------------------------------:      |
@@ -49,7 +49,7 @@ User entered metadata fields are listed below, some of which are prepopulated, o
 
 #### Auto generated metadata fields
 
-After the user **Submits** the newly registered dataset the RRAP-IS system will mint a **Handle** and allocate a directory in RRAP-IS online data storage. The **Handle** identifier and data directory path will be included in the metadata record.
+After the user **Submits** the newly registered dataset, the RRAP-IS system will mint a **Handle** and allocate a directory in RRAP-IS online data storage. The **Handle** identifier and data directory path will be included in the metadata record.
 
 {% include_relative generated-metadata-fields.md %}
 
@@ -73,20 +73,21 @@ A Handle Identifier is minted with each dataset that is registered and will asso
 ___
 ## File types and maximum file size
 
-The M&DS IS Data Store can store a variety of data files e.g. text files, netCDF, word documents, images etc... Users can upload files or folders using either the AWS web console (GUI), AWS command line interface (AWS CLI) or a program like [WinSCP](../data-store/WinSCP-data-access.md).
+The M&DS IS Data Store can store a variety of data files e.g. text, csv, netCDF, word documents, images etc... Users can upload files or folders using either the AWS web console (GUI), AWS command line interface (AWS CLI) or a program like [WinSCP](../data-store/WinSCP-data-access.md).
 
 While the AWS CLI can handle large files (>100GB) and the AWS Console GUI can handle up to 160GB uploads, please contact the RRAP M&DS IS team if you know you will be uploading large or numerous files. For technical information about the storage limitations of the S3 service (which the data store is built on) you can review the AWS FAQ [here](https://aws.amazon.com/s3/faqs/#:~:text=How%20much%20data%20can%20I%20store%20in%20Amazon%20S3?){:target="\_blank"}.
 
 The maxium file size that can be uploaded is 5TB.  
 
 ___
-## How do I upload dataset files?
+## Uploading dataset files
 
 {% include notes.html content="You will require a set of RRAP-IS AWS credentials to be able to upload data to the AWS S3 data store.  See details on the dataset metadata page obtaining AWS credentials." %}
 
+Dataset files can be uploaded once the metadata record is created. Users can choose between using a GUI or command line. The AWS web console (GUI) can be used for files/folders up to 5GB in size. Larger files should be uploaded using WinSCP or AWS CLI.  
 ___
-### Uploading data via AWS Web Console - small to medium files
-Once the metadata record is created, if you have a dataset that is not too large (<5GB) and you would like to use a GUI to upload your data, you can upload data using the AWS web console. Click on the *Upload data* tab.
+### Uploading data via AWS Web Console
+Click on the *Upload data* tab.
 
 
 Request credentials by clicking the *Request Credentials* button. 
@@ -94,39 +95,25 @@ Request credentials by clicking the *Request Credentials* button.
 
 |                                 Uploading small to medium files                          |
 | :---------------------------------------------------------------------------------:      |
-| <img src="../../assets/images/data_store/uploadSmallMediumFilesStep2.png" alt="drawing" width="600"/> |
+| <img src="../../assets/images/data_store/uploadSmallMediumFilesStep1.png" alt="drawing" width="600"/> |
 
 
 
 
 Next, open the link to AWS system, you will then be taken to the AWS S3 bucket location which will contain the dataset files. The associated metadata record will be seen as a ro-create-meatadata.json file.  
   
-Click the orange *Upload* button, then click on *Add files* or *Add folder* depending on what you want to upload. 
-Click on the orange *Upload* button at the bottom of the screen to complete the process. Press *Close* to return to the S3 bucket. Close the browser to exit.
+Click the orange **Upload** button, then click on **Add files** or **Add folder** depending on what you want to upload. 
+Click on the orange **Upload** button at the bottom of the screen to complete the process. Press **Close** to return to the S3 bucket. Close the browser to exit.
 
-If you need to add additional files to your dataset, you can do this by repaeating the steps above.
-
-___
-
-### Uploading files via WinSCP - any size files
-If you would prefer to use WinSCP, instructions on how to do this are [here](./WinSCP-data-access.html).
+Users can add additional files to the dataset by repeating the steps above.
 
 ___
-### Uploading files via the AWS Command Line Interface (AWS CLI) - any size files
-If your dataset is large (>5GB) or you would prefer to use a command line to upload your data, you can use the AWS CLI.
-<br>  
-**Setting up the AWS CLI v2**  
-In order to use the AWS CLI for uploading (and downloading) you will need to install it first. Please see [this page](./setting-up-the-aws-cli.html){:target="\_blank"} for instructions on how to setup the AWS CLI v2 on your system.
 
-**Uploading files**  
-Once the AWS CLI is installed copy the AWS access credentials you require (LINUX, Windows CMD or Powershell) by clicking on the *Click to copy* button.  
-Paste the credentials into your AWS CLI terminal.  
-Navigate to the location of your dataset (the XXXXX should be the folder where your dataset is)   
-`aws s3 sync dataset/ s3://dev-rrap-storage-bucket/XXXXX/10378-1-1687302/`   
-Verify that the files were uploaded correctly by running the following command and verifying the contents are accurate:  
-`aws s3 ls s3://dev-rrap-storage-bucket/datasets/10378-1-1687302/`  
+### Uploading files via WinSCP
+If users would prefer to use WinSCP to upload files, instructions on how to do this are [here](./WinSCP-data-access.html){:target="\_blank"}.
 
-|                                 Uploading large files                                    |
-| :---------------------------------------------------------------------------------:      |
-| <img src="../../assets/images/data_store/uploadLargeFilesStep1.png" alt="drawing" width="600"/> |
+___
+### Uploading files via the AWS Command Line Interface (AWS CLI)
+If users would prefer to the AWS CLI to upload files, instructions on how to do this are [here](./AWSCLI-data-access.html){:target="\_blank"}.  
+**NOTE:** *In order to use the AWS CLI for uploading (and downloading) you will need to install it first. Please see [this page](./setting-up-the-aws-cli.html){:target="\_blank"} for instructions on how to setup the AWS CLI v2 on your system.*
 
