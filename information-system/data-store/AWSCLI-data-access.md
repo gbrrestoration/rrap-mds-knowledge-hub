@@ -29,12 +29,12 @@ In order to use the AWS CLI for uploading (and downloading) you will need to ins
 
 
 ### Uploading files
-Once the AWS CLI is installed copy the AWS access credentials you require (LINUX, Windows CMD or Powershell) by clicking on the *Click to copy* button.  
+Once the AWS CLI is installed copy the AWS access credentials you require (LINUX, Windows CMD or Powershell) by clicking on the **Click to copy** button.  
 Paste the credentials into your AWS CLI terminal.  
 Navigate to the location of your dataset (the XXXXX should be the folder where your dataset is)   
 `aws s3 sync dataset/ s3://dev-rrap-storage-bucket/XXXXX/10378-1-1687302/`   
 Verify that the files were uploaded correctly by running the following command and verifying the contents are accurate:  
-`aws s3 ls s3://dev-rrap-storage-bucket/datasets/10378-1-1687302/`  
+`aws s3 ls s3://dev-rrap-storage-bucket/XXXXX/10378-1-1687302/`  
 
 |                                 Uploading large files                                    |
 | :---------------------------------------------------------------------------------:      |

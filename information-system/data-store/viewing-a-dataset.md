@@ -21,25 +21,25 @@ ____
 ## Viewing a dataset
 Users can view a dataset a number of ways once they are logged into the RRAP M&DS Data Store.
 
-- Using the **Broswe datasets** link under the under the **Find out more** menu.
+- Using the **Browse datasets** link under the under the **Find out more** menu.
 - Entering information, such as the dataset name, in the **Search Dataset** field and clicking the magnifying glass button
 
-|                                     Broswe datasets                             |
+|                                     Browse datasets                             |
 | :-----------------------------------------------------------------------------: |
-| <img src="../../assets/images/viewDataset.png" alt="drawing" width="600"/>      |
+| <img src="../../assets/images/data_store/viewDataset.png" alt="drawing" width="600"/>      |
 
 Users are then taken to the Datasets page.
 
 |                                     Datasets page                               |
 | :-----------------------------------------------------------------------------: |
-| <img src="../../assets/images/viewDataset2.png" alt="drawing" width="600"/>     |
+| <img src="../../assets/images/data_store/viewDataset2.png" alt="drawing" width="600"/>     |
 
 
 On this page, Users can quickly filter datasets by organisation by selecting the check boxes beside each name. Once you have found the dataset you are looking for, click on the dataset name and you will then be taken to the dataset's metadata page.
 
 |                                   View Dataset metadata view                     |
 | :------------------------------------------------------------------------------: |
-| <img src="../../assets/images/viewDataset3.png" alt="drawing" width="600"/>      |
+| <img src="../../assets/images/data_store/viewDataset3.png" alt="drawing" width="600"/>      |
 
 ## Metadata fields
 The metadata page has the following information
