@@ -3,7 +3,7 @@ Record Creator Identitiy
 >>- **_Email_**: Email of the person currently filling out the form - **[Autofilled & Required]**<br>
 >>- **_Orcid_**: This is optional and is associated to the data creator. Search for the data creator's Orcid by typing the name or organisation in the search bar. <br>
 >>- **_Organisation_**: The name of the organisation from which the dataset originated - **[Searchable & Required]**<br>
->>- **_Data Owner_**: The name of the organisation on behalf of which you are registering the data - **[Searchable & Required]**<br> 
+>>- **_Data Owner_**: The name of the organisation that holds the legal rights to the data. In most cases this is who created or collected the data. - **[Searchable & Required]**<br> 
 
 Dataset Information  
 >>- **_Dataset name_**: Identify the dataset to humans well enough to disambiguate it from other datasets - **[Required]**<br>
