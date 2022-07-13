@@ -31,15 +31,15 @@ _A User logs into the RRAP information system & selects DATASTORE then REGISTER 
 
 ___
 ## Registering a dataset
-To start the dataset registration process, click on **Data Store** at the top of the RRAP M&DS IS home page.  
-Then click on **Datasets**, then click on the **Register Dataset** button.  
+Users start the dataset registration process by clicking on **Data Store** at the top of the RRAP M&DS IS home page.  
+They then click **Datasets**, followed by the **Register Dataset** button.  
 
 |                                 Registering a dataset                                    |
 | :---------------------------------------------------------------------------------:      |
 | <img src="../../assets/images/data_store/registerDataset.png" alt="drawing" width="600"/> |
 
 
-When registering a dataset with the RRAP-IS Data Store you are initially required to complete a metadata record. The inputs requested are listed below, make sure you have these prior to filling out the form. After submitting, the system generates a persistent unique identifier that can be used similarly to a Digital Object Identifier (DOI). The generation of metadata records will facilitate the sharing and discovery of data.
+When registering a dataset with the RRAP-IS Data Store users are initially required to complete a metadata record. The inputs requested are listed below, make sure you have these prior to filling out the form. After submitting, the system generates a persistent unique identifier that can be used similarly to a Digital Object Identifier (DOI). The generation of metadata records will facilitate the sharing and discovery of data.
 
 ___
 ### Filling out form fields
@@ -63,12 +63,12 @@ Users will not be able to progress unless all required fields are entered.
 ___
 ### Usage licence
 
-Users can just attribute the appropriate licence from the dropdown list. There are four licenses to choose from, although all data produced by RRAP is by default attributed Copyright 'All rights reserved'. For details of each license please see the [Licenses](../licenses.md){:target="\_blank"} page.
+Users can attribute the appropriate licence from the dropdown list. There are four licenses to choose from, although all data produced by RRAP is by default attributed Copyright 'All rights reserved'. For details of each license please see the [Licenses](../licenses.md){:target="\_blank"} page.
 
 ___
 ### What happens during the minting dataset process?
 
-A Handle Identifier is minted with each dataset that is registered and will associated with the dataset metadata. This minted identifier can be used to persistently locate your dataset in the future. See [Digital Object Identifiers](../digital-object-identifiers.md){:target="\_blank"} for further details.
+A Handle Identifier is minted with each dataset that is registered and will associated with the dataset metadata. This minted identifier can be used to persistently locate the dataset in the future. See [Digital Object Identifiers](../digital-object-identifiers.md){:target="\_blank"} for further details.
 
 ___
 ## File types and maximum file size
@@ -84,7 +84,7 @@ ___
 
 {% include notes.html content="You will require a set of RRAP-IS AWS credentials to be able to upload data to the AWS S3 data store.  See details on the dataset metadata page obtaining AWS credentials." %}
 
-Dataset files can be uploaded once the metadata record is created. Users can choose between using a GUI or command line. The AWS web console (GUI) can be used for files/folders up to 5GB in size. Larger files should be uploaded using WinSCP or AWS CLI.  
+Dataset files can be uploaded once the metadata record is created. Users can choose between using a GUI or command line. The AWS web console (GUI) can be used for files/folders up to 5GB in size. Larger files should be uploaded using a program like WinSCP or the AWS CLI.  
 ___
 ### Uploading data via AWS Web Console
 Click on the *Upload data* tab.
