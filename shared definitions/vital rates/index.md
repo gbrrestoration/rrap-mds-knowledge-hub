@@ -1,14 +1,14 @@
 ---
 layout: default
-title: Shared definitions - Vital rates
+title: Vital rates
 nav_order: 7
 parent: Shared definitions
+grand_parent: Reef Restoration and Adaptation Program M&DS
 has_children: true
 ---
 
-# Shared definitions - Vital rates
+# Vital rates
 <!-- 
 {: .no_toc .text-delta }
 * TOC
 {:toc} -->
-TODO

@@ -2,7 +2,8 @@
 layout: default
 title: Community/species contributed by larval slicks
 nav_order: 2
-parent: Shared definitions - Intervention characteristics
+grand_parent: Shared definitions
+parent: Intervention characteristics
 has_children: false
 ---
 

@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Shared definitions
-nav_order: 4
+nav_order: 5
+grand_parent:
 parent: Reef Restoration and Adaptation Program M&DS
 has_children: true
 ---
@@ -11,4 +12,3 @@ has_children: true
 {: .no_toc .text-delta }
 * TOC
 {:toc} -->
-TODO

@@ -2,7 +2,8 @@
 layout: default
 title: Size-distribution contributed by aquaculture
 nav_order: 3
-parent: Shared definitions - Intervention characteristics
+grand_parent: Shared definitions
+parent: Intervention characteristics
 has_children: false
 ---
 

@@ -1,14 +1,14 @@
 ---
 layout: default
-title: Shared definitions - Enhanced Natural Interactions
+title: Enhanced Natural Interactions
 nav_order: 2
 parent: Shared definitions
+grand_parent: Reef Restoration and Adaptation Program M&DS
 has_children: true
 ---
 
-# Shared definitions - Enhanced Natural Interactions
+# Enhanced Natural Interactions
 <!-- 
 {: .no_toc .text-delta }
 * TOC
 {:toc} -->
-TODO

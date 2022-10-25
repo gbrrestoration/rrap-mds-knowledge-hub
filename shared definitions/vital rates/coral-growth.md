@@ -2,7 +2,8 @@
 layout: default
 title: Coral growth and survival rate
 nav_order: 1
-parent: Shared definitions - Vital rates
+parent: Vital rates
+grand_parent: Shared definitions
 has_children: false
 ---
 

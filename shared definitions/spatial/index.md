@@ -1,14 +1,14 @@
 ---
 layout: default
-title: Shared definitions - Spatial / connectivity
+title: Spatial
 nav_order: 4
 parent: Shared definitions
+grand_parent: Reef Restoration and Adaptation Program M&DS
 has_children: true
 ---
 
-# Shared definitions - Spatial / connectivity
+# Spatial / connectivity
 <!-- 
 {: .no_toc .text-delta }
 * TOC
 {:toc} -->
-TODO

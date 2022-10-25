@@ -2,10 +2,10 @@
 layout: default
 title: Community/species contributed by aquaculture
 nav_order: 1
-parent: Shared definitions - Intervention characteristics
+grand_parent: Shared definitions
+parent: Intervention characteristics
 has_children: false
 ---
-
 # Community/species contributed by aquaculture
 <!-- 
 {: .no_toc .text-delta }

@@ -2,7 +2,8 @@
 layout: default
 title: Size-distribution contributed by larval slicks
 nav_order: 4
-parent: Shared definitions - Intervention characteristics
+grand_parent: Shared definitions
+parent: Intervention characteristics
 has_children: false
 ---
 

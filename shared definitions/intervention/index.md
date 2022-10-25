@@ -1,14 +1,14 @@
 ---
 layout: default
-title: Shared definitions - Intervention characteristics
+title: Intervention characteristics
 nav_order: 3
 parent: Shared definitions
+grand_parent: Reef Restoration and Adaptation Program M&DS
 has_children: true
 ---
 
-# Shared definitions - Intervention characteristics
+# Intervention characteristics
 <!-- 
 {: .no_toc .text-delta }
 * TOC
 {:toc} -->
-TODO
