@@ -1,13 +1,13 @@
 ---
 layout: default
-title: Coral growth and survival rate
-nav_order: 1
-parent: Vital rates
+title: Re-seed area
+nav_order: 3
+parent: Spatial
 grand_parent: Shared definitions
 has_children: false
 ---
 
-# Coral growth and survival rate
+# Re-seed area
 <!-- 
 {: .no_toc .text-delta }
 * TOC
@@ -15,7 +15,7 @@ has_children: false
 
 ## Definition
 
-Coral growth and survival rate at different age classes for different coral groups
+Re-seed area per coral - 0.5/1m2 per coral?
 
 ## Processing stage
 
@@ -28,17 +28,17 @@ N/A
 
 ### <1yo characterisation
 
-Yes 
+--
 
 ### >1yo characterisation
 
-Yes 
+--
 
 ## Parameter Collection
 ### Parameter Focal Point
 
-JO
+YMB (TBC)
 
 ## Documentation
 
-Link to Miro
+Miro

@@ -1,13 +1,13 @@
 ---
 layout: default
-title: Coral growth and survival rate
+title: Competition
 nav_order: 1
-parent: Vital rates
+parent: Enhanced Natural Interactions
 grand_parent: Shared definitions
 has_children: false
 ---
 
-# Coral growth and survival rate
+# Competition
 <!-- 
 {: .no_toc .text-delta }
 * TOC
@@ -15,7 +15,7 @@ has_children: false
 
 ## Definition
 
-Coral growth and survival rate at different age classes for different coral groups
+Direct competition natural to natural and natural to enhanced coral ? 
 
 ## Processing stage
 
@@ -25,20 +25,19 @@ Coral growth and survival rate at different age classes for different coral grou
 ### Connectivity
 
 N/A
-
 ### <1yo characterisation
 
-Yes 
+N/A 
 
 ### >1yo characterisation
 
-Yes 
+N/A
 
 ## Parameter Collection
 ### Parameter Focal Point
 
-JO
+N/A
 
 ## Documentation
 
-Link to Miro
+N/A

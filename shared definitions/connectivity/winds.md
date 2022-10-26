@@ -1,13 +1,13 @@
 ---
 layout: default
-title: Coral growth and survival rate
-nav_order: 1
-parent: Vital rates
+title: Winds
+nav_order: 9
+parent: Connectivity
 grand_parent: Shared definitions
 has_children: false
 ---
 
-# Coral growth and survival rate
+# Winds
 <!-- 
 {: .no_toc .text-delta }
 * TOC
@@ -15,30 +15,30 @@ has_children: false
 
 ## Definition
 
-Coral growth and survival rate at different age classes for different coral groups
+Winds
 
 ## Processing stage
 
---
+Currents 
 
 ## Utility 
 ### Connectivity
 
-N/A
+Yes
 
 ### <1yo characterisation
 
-Yes 
+-- 
 
 ### >1yo characterisation
 
-Yes 
+No?
 
 ## Parameter Collection
 ### Parameter Focal Point
 
-JO
+SC
 
 ## Documentation
 
-Link to Miro
+[Specifications for estimating connectivity](https://aimsgovau.sharepoint.com/:w:/r/sites/RRAPMDS/_layouts/15/Doc.aspx?sourcedoc=%7B3C80B081-E4F6-4C04-A988-8C11FEBE20E5%7D&file=Connectivity_parameters_SC.docx)

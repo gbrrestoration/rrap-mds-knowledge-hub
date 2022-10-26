@@ -1,13 +1,13 @@
 ---
 layout: default
-title: Coral growth and survival rate
-nav_order: 1
+title: Thermal stress
+nav_order: 2
 parent: Vital rates
 grand_parent: Shared definitions
 has_children: false
 ---
 
-# Coral growth and survival rate
+# Thermal stress effects
 <!-- 
 {: .no_toc .text-delta }
 * TOC
@@ -15,11 +15,13 @@ has_children: false
 
 ## Definition
 
-Coral growth and survival rate at different age classes for different coral groups
+How thermal stress might affect the fecundity of surviving colonies
 
 ## Processing stage
 
---
+Connectivity matrices 
+
+Ecological modeling
 
 ## Utility 
 ### Connectivity
@@ -41,4 +43,4 @@ JO
 
 ## Documentation
 
-Link to Miro
+n/a

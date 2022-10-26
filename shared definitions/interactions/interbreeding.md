@@ -1,13 +1,13 @@
 ---
 layout: default
-title: Coral growth and survival rate
-nav_order: 1
-parent: Vital rates
+title: Interbreeding
+nav_order: 2
+parent: Enhanced Natural Interactions
 grand_parent: Shared definitions
 has_children: false
 ---
 
-# Coral growth and survival rate
+# Interbreeding
 <!-- 
 {: .no_toc .text-delta }
 * TOC
@@ -15,30 +15,29 @@ has_children: false
 
 ## Definition
 
-Coral growth and survival rate at different age classes for different coral groups
+Interbreeding between enhanced and natural corals?
 
 ## Processing stage
 
---
+-- 
 
 ## Utility 
 ### Connectivity
 
 N/A
-
 ### <1yo characterisation
 
-Yes 
+N/A 
 
 ### >1yo characterisation
 
-Yes 
+N/A
 
 ## Parameter Collection
 ### Parameter Focal Point
 
-JO
+N/A
 
 ## Documentation
 
-Link to Miro
+N/A

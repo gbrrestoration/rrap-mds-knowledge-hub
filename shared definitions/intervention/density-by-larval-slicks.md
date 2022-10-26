@@ -1,13 +1,13 @@
 ---
 layout: default
-title: Community/species contributed by larval slicks
-nav_order: 2
+title: Density of corals from larval slicks
+nav_order: 6
 grand_parent: Shared definitions
 parent: Intervention characteristics
 has_children: false
 ---
 
-# Community/species contributed by larval slicks
+# Density of corals from larval slicks
 <!-- 
 {: .no_toc .text-delta }
 * TOC
@@ -15,9 +15,7 @@ has_children: false
 
 ## Definition
 
-Community/species contributed by larval slicks (assumed broader than aquaculture)
-
-Larval enrichment will be simulated as the addition of 1-yr old coral recruits on a set of reefs (ReefMod/CoCoNet) or reef sites (IPMF/CoCoNet). This means that we won’t simulate settlement from a pool of larvae but rather assume that the intervention resulted in the successful establishment of coral recruits that grew and survived over one year post settlement.
+Density of 1 yo corals contributed by larval slicks
 
 ## Processing stage
 
@@ -30,11 +28,11 @@ N/A
 
 ### <1yo characterisation
 
-Yes 
+--
 
 ### >1yo characterisation
 
-Yes 
+--
 
 ## Parameter Collection
 ### Parameter Focal Point

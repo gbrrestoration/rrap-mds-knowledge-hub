@@ -1,13 +1,13 @@
 ---
 layout: default
-title: Coral growth and survival rate
-nav_order: 1
-parent: Vital rates
+title: Different night parameters
+nav_order: 13
+parent: Connectivity
 grand_parent: Shared definitions
 has_children: false
 ---
 
-# Coral growth and survival rate
+# Different night parameters
 <!-- 
 {: .no_toc .text-delta }
 * TOC
@@ -15,30 +15,30 @@ has_children: false
 
 ## Definition
 
-Coral growth and survival rate at different age classes for different coral groups
+Different night parameters????
 
 ## Processing stage
 
---
+--  
 
 ## Utility 
 ### Connectivity
 
-N/A
+Depth dependent on age since spawning
 
 ### <1yo characterisation
 
-Yes 
+-- 
 
 ### >1yo characterisation
 
-Yes 
+-- 
 
 ## Parameter Collection
 ### Parameter Focal Point
 
-JO
+ 
 
 ## Documentation
 
-Link to Miro
+Miro

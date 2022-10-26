@@ -1,13 +1,13 @@
 ---
 layout: default
-title: Coral growth and survival rate
-nav_order: 1
-parent: Vital rates
+title: Time of year for intervention
+nav_order: 5
 grand_parent: Shared definitions
+parent: Intervention characteristics
 has_children: false
 ---
 
-# Coral growth and survival rate
+# Time of year for intervention
 <!-- 
 {: .no_toc .text-delta }
 * TOC
@@ -15,7 +15,7 @@ has_children: false
 
 ## Definition
 
-Coral growth and survival rate at different age classes for different coral groups
+At what time of year will deployment of intervention corals occur, how long will it take to deploy - 10 days? Will this happen once or twice per year
 
 ## Processing stage
 
@@ -28,11 +28,11 @@ N/A
 
 ### <1yo characterisation
 
-Yes 
+--
 
 ### >1yo characterisation
 
-Yes 
+--
 
 ## Parameter Collection
 ### Parameter Focal Point
@@ -41,4 +41,4 @@ JO
 
 ## Documentation
 
-Link to Miro
+Miro

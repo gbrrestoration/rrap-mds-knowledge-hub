@@ -1,13 +1,13 @@
 ---
 layout: default
-title: Coral growth and survival rate
+title: Release sites
 nav_order: 1
-parent: Vital rates
+parent: Spatial
 grand_parent: Shared definitions
 has_children: false
 ---
 
-# Coral growth and survival rate
+# Release sites
 <!-- 
 {: .no_toc .text-delta }
 * TOC
@@ -15,30 +15,29 @@ has_children: false
 
 ## Definition
 
-Coral growth and survival rate at different age classes for different coral groups
+Release sites
 
 ## Processing stage
 
---
+Particle trajectories
 
 ## Utility 
 ### Connectivity
 
-N/A
-
+Yes
 ### <1yo characterisation
 
-Yes 
+N/A 
 
 ### >1yo characterisation
 
-Yes 
+N/A
 
 ## Parameter Collection
 ### Parameter Focal Point
 
-JO
+VL/BR
 
 ## Documentation
 
-Link to Miro
+N/A

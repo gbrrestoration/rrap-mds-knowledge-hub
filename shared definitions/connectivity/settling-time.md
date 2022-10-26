@@ -1,13 +1,13 @@
 ---
 layout: default
-title: Coral growth and survival rate
-nav_order: 1
-parent: Vital rates
+title: Settling time
+nav_order: 15
+parent: Connectivity
 grand_parent: Shared definitions
 has_children: false
 ---
 
-# Coral growth and survival rate
+# Settling time
 <!-- 
 {: .no_toc .text-delta }
 * TOC
@@ -15,30 +15,30 @@ has_children: false
 
 ## Definition
 
-Coral growth and survival rate at different age classes for different coral groups
+Time period after fertilisation for competency of settling
 
 ## Processing stage
 
---
+Connectivity matrices 
 
 ## Utility 
 ### Connectivity
 
-N/A
+Yes
 
 ### <1yo characterisation
 
-Yes 
+-- 
 
 ### >1yo characterisation
 
-Yes 
+-- 
 
 ## Parameter Collection
 ### Parameter Focal Point
 
-JO
+SC
 
 ## Documentation
 
-Link to Miro
+Miro

@@ -1,12 +1,13 @@
 ---
 layout: default
-title: Community/species contributed by aquaculture
-nav_order: 1
+title: Density of corals from aquaculture
+nav_order: 7
 grand_parent: Shared definitions
 parent: Intervention characteristics
 has_children: false
 ---
-# Community/species contributed by aquaculture
+
+# Density of corals from aquaculture
 <!-- 
 {: .no_toc .text-delta }
 * TOC
@@ -14,7 +15,7 @@ has_children: false
 
 ## Definition
 
-Deployment of corals from aquaculture will be simulated as the addition of 1-yr old coral recruits with specific life-history characteristics (such specificallyas thermal tolerance and a trade-off represented as a decrease in, growth etc.) on a set of reefs (ReefMod/CoCoNet) or reef sites (IPMF/CoCoNet). 
+Density of 1 yo corals contributed by aquaculture
 
 ## Processing stage
 
@@ -27,11 +28,11 @@ N/A
 
 ### <1yo characterisation
 
-Yes 
+--
 
 ### >1yo characterisation
 
-Yes 
+--
 
 ## Parameter Collection
 ### Parameter Focal Point

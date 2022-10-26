@@ -1,13 +1,13 @@
 ---
 layout: default
-title: Coral growth and survival rate
-nav_order: 1
-parent: Vital rates
+title: Cairns regions
+nav_order: 2
+parent: Spatial
 grand_parent: Shared definitions
 has_children: false
 ---
 
-# Coral growth and survival rate
+# Cairns regions
 <!-- 
 {: .no_toc .text-delta }
 * TOC
@@ -15,7 +15,7 @@ has_children: false
 
 ## Definition
 
-Coral growth and survival rate at different age classes for different coral groups
+Cairns regions: Moore, Norman, Agincourt, Lizard, Hardy, Heron????
 
 ## Processing stage
 
@@ -24,21 +24,21 @@ Coral growth and survival rate at different age classes for different coral grou
 ## Utility 
 ### Connectivity
 
-N/A
+RECOM models available for some
 
 ### <1yo characterisation
 
-Yes 
+--
 
 ### >1yo characterisation
 
-Yes 
+--
 
 ## Parameter Collection
 ### Parameter Focal Point
 
-JO
+BR
 
 ## Documentation
 
-Link to Miro
+N/A

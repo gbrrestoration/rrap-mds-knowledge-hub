@@ -1,13 +1,13 @@
 ---
 layout: default
-title: Coral growth and survival rate
-nav_order: 1
-parent: Vital rates
+title: Buoyancy
+nav_order: 4
+parent: Connectivity
 grand_parent: Shared definitions
 has_children: false
 ---
 
-# Coral growth and survival rate
+# Buoyancy
 <!-- 
 {: .no_toc .text-delta }
 * TOC
@@ -15,30 +15,30 @@ has_children: false
 
 ## Definition
 
-Coral growth and survival rate at different age classes for different coral groups
+Buoyancy
 
 ## Processing stage
 
---
+Particle trajectories 
 
 ## Utility 
 ### Connectivity
 
-N/A
+Better to specify depth as function of age
 
 ### <1yo characterisation
 
-Yes 
+N/A 
 
 ### >1yo characterisation
 
-Yes 
+N/A
 
 ## Parameter Collection
 ### Parameter Focal Point
 
-JO
+VL/BR
 
 ## Documentation
 
-Link to Miro
+N/A

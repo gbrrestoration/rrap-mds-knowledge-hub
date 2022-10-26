@@ -17,6 +17,10 @@ has_children: false
 
 Size distribution of 1 yo corals contributed by larval slicks
 
+## Processing stage
+
+--
+
 ## Utility 
 ### Connectivity
 
@@ -37,4 +41,4 @@ YMB
 
 ## Documentation
 
-[AIMS SHarepoint document](https://aimsgovau.sharepoint.com/:w:/r/sites/RRAPMDS/_layouts/15/Doc.aspx?sourcedoc=%7B2FE395F0-8589-4E88-832F-F064FE4B6B32%7D&file=Parameter_larval_slicks_NEW2.docx)
+[Community/species contributed by larval slicks](https://aimsgovau.sharepoint.com/:w:/r/sites/RRAPMDS/_layouts/15/Doc.aspx?sourcedoc=%7B2FE395F0-8589-4E88-832F-F064FE4B6B32%7D&file=Parameter_larval_slicks_NEW2.docx)
