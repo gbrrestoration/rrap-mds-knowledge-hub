@@ -1,10 +1,14 @@
 {
     "[markdown]": {
-        "editor.quickSuggestions": true,
+        "editor.quickSuggestions": {
+            "comments": "on",
+            "strings": "on",
+            "other": "on"
+        },
         "editor.suggest.showWords": false
     },
     "editor.snippetSuggestions": "top",
     "files.autoSave": "afterDelay",
     "files.autoSaveDelay": 3000,
-    "cSpell.words": ["RRAP", "scriptable", "venv"]
+    "cSpell.words": ["ORCID", "RRAP", "scriptable", "venv"]
 }
