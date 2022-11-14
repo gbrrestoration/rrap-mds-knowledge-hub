@@ -2,8 +2,8 @@
 layout: default
 title: Viewing a dataset
 nav_order: 6
-grand_parent: Data store
-parent: uploading a dataset
+grand_parent: Information System
+parent: Data store
 
 ---
 {: .no_toc }

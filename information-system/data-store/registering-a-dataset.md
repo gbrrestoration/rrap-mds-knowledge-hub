@@ -8,7 +8,7 @@ parent: Data store
 
 {: .no_toc }
 
-# Registering and uploading a dataset
+# Registering a dataset
 
 <details  open markdown="block">
   <summary>
