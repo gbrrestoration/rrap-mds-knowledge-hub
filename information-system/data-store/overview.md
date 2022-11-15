@@ -33,7 +33,7 @@ The Data Store facilitates registration and creation of datasets for RRAP M&DS. 
 ## What can users do in the Data Store?
 Users can now login to the RRAP M&DS Data Store to do the following.
 
-[**Register datasets**](./registering-and-uploading-a-dataset.md){:target="\_blank"}: Create a dataset record for a dataset relevant to M&DS. Dataset records could either point to a dataset that is managed externally (e.g. institutional repositories) or a location in the M&DS Data Store. Valid examples of dataset records include:
+[**Register datasets**](./registering-a-dataset.md){:target="\_blank"}: Create a dataset record for a dataset relevant to M&DS. Dataset records could either point to a dataset that is managed externally (e.g. institutional repositories) or a location in the M&DS Data Store. Valid examples of dataset records include:
 - CSV files 
 - a set of related NetCDF files
 
