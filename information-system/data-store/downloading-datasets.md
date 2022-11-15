@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Downloading datasets
-nav_order: 5
+title: Downloading a dataset
+nav_order: 6
 grand_parent: Information System
 parent: Data store
 ---

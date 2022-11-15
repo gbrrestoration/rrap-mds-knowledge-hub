@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Automated datastore access
-nav_order: 8
+nav_order: 9
 grand_parent: Information System
 parent: Data store
 ---

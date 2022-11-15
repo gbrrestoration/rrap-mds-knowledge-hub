@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Uploading a dataset
-nav_order: 4
+nav_order: 5
 grand_parent: Information System
 parent: Data store
 ---

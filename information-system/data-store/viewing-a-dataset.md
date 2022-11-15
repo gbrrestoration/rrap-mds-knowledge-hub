@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Viewing a dataset
-nav_order: 6
+nav_order: 7
 grand_parent: Information System
 parent: Data store
 
