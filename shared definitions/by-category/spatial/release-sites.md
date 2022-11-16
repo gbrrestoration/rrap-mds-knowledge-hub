@@ -6,4 +6,4 @@ parent: Spatial
 grand_parent: Category
 has_children: false
 ---
-{% include_relative ../../definitions/release-sites.md %}
+{% include definitions/release-sites.md %}

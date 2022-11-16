@@ -6,4 +6,4 @@ parent: Connectivity
 grand_parent: Category
 has_children: false
 ---
-{% include_relative ../../definitions/spawning-date.md %}
+{% include definitions/spawning-date.md %}

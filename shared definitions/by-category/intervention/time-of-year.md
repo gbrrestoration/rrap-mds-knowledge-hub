@@ -6,4 +6,4 @@ grand_parent: Category
 parent: Intervention characteristics
 has_children: false
 ---
-{% include_relative ../../definitions/time-of-year.md %}
+{% include definitions/time-of-year.md %}

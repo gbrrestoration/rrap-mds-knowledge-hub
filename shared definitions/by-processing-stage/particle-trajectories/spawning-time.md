@@ -6,4 +6,4 @@ parent: Particle trajectories
 grand_parent: Processing stage
 has_children: false
 ---
-{% include_relative ../../definitions/spawning-time.md %}
+{% include definitions/spawning-time.md %}

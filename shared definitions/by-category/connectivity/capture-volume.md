@@ -6,4 +6,4 @@ parent: Connectivity
 grand_parent: Category
 has_children: false
 ---
-{% include_relative ../../definitions/capture-volume.md %}
+{% include definitions/capture-volume.md %}

@@ -6,4 +6,5 @@ parent: Vital rates
 grand_parent: Category
 has_children: false
 ---
-{% include_relative ../../definitions/background-mortality.md %}
+
+{% include definitions/background-mortality.md %}

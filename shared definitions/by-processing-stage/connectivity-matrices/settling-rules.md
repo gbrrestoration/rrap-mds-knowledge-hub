@@ -6,4 +6,4 @@ parent: Connectivity matrices
 grand_parent: Processing stage
 has_children: false
 ---
-{% include_relative ../../definitions/settling-rules.md %}
+{% include definitions/settling-rules.md %}

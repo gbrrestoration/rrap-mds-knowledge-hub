@@ -6,4 +6,4 @@ parent: Vital rates
 grand_parent: Category
 has_children: false
 ---
-{% include_relative ../../definitions/coral-growth.md %}
+{% include definitions/coral-growth.md %}

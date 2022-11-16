@@ -6,4 +6,4 @@ parent: Connectivity matrices
 grand_parent: Processing stage
 has_children: false
 ---
-{% include_relative ../../definitions/survival-rate.md %}
+{% include definitions/survival-rate.md %}

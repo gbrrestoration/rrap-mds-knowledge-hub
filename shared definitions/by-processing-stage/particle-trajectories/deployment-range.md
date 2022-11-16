@@ -6,4 +6,4 @@ parent: Particle trajectories
 grand_parent: Processing stage
 has_children: false
 ---
-{% include_relative ../../definitions/deployment-range.md %}
+{% include definitions/deployment-range.md %}

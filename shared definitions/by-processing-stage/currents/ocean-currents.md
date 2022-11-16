@@ -6,4 +6,4 @@ parent: Particle trajectories
 grand_parent: Processing stage
 has_children: false
 ---
-{% include_relative ../../definitions/ocean-currents.md %}
+{% include definitions/ocean-currents.md %}

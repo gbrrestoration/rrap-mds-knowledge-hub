@@ -6,4 +6,4 @@ parent: Spatial
 grand_parent: Category
 has_children: false
 ---
-{% include_relative ../../definitions/cairns-regions.md %}
+{% include definitions/cairns-regions.md %}

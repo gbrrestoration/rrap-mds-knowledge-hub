@@ -6,4 +6,4 @@ parent: Enhanced Natural Interactions
 grand_parent: Category
 has_children: false
 ---
-{% include_relative ../../definitions/interbreeding.md %}
+{% include definitions/interbreeding.md %}

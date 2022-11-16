@@ -6,4 +6,4 @@ grand_parent: Category
 parent: Intervention characteristics
 has_children: false
 ---
-{% include_relative ../../definitions/size-by-larval-slicks.md %}
+{% include definitions/size-by-larval-slicks.md %}

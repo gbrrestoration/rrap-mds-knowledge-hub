@@ -7,4 +7,4 @@ grand_parent: Category
 has_children: false
 ---
 
-{% include_relative ../../definitions/buoyancy.md %}
+{% include definitions/buoyancy.md %}
