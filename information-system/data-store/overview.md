@@ -33,11 +33,11 @@ The Data Store facilitates registration and creation of datasets for RRAP M&DS. 
 ## What can users do in the Data Store?
 Users can now login to the RRAP M&DS Data Store to do the following.
 
-[**Register datasets**](./registering-and-uploading-a-dataset.md){:target="\_blank"}: Create a dataset record for a dataset relevant to M&DS. Dataset records could either point to a dataset that is managed externally (e.g. institutional repositories) or a location in the M&DS Data Store. Valid examples of dataset records include:
+[**Register datasets**](./registering-a-dataset.md){:target="\_blank"}: Create a dataset record for a dataset relevant to M&DS. Dataset records could either point to a dataset that is managed externally (e.g. institutional repositories) or a location in the M&DS Data Store. Valid examples of dataset records include:
 - CSV files 
 - a set of related NetCDF files
 
-[**Upload files**](./registering-and-uploading-a-dataset.md){:target="\_blank"}: Authorised users are able to upload files to a location registered in the Data Store. When a user registers a dataset, a digital identifier is minted for that dataset and a folder is created in the shared AWS S3 bucket. Users can then upload files to that location via AWS S3 tools. Learn more about RRAP M&DS IS Digital Identifiers here.
+[**Upload files**](./uploading-a-dataset.md){:target="\_blank"}: Authorised users are able to upload files to a location registered in the Data Store. When a user registers a dataset, a digital identifier is minted for that dataset and a folder is created in the shared AWS S3 bucket. Users can then upload files to that location via AWS S3 tools. Learn more about RRAP M&DS IS Digital Identifiers here.
 
 [**Discover datasets**](./viewing-a-dataset.md){:target="\_blank"}: Authorised users can access the Data store to search for datasets and view their details. 
 

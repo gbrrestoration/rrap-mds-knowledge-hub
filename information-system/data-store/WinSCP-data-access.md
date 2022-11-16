@@ -1,9 +1,8 @@
 ---
 layout: default
 title: Data access to s3 with WinSCP 
-nav_order: 9
-grand_parent: Information System
-parent: Data store
+nav_order: 910grand_parent: Data Store
+parent: Uploading a dataset
 ---
 
 {: .no_toc }

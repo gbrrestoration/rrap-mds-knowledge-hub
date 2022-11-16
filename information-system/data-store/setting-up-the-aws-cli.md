@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Setting up the AWS CLI for download and upload
-nav_order: 7
+nav_order: 9
 grand_parent: Information System
 parent: Data store
 ---
