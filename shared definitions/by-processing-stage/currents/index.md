@@ -7,7 +7,7 @@ grand_parent: Shared definitions
 has_children: true
 ---
 
-# Connectivity / Spawning
+# Currents
 <!-- 
 {: .no_toc .text-delta }
 * TOC
