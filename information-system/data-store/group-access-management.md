@@ -22,11 +22,11 @@ ____
 
 ## Overview 
 
-Dataset accessibility can be managed by contorlling what the general datastore user can do with the dataset, and by contorlling which groups can access a dataset, and the extent of their access. This documentation will discuss the latter.
+Dataset accessibility can be managed by controlling what the general datastore user can do with the dataset, and by controlling which groups can access a dataset, and the extent of their access. This documentation will discuss the latter.
 
-The group access feature enables custom permission for groups (and their memebers) to a dataset. This facilitates the privatisation of datasets to only certain users of the information system.
+The group access feature enables custom permission for groups (and their members) to a dataset. This facilitates the privatisation of datasets to only certain users of the information system.
 
-This documentation will discus the creation of groups and the setting of configuration of their individsual privilidges. 
+This documentation will discus the creation of groups and the setting of configuration of their individual privilidges. 
 
 ### Types levels of access
 
