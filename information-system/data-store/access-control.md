@@ -18,11 +18,11 @@ parent: Data store
 ____
 </details>
 
-# Overview
+# Access Control Overview
 
 This document will discuss the types of access controls available and then reveal the methods to apply these access controls through the Datastore User Interface. 
 
-# What access controls are available for datastore datasets?
+## What access controls are available for datastore datasets?
  
 There are three access rights to consider: 
 
@@ -66,7 +66,9 @@ Facilitates control over the upload/download of data to/from the storage locatio
 
 # Applying Access Controls
 
-The aforementioned controls can be applied for individual datasets. Each dataset can have a rule for its accessibility to (the group of all) general datastore users, and (optionally) extra rules for multiple custom groups of users. The following sections will discuss these.  
+The aforementioned controls can be applied for individual datasets by those who have administration access to the dataset. By default, this is the owner of the dataset and Information System Admins.
+
+Each dataset can have a rule for its accessibility to (the group of all) general datastore users, and (optionally) extra rules for multiple custom groups of users. The following sections will discuss these.  
 
 ## General user access to dataset
 
