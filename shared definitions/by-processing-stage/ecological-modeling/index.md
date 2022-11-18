@@ -7,7 +7,7 @@ grand_parent: Shared definitions
 has_children: true
 ---
 
-# Connectivity / Spawning
+# Ecological modeling
 <!-- 
 {: .no_toc .text-delta }
 * TOC
