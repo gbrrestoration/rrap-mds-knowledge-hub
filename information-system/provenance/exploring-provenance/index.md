@@ -27,13 +27,13 @@ Users can explore the provenace by :
 
 |                                     Exolore Entities                             |
 | :-----------------------------------------------------------------------------: |
-| <img src="../../assets/images/provenance/10_Main.png" alt="drawing" width="600"/>      |
+| <img src="../../../assets/images/provenance/10_Main.png" alt="drawing" width="600"/>      |
 
 By clicking on **Explore Registred Entities** Users are then taken to the Explore and regsiter Page.
 
 |                                     Datasets page                               |
 | :-----------------------------------------------------------------------------: |
-| <img src="../../assets/images/provenance/20_MainView.png" alt="drawing" width="600"/>     |
+| <img src="../../../assets/images/rovenance/../provenance/20_MainView.png" alt="drawing" width="600"/>    |
 
 
 On this page, Users can quickly filter datasets by organisation by selecting the check boxes beside each name. Once you have found the dataset you are looking for, click on the dataset name and you will then be taken to the dataset's metadata page.
