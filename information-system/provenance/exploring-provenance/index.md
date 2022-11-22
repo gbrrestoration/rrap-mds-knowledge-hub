@@ -23,21 +23,21 @@ ____
 ## Exploring provenance
 Users can explore the provenace by :
 
-- Clickin the **Explore Registred** entry in the main menu.
+- Clicking the **Provenance Store** entry in the main menu.
 
 |                                     Exolore Entities                             |
 | :-----------------------------------------------------------------------------: |
 | <img src="../../../assets/images/provenance/10_Main.png" alt="drawing" width="600"/>      |
 
-By clicking on **Explore Registred Entities** Users are then taken to the Explore and regsiter Page.
+Clicking on **Explore Registred Entities** users are then taken to the Explore and Regsiter Page.
 
-|                                     Datasets page                               |
+|                                     Provenance Store                                |
 | :-----------------------------------------------------------------------------: |
 | <img src="../../../assets/images/provenance/../provenance/20_MainView.png" alt="drawing" width="600"/>    |
 
 
-On this page, Users can quickly filter datasets by organisation by selecting the check boxes beside each name. Once you have found the dataset you are looking for, click on the dataset name and you will then be taken to the dataset's metadata page.
+Clicking on **Explore records** opens main explore entiries screen.
 
-|                                   View Dataset metadata view                     |
+|                                   Explore Entities                     |
 | :------------------------------------------------------------------------------: |
 | <img src="../../../assets/images/provenance/30_ExploreRecords.png" alt="drawing" width="600"/>      |
