@@ -42,7 +42,7 @@ Downloading data is possible using only the AWS web console, however the feature
 ___
 ## Finding the dataset
 
-In order to download a dataset, you must first identify it on the system. Once you reach the listing for that dataset in the data store, tailored instructions on how to download that dataset will be generated for you, making downloading a very quick process.
+In order to download a dataset, you must first identify it in the system. Once you reach the listing for that dataset in the data store, tailored instructions on how to download that dataset will be generated for you, making downloading a very quick process.
 
 ___
 ### Using the registry
@@ -59,9 +59,29 @@ The [persistent identifier](../digital-object-identifiers.html){:target="\_blank
 ___
 ## Downloading files
 
-Once you select the dataset you want to download, you can click the entry and you will be redirected to a view of the dataset. This view shows three options _preview_, _download_ and _upload_. After using the preview section to view information about the dataset, you should choose the _download_ option.
+Once you select the dataset you want to download, you can click the entry and you will be redirected to a view of the dataset. This view shows four options _overview_, _download data_, _upload data_ and _settings_. After using the preview section to view information about the dataset, you should choose the _download data_ option and then click the _request credentials_ button.
+The download dataset files page will appear.
 
-Doing so will provide you with detailed instructions on how to download the dataset.
+|                                 Downloading dataset files                          |
+| :---------------------------------------------------------------------------------:      |
+| <img src="../../assets/images/data_store/downloadDatasetFiles.png" alt="drawing" width="600"/> |
+
+You will be able to download individual files (using a GIU) or the whole dataset (using AWS CLI) following the instructions on the screen (also listed below).
+
+### Using the GUI to download individual files
+If you would like to explore the dataset with a GUI and download files individually:
+* Open the link or click the _Click to open storage location_ button to login to the AWS system. You will be brought to your storage location automatically.
+* You can now explore the dataset 
+* To download individual files, check the box next to the file name and click the orange _Download_ button.
+
+### Downloading the entire dataset
+To download all the files of a dataset, you need to use the AWS CLI.
+Please note that you need to have the AWS CLI v2 installed to follow the below steps. For more information on how to prepare your system for CLI upload (and download), visit this [guide](setting-up-the-aws-cli.html){:target="\_blank"}.
+
+* Your temporary read-only AWS programmatic access creditals will be shown. Choose the format that you require (Linux, Windows CMD or Windows Powershell) and click the _click to copy_ button on the right hand side.
+* Paste the credentials into your AWS CLI terminal environment.
+* Using the terminal, navigate to where you want the data to be downloaded to. Click on the _click to copy_ button and paste into the terminal, remembering to change the name `folder` to something meaningful for you.
+* You can use other AWS CLI commands to explore the directory or you can use the GUI to preview the datasets contents.
 
 ___
 ### First time download (`aws cp` command)
