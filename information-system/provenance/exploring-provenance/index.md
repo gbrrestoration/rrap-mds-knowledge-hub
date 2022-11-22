@@ -36,7 +36,7 @@ Clicking on **Explore Registred Entities** users are then taken to the Explore a
 | <img src="../../../assets/images/provenance/../provenance/20_MainView.png" alt="drawing" width="600"/>    |
 
 
-Clicking on **Explore records** opens main explore entiries screen.
+Clicking on **Explore Records** opens main explore entiries screen.
 
 |                                   Explore Entities                     |
 | :------------------------------------------------------------------------------: |
