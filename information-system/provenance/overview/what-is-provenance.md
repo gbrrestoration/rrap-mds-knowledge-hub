@@ -3,8 +3,8 @@ layout: default
 title: What Is Provenance
 nav_order: 2
 has_children: false
-grand_parent: Information System
-parent: Provenance
+grand_parent: Provenance
+parent: Provenance Overview
 ---
 # What is provenance?
 
@@ -37,8 +37,8 @@ See also:
 
 ## Next steps
 
-* [What are entities?](/rrap-mds-knowledge-hub/information-system/provenance/whatisprovenance/what-are-entities.html)
-* [Exploring provenance](/rrap-mds-knowledge-hub/information-system/provenance/exploring-provenance/) 
+* [What are entities?](./what-are-entities.html)
+* [Exploring provenance](../exploring-provenance/) 
 
 ## References
 
