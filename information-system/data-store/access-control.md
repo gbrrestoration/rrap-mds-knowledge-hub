@@ -20,9 +20,9 @@ ____
 
 # Access Control Overview
 
-This document will discuss the types of access controls available and then reveal the methods to apply these access controls through the Datastore User Interface. 
+This document will discuss the types of access controls available and then discuss the methods to apply these access controls through the Data Store user interface. 
 
-## What access controls are available for datastore datasets?
+## What access controls are available for datasets?
  
 There are three access rights to consider: 
 
@@ -33,12 +33,12 @@ There are three access rights to consider:
 
 ## Metadata access
 
-Facilitates control of general viewing and metadata updating.
+Metadata access determines if a user can discover, view and update information about a dataset.
 
 ### Metadata Read
 
-- If enabled, users with this right will be able view the dataset's metadata and find the dataset in the datastore "search" and "list" tools. 
-- If disabled, users will not be able to find the dataset in the datastore let alone view the metadata.
+- If granted, users will be able to find the dataset in the Data Store and view the dataset's metadata. 
+- If not granted, users will not be able to find the dataset in the Data Store nor view the dataset's metadata.
 
 
 ### Metadata Write
@@ -92,9 +92,7 @@ Group creation is currently performed by Information System Administrators. Plea
 
 ### Adding group access to datasets
 
-Groups access to datasets can be manually managed by navigating to the dataset's settings tab, then Access Control->Groups. Here, group permission can be added to the dataset. Group access levels for this dataset can also be edited here by selecting the group.
-
-Group access can be automatically applied with default values upon the creation of a new dataset. This occurs if 'Default data store access configuration' is enabled in the group creation process by the IS administrator. The result is that if a user belonging to that group creates a new dataset, then it will automatically be made available to the group according to the specified default access levels. Access levels can then be updated from default by navigating to the group in the dataset as mentioned in the above paragraph.
+Groups access to datasets can be managed by navigating to the dataset's settings tab, then Access Control->Groups. Here, group permission can be added to the dataset. Group access levels for this dataset can also be edited here by selecting the group.
 
 A dataset can be made available to more than one group with differing accessibility levels (see note below). For example, you may wish to have a group of dataset contributors which will require write access, and another group for dataset viewing only, meanwhile the more general system users may not have access at all. 
 
