@@ -1,9 +1,9 @@
 ---
 layout: default
-title: What is Provenance
+title: What Is Provenance
 nav_order: 2
 has_children: true
-grand_parent: Reef Restoration and Adaptation Program M&DS
-parent: Information System
+grand_parent: Information System
+parent: Provenance
 ---
 # whatisprovenance
