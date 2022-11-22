@@ -37,8 +37,8 @@ See also:
 
 ## Next steps
 
-* [What are entities?]()
-* [Exploring provenance]() 
+* [What are entities?](/rrap-mds-knowledge-hub/information-system/provenance/whatisprovenance/what-are-entities.html)
+* [Exploring provenance](/rrap-mds-knowledge-hub/information-system/provenance/exploring-provenance/) 
 
 ## References
 
