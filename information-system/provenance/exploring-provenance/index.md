@@ -33,11 +33,11 @@ By clicking on **Explore Registred Entities** Users are then taken to the Explor
 
 |                                     Datasets page                               |
 | :-----------------------------------------------------------------------------: |
-| <img src="../../../assets/images/rovenance/../provenance/20_MainView.png" alt="drawing" width="600"/>    |
+| <img src="../../../assets/images/provenance/../provenance/20_MainView.png" alt="drawing" width="600"/>    |
 
 
 On this page, Users can quickly filter datasets by organisation by selecting the check boxes beside each name. Once you have found the dataset you are looking for, click on the dataset name and you will then be taken to the dataset's metadata page.
 
 |                                   View Dataset metadata view                     |
 | :------------------------------------------------------------------------------: |
-| <img src="../../assets/images/data_store/viewDataset3.png" alt="drawing" width="600"/>      |
+| <img src="../../../assets/images/provenance/30_ExploreRecords.png" alt="drawing" width="600"/>      |
