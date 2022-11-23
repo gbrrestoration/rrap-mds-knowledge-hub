@@ -42,7 +42,7 @@ Clicking on **Explore Records** opens main explore entiries screen.
 | :------------------------------------------------------------------------------: |
 | <img src="../../../assets/images/provenance/30_ExploreRecords.png" alt="drawing" width="600"/>      |
 
-|                                     Sample Explore Registery Entities Screen                                |
+|                                     Sample **Explore Registery Entities** screen                                |
 | :-----------------------------------------------------------------------------: |
 | <img src="../../../assets/images/provenance/40_ExploreRegisterEntities.png" alt="drawing" width="600"/>      |
 
@@ -54,7 +54,8 @@ Different class of Entities are coloured individually. To explore these, click o
 
 Types of entities and their colour and icon:
 
-|                                   Entity Type : Dataset                     |
+|                                   Entity Type : 
+Model                     |
 | :-----------------------------------------------------------------------------: | 
  
 | <img src="../../../assets/images/provenance/60_TypeDataset.png" alt="drawing" width="600"/>      |
