@@ -164,7 +164,9 @@ Then make the desired changes to the record on the resulting form, clicking subm
 
 -   Registry Read
 
-## Listing, sorting and filtering entities
+## Finding records
+
+### Listing, sorting and filtering entities
 
 **Link**: [https://registry.rrap-is.com/records](https://registry.rrap-is.com/records)
 
@@ -177,6 +179,8 @@ Entities are distinguished in three ways. Their colour (1), icon (2) and type (3
 |                                  Record Display                                   |
 | :-------------------------------------------------------------------------------: |
 | <img src="../../../assets/images/registry/record.png" alt="drawing" width="300"/> |
+
+To view detailed information about a record, click on it's card in the grid.
 
 You can refine the list of entities by using the sorting and filtering options. Shown below:
 
@@ -192,12 +196,50 @@ You can refine the list of entities by using the sorting and filtering options. 
 | :-----------------------------------------------------------------------------------: |
 | <img src="../../../assets/images/registry/filter_bar.png" alt="drawing" width="800"/> |
 
-## Searching the registry
+### Searching the registry
 
 **Link**: [https://registry.rrap-is.com/search](https://registry.rrap-is.com/search)
+
+This method of exploration is ideal when you are looking for a specific entity in the registry. The search tool can quickly search the entire registery across multiple record fields to look the words in your search term. If results are found, they are ordered by the strength of the match.
+
+Simply enter the search query, paying attention to the spelling of your search terms - the search results will appear as you type. You can click on a result to view the detailed record information. To select a record, click on the record card.
+
+You can also filter by entity type by ticking the "Filter by subtype?" box and selecting an entity type.
+
+For example, the following search query "Counterfactual disturbance_file" found model run records which included a "counterfactual" annotation, and "disturbance_file" deferred resource key
+
+|                                         Searching                                         |
+| :---------------------------------------------------------------------------------------: |
+| <img src="../../../assets/images/registry/search_results.png" alt="drawing" width="800"/> |
+
+## Viewing records
+
+Once you have discovered a record, possibly by:
+
+-   [listing, sorting and filtering records](#listing-sorting-and-filtering-entities)
+-   [searching for records](#searching-the-registry)
+-   having a record [shared](#sharing-an-entity) with you
+
+You can view detailed information about the record by visiting it's details page.
+
+If the record was shared with you, you will land on this page by default.
+
+If you discovered the record yourself, simply clicking on the record will show you the record details.
+
+Whenever you see a copy icon, as in the screenshot below, you can click to copy the [id](../../digital-object-identifiers.html) of the entity.
+
+|                                   Record detailed view                                   |
+| :--------------------------------------------------------------------------------------: |
+| <img src="../../../assets/images/registry/detailed_view.png" alt="drawing" width="800"/> |
 
 # Sharing an entity
 
 ## Required Permissions
 
 -   Registry Read
+
+## How to share a record
+
+After [exploring](#exploring-the-registry) the registry to find a record and [viewing it's details](#viewing-records), you can click the "Share Entity" button on the right to copy to your cliboard a unique, persistent and shareable link.
+
+TODO validate this after updates to the share button.
