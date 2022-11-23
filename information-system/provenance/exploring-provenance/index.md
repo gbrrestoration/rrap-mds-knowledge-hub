@@ -51,3 +51,28 @@ Different class of Entities are coloured individually. To explore these, click o
 |                                   Entity Types                     |
 | :-----------------------------------------------------------------------------: | 
 | <img src="../../../assets/images/provenance/50_EntityTypes.png" alt="drawing" width="600"/>      |
+
+Types of entities and their colour / icon:
+|                                   Entity Type : Dataset                     |
+| :-----------------------------------------------------------------------------: | 
+| <img src="../../../assets/images/provenance/60_TypeDataset.png" alt="drawing" width="600"/>      |
+
+|                                   Entity Type : Model                     |
+| :-----------------------------------------------------------------------------: | 
+| <img src="../../../assets/images/provenance/61_TypeModel.png" alt="drawing" width="600"/>      |
+
+|                                   Entity Type : Model Run                     |
+| :-----------------------------------------------------------------------------: | 
+| <img src="../../../assets/images/provenance/62_TypeModelRun.png" alt="drawing" width="600"/>      |
+
+|                                   Entity Type : Model Run Workflow                     |
+| :-----------------------------------------------------------------------------: | 
+| <img src="../../../assets/images/provenance/63_TypeModelRunWorkflow.png" alt="drawing" width="600"/>      |
+
+|                                   Entity Type : Organisation                     |
+| :-----------------------------------------------------------------------------: | 
+| <img src="../../../assets/images/provenance/64_TypeOrganisation.png" alt="drawing" width="600"/>      |
+
+|                                   Entity Type : Person                     |
+| :-----------------------------------------------------------------------------: | 
+| <img src="../../../assets/images/provenance/65_TypePerson.png" alt="drawing" width="600"/>      |
