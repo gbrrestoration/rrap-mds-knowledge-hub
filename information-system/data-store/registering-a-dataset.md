@@ -30,7 +30,7 @@ _A User logs into the RRAP information system & selects DATASTORE then REGISTER 
 
 ___
 ## Registering a dataset
-Users start the dataset registration process by logging into the RRAP M&DS Information System. They then select **Data Store** from the menu <img scr="../../assets/images/data_store/hamburgerMenu.png"/>.
+Users start the dataset registration process by logging into the RRAP M&DS Information System. They then select **Data Store** from the menu <img src="../../assets/images/data_store/hamburgerMenu.png" alt="menu_button" width = "20"/>.
 
 Then clicking on the **Register Dataset** button.  
 
