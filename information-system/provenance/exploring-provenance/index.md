@@ -52,12 +52,10 @@ Different class of Entities are coloured individually. To explore these, click o
 | :-----------------------------------------------------------------------------: | 
 | <img src="../../../assets/images/provenance/50_EntityTypes.png" alt="drawing" width="600"/>      |
 
-
-|
-Entity Type : Dataset      |    
+|                                   Entity Type : Dataset                     |
 | :-----------------------------------------------------------------------------: | 
- 
 | <img src="../../../assets/images/provenance/60_TypeDataset.png" alt="drawing" width="600"/>      |
+
 
 |                                   Entity Type : Model                     |
 | :-----------------------------------------------------------------------------: | 
