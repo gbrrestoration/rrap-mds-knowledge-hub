@@ -112,9 +112,13 @@ The dataset settings (1) and access settings (2) (shown below) are only visible 
 | :-------------------------------------------------------------------------------------------------------: |
 | <img src="../../assets/images/data_store/access_control/finding_settings.png" alt="drawing" width="600"/> |
 
-### Making changes
+### Making and submitting changes
 
-### Submitting changes
+All access is configured by expanding a target (General Access or a specific group) (1) and using the toggles (2) in the "Granted" column (3) for the desired access level. Once a change is detected, you will see a popup appear at the top of the page (4). You can press "Submit Changes" (5) to lodge this change, or "Revert Changes" (6) to restore the access configuration to it's prior state. Once submission is completed, press the resulting refresh button to reload the new access configuration.
+
+|                                             Submitting changes                                              |
+| :---------------------------------------------------------------------------------------------------------: |
+| <img src="../../assets/images/data_store/access_control/submitting_changes.png" alt="drawing" width="600"/> |
 
 ## General user access
 
@@ -160,6 +164,14 @@ Once the selected groups are added, you will see the collapsed access configurat
 | :-------------------------------------------------------------------------------------------------------------: |
 | <img src="../../assets/images/data_store/access_control/selecting_group_access.png" alt="drawing" width="600"/> |
 
+### Remove Group Access
+
+A group's access rights to a dataset can be removed by removing the entire group from the datasets list of groups as opposed to disabling the groups roles. This will not delete the group.
+
+|                         General User Read access to dataset metadata and data                         |
+| :---------------------------------------------------------------------------------------------------: |
+| <img src="../../assets/images/data_store/access_control/remove_group.PNG" alt="drawing" width="600"/> |
+
 ### Creating a group
 
 Group creation is currently performed by Information System Administrators. Please get in touch and we can help facilitate this for you.
@@ -178,14 +190,6 @@ write permissions for them whilst leaving the general user write permissions (fo
 
 |                          General User Read access to dataset metadata and data                           |
 | :------------------------------------------------------------------------------------------------------: |
-| <img src="../../assets/images/data_store/access_control/dataset_editors.PNG" alt="drawing" width="600"/> |
+| <img src="../../assets/images/data_store/access_control/dataset_editors.png" alt="drawing" width="600"/> |
 
 If at some point you wish to temporarily disable all updates/writes to the dataset, it may be easier to apply a [dataset lock](./information-system/data-store/dataset_lock.html){:target="\_blank"} as opposed to the potentially more complex task of managing the group/user roles.
-
-### Remove Group Access
-
-A groups access rights to a dataset can be removed by removing the entire group from the datasets list of groups as opposed to disabling the groups roles. This will not delete the group.
-
-|                         General User Read access to dataset metadata and data                         |
-| :---------------------------------------------------------------------------------------------------: |
-| <img src="../../assets/images/data_store/access_control/remove_group.PNG" alt="drawing" width="600"/> |
