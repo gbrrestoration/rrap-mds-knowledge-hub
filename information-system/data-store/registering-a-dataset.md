@@ -22,8 +22,7 @@ ____
 
 ## Overview of the process
 
-The diagram below outlines the steps undertaken when registering and uploading a dataset.  
-_Note: draft figure_
+The diagram below outlines the steps undertaken when registering and uploading a dataset.
 
 ![Workflow diagram](../../assets/images/DRAFTv2_upload_data.png)
 _A User logs into the RRAP information system & selects DATASTORE then REGISTER DATASET from the website. A metadata form prefilled with the User’s name & email address opens and the User fills out information relating to the data being uploaded (see [Filling out form fields](#filling-out-form-fields){:target="\_blank"} for more detailed information). After the metadata form is completed the User uploads the dataset by one of these [methods](#how-do-i-upload-dataset-files){:target="\_blank"}, depending on the size of the file(s). The data is assigned its own unique PID (Persistent Identifier). The data is securely stored on an AWS S3 server, ready for future reference and usage._
@@ -31,8 +30,9 @@ _A User logs into the RRAP information system & selects DATASTORE then REGISTER 
 
 ___
 ## Registering a dataset
-Users start the dataset registration process by clicking on **Data Store** at the top of the RRAP M&DS IS home page.  
-They then click **Datasets**, followed by the **Register Dataset** button.  
+Users start the dataset registration process by logging into the RRAP M&DS Information System. They then select **Data Store** from the menu <img scr="../../assets/images/data_store/hamburgerMenu.png"/>.
+
+Then clicking on the **Register Dataset** button.  
 
 |                                 Registering a dataset                                    |
 | :---------------------------------------------------------------------------------:      |
@@ -46,6 +46,17 @@ ___
 User entered metadata fields are listed below, some of which are prepopulated, others are selected or searched for with the help of form widgets. 
 
 {% include_relative user-metadata-fields.md %}
+
+
+
+<br>
+If it is known, users can use the **Manual overide** button to manually enter in an individual or organisation's Research Organisation Registry number (ROR).
+
+|                               Using the manual overide                                   |
+| :---------------------------------------------------------------------------------:      |
+| <img src="../../assets/images/data_store/metadataOrganisationROR.png" alt="drawing" width="600"/> |
+
+
 
 #### Auto generated metadata fields
 
