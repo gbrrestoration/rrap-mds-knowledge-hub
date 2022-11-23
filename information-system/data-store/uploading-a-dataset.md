@@ -73,4 +73,4 @@ ___
 ### Uploading files via the AWS Command Line Interface (AWS CLI)
 If users would prefer to the AWS CLI to upload files of any size, instructions on how to do this are [here](./AWSCLI-data-access.html){:target="\_blank"}.  
 
-**NOTE**: In order to use the AWS CLI for uploading you will need to install it first. Please see [this page](./setting-up-the-aws-cli.html){target=\_blank"} for instructions on how to set up the AWS CLI v2 on your system.
+**NOTE**: In order to use the AWS CLI for uploading you will need to install it first. Please see [this page](./setting-up-the-aws-cli.html){:target=\_blank"} for instructions on how to set up the AWS CLI v2 on your system.
