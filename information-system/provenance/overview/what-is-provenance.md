@@ -1,6 +1,6 @@
 ---
 layout: default
-title: What Is Provenance
+title: What is provenance
 nav_order: 2
 has_children: false
 grand_parent: Provenance
@@ -42,6 +42,6 @@ See also:
 
 ## References
 
-1. W3C, What is Provenance, Sourced from https://www.w3.org/2005/Incubator/prov/wiki/What_Is_Provenance (Accessed 22 November 2022)
-2. ARDC, Data Provenance, https://ardc.edu.au/resource/data-provenance/ (Accessed 22 November 2022)
+1. W3C, [What is Provenance](https://www.w3.org/2005/Incubator/prov/wiki/What_Is_Provenance), Sourced from [](https://www.w3.org/2005/Incubator/prov/wiki/What_Is_Provenance) (Accessed 22 November 2022)
+2. ARDC, [Data Provenance](https://ardc.edu.au/resource/data-provenance/), [https://ardc.edu.au/resource/data-provenance/](https://ardc.edu.au/resource/data-provenance/) (Accessed 22 November 2022)
  
