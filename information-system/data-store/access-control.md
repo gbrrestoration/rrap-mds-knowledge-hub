@@ -142,7 +142,7 @@ If granting access to all users does not provide enough control, a dataset admin
 
 A dataset can be made available to more than one group with differing accessibility levels (see note below). For example, you may wish to have a group of dataset contributors which will require write access, and another group for dataset viewing only, meanwhile the more general system users may not have access at all.
 
-**Note**: If a user is accessing a dataset which has access rules for multiple groups of which the user is a part of, the user will be granted the most permissive combination of those access rights.
+{% include notes.html content="If a user is accessing a dataset which has access rules for multiple groups of which the user is a part of, the user will be granted the most permissive combination of those access rights" %}
 
 ### Adding group access to a dataset
 
