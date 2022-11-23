@@ -42,6 +42,7 @@ Clicking on **Explore Records** opens main explore entiries screen.
 | :------------------------------------------------------------------------------: |
 | <img src="../../../assets/images/provenance/30_ExploreRecords.png" alt="drawing" width="600"/>      |
 
+|
 Sample Explore Registery Entities Screen                     |
 | :------------------------------------------------------------------------------: |
 | <img src="../../../assets/images/provenance/40_ExploreRegisterEntities.png" alt="drawing" width="600"/>      |
