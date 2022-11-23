@@ -8,7 +8,7 @@ parent: Data store
 
 {: .no_toc }
 
-# Registering and uploading a dataset
+# Uploading a dataset
 
 <details  open markdown="block">
   <summary>
@@ -34,36 +34,43 @@ ___
 
 {% include notes.html content="You will require a set of RRAP-IS AWS credentials to be able to upload data to the AWS S3 data store.  See details on the dataset metadata page obtaining AWS credentials." %}
 
-Dataset files can be uploaded once the metadata record is created. Users can choose between using a GUI or command line. The AWS web console (GUI) can be used for files/folders up to 5GB in size. Larger files should be uploaded using a program like WinSCP or the AWS CLI.  
+Dataset files can be uploaded once the metadata record is created. Users can choose between using a GUI or command line. The AWS web console (GUI) can be used for files/folders up to 5GB in size. Larger files should be uploaded using a program like WinSCP or the AWS CLI v2.  
 ___
-### Uploading data via AWS Web Console
-Click on the *Upload data* tab.
+### Uploading data via AWS Web Console (small to medium files)
+Click on the **Upload data** tab.
 
 
-Request credentials by clicking the *Request Credentials* button. 
+Request credentials by clicking the **Request Credentials** button. 
 
 
 |                                 Uploading small to medium files                          |
 | :---------------------------------------------------------------------------------:      |
 | <img src="../../assets/images/data_store/uploadSmallMediumFilesStep1.png" alt="drawing" width="600"/> |
 
+Next, open the link to AWS system, by either clicking on the **Click to open storage location** button or the link in the text. Users will then be taken to the AWS S3 bucket location which will house the dataset files. The associated metadata record will be seen as a ro-create-meatadata.json file.  
 
 
+|                                Uploading small to medium files                          |
+| :---------------------------------------------------------------------------------:      |
+| <img src="../../assets/images/data_store/uploadSmallMediumFilesStep2.png" alt="drawing" width="600"/> |
 
-Next, open the link to AWS system, you will then be taken to the AWS S3 bucket location which will contain the dataset files. The associated metadata record will be seen as a ro-create-meatadata.json file.  
-  
-Click the orange **Upload** button, then click on **Add files** or **Add folder** depending on what you want to upload. 
-Click on the orange **Upload** button at the bottom of the screen to complete the process. Press **Close** to return to the S3 bucket. Close the browser to exit.
+
+In the AWS envrionment: 
+* Click the orange **Upload** button.
+* Click on **Add files** or **Add folder** depending on what you want to upload. Nagivate to where the files are in your system and select them.
+* Click OK. The files should appear in the **Files and folders** section in the AWS envrionment.
+* Click on the orange **Upload** button at the bottom of the screen to complete the process. 
+* Click **Close** to return to the S3 bucket. 
+* Close the browser to exit.
 
 Users can add additional files to the dataset by repeating the steps above.
 
 ___
-
-### Uploading files via WinSCP
-If users would prefer to use WinSCP to upload files, instructions on how to do this are [here](./WinSCP-data-access.html){:target="\_blank"}.
+### Uploading files  via WinSCP
+If users would prefer to use WinSCP to upload files of any size, instructions on how to do this are [here](./WinSCP-data-access.html){:target="\_blank"}.
 
 ___
 ### Uploading files via the AWS Command Line Interface (AWS CLI)
-If users would prefer to the AWS CLI to upload files, instructions on how to do this are [here](./AWSCLI-data-access.html){:target="\_blank"}.  
-**NOTE:** *In order to use the AWS CLI for uploading (and downloading) you will need to install it first. Please see [this page](./setting-up-the-aws-cli.html){:target="\_blank"} for instructions on how to setup the AWS CLI v2 on your system.*
+If users would prefer to the AWS CLI to upload files of any size, instructions on how to do this are [here](./AWSCLI-data-access.html){:target="\_blank"}.  
 
+**NOTE**: In order to use the AWS CLI for uploading you will need to install it first. Please see [this page](./setting-up-the-aws-cli.html){target=\_blank"} for instructions on how to set up the AWS CLI v2 on your system.
