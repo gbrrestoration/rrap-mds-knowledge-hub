@@ -26,19 +26,23 @@ The M&DS IS is a suite of applications for data and information capture and acce
     - Access to S3 bucket (Amazon Simple Storage Service), for synchronising data
 
 ## Accessing RRAP-M&DS IS
-After clicking the *Click to login* button on the top right on the home page, you can use a number of different existing credentials to log into the Data Store.
+After clicking the **Click to login** button on the top right on the home page, you can use a number of different existing credentials to log into the Data Store.
 
 | Existing account access option |
 |:-:|
 |<img src="../../assets/images/access/access_types.png" alt="drawing" width="400"/>|
 
 ### GitHub
-Click the GITHUB option which will take you to your GitHub login screen, enter your GitHub credentials and click **Sign in**, you will be redirected back to RRAP M&DS IS if successful.
+Click the **GITHUB** option which will take you to your GitHub login screen, enter your GitHub credentials and click **Sign in**, you will be redirected back to RRAP M&DS IS if successful.
 ### Google
-Click the Google option which will take you to your Google login screen, enter your Google credentials and click **Sign in**, you will be redirected back to RRAP M&DS IS if successful.
+Click the **Google** option which will take you to your Google login screen, enter your Google credentials and click **Sign in**, you will be redirected back to RRAP M&DS IS if successful.
 
 ### Australian Access Federation (AAF)
  Click the **Australian Access Federation** option which will take you to the AAF Central login page
+
+### Microsoft
+Click the **Mircosoft** option which will take you to your Microsoft login page.
+<br>
 
 | AAF Access dialog|
 |:-:|
