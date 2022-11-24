@@ -10,17 +10,26 @@ parent: Provenance Overview
 
 ## 1. Overview
 
-In the RRAP M&DS Information System (IS), entities are things that are registered in the M&DS IS Registry. Registration of entities is fundamental to establishing stable provenance. It establishes a record for each entity used or generated in producing or delivering an artifact in a provenance record. 
+In the RRAP M&DS Information System (IS), entities are things that are recorded in the M&DS IS Registry. Registration of entities is fundamental to establishing stable provenance. It establishes a record for each entity used or generated in producing or delivering an artifact in a provenance record. 
 
-In the RRAP M&DS IS, each registered item (entity) is given a unique and persistent identifier (ID). These IDs provide a mechanism for 2 things:
+In the RRAP M&DS IS, each registered item (entity) is allocated a unique and persistent identifier (ID) upon successful registration. These IDs provide a mechanism for 2 things:
 1. It allows information to be attached to each entity in a defined way
-2. Entities are able to link to other entities (i.e. object references rather than just text descriptions)
+2. Entities are able to link to other entities (i.e. object cross-references rather than just text descriptions)
 
 In addition to this, the persistent IDs for each entity in the RRAP M&DS IS is able to be hyperlinked and looked up in the IS via the web.
 
-These registered entities can then referenced in provenance records, e.g. a provenance record about a model run references a computational model that was used, the agent or person who ran the model, a list of input datasets, and the output dataset/results. The ability to reference entities reduces manual error and duplication of descriptions, as they can be reused and simply referred to. 
+These registered entities can then referenced in provenance records, e.g. a provenance record about a model run references a computational model that was used, the agent or person who ran the model, a list of input datasets, and the output dataset/results. The ability to refer to entities reduces manual error and duplication of descriptions, as they can be reused and simply referred to. 
 
-Registering provenance records with references to the registered entity provides the IS with the ability to create provenance graphs. Users of the IS are then able to explore and query these provenance graphs. 
+Registering provenance records using cross-references to the registered entity provides the IS with the ability to create provenance graphs. Provenance graphs provide a represenatation of the provenance data, where nodes in the graph are entities, and links between the nodes are associations and relationships between them. An example of a provenance graph is shown below relating the Model Run record (MR) with input and output datasets (D) from that model run as well as the Agent/Person who ran it (P):
+
+| Provenance graph example |
+|:-:|
+|<img src="../../../assets/images/provenance/provenance-graph.png" alt="drawing" width="600"/>|
+
+
+
+Provenance graphs provide users with a way to explore, query and traverse lineage of entities like datasets to the parent activities and entities upstream. The RRAP M&DS IS provides tools for navigating provenance graphs.
+
 
 ## 2. What entity types are used in the RRAP M&DS IS?
 
@@ -57,7 +66,7 @@ The specialised types used in M&DS IS are provided below:
 | Entity      | Model Run Workflow Template |  A defined template of a model run workflow and its associated set of input and output templates, and annotations. |
 | Agent      | Organisation | "An organization is a social or legal institution such as a company, society, etc." [1] |
 | Agent      | Person | "Person agents are people" [1] |
-| Activity      | Model Run | An computational modelling activity that estimates, simulates and/or calculates an outcome based on a model (simplification or abstraction of a perceived real world phenomena), and defined processes and inputs (e.g. datasets, and model parameters). |
+| Activity      | Model Run | A computational modelling activity that estimates, simulates and/or calculates an outcome based on a model (simplification or abstraction of a perceived real world phenomena), and defined processes and inputs (e.g. datasets, and model parameters). |
 
 
 ## 3. References
