@@ -3,7 +3,7 @@ layout: default
 title: Overview
 nav_order: 1
 parent: Information System
-grand_parent: Reef Restoration and Adaptation Program M&DS 
+grand_parent: RRAP M&DS 
 ---
 {: .no_toc }
 # RRAP M&DS Information System (RRAP M&DS IS)
