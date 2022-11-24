@@ -27,7 +27,9 @@ For more information about the provenance conceptual model, see [what is provena
 
 ## When to create and when to reuse
 
-The [registry](../registry/index.html) contains various types of entities. Some entities reference persistent and reusable _things_ such as:
+The [registry](../registry/index.html) contains various types of things.
+
+Some entries refer to persistent things (continuants) which can participate in multiple activities or events, such as:
 
 -   agents
     -   people
@@ -37,14 +39,16 @@ The [registry](../registry/index.html) contains various types of entities. Some 
     -   dataset templates
     -   workflow templates
 
-Some entities are artefacts of activities and are not reusable:
+Some entries relate to things that happened (occurrents) which will not be later re-used:
 
 -   activities
     -   model runs
 
-Whenever reusable entities which describe the same _thing_ are being referenced, it is critical to the integrity of the provenance graph that the same identifier (and therefore entity) is used.
+Whenever we refer to reusable things, it is critical to the integrity of the provenance graph that a consistent identifier is used, so that we know we are talking about the same thing.
 
-For example - before registering a new organisation, ensure that the organisation doesn't already exist. To find existing entities, you can [explore the registry](../registry/exploring_the_registry.html).
+For example - before registering a new organisation, ensure that the organisation doesn't already exist.
+
+To discover existing entities, you can [explore the registry](../registry/exploring_the_registry.html).
 
 ## What entities are required to register provenance?
 
