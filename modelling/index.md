@@ -2,7 +2,7 @@
 layout: default
 title: Modelling
 nav_order: 3
-parent: Reef Restoration and Adaptation Program M&DS
+parent: RRAP M&DS
 has_children: true
 ---
 
