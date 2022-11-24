@@ -51,4 +51,4 @@ Click the **Mircosoft** option which will take you to your Microsoft login page.
 Search and select your orgainisation then select **Continue to your organisation**.  You will then sign in with your usual organisation credentials, you will be redirected back to RRAP M&DS IS if successful.
 
 ## Access Roles
-After signing in for the first time you will need to request access to appropriate roles. To perform this task please see [Requesting Access](requesting-access-is.md#user-roles){:target="\_blank"}
+After signing in for the first time you will need to request access to appropriate roles. To perform this task please see [Requesting Access](requesting-access-is.md#user-roles){:target="\_blank"}.
