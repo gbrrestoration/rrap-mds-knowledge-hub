@@ -21,6 +21,9 @@ ____
 </details>
 
 ## Exploring provenance
+
+### Browsing and Exploring
+
 Users can explore the provenace by :
 
 - Clicking the **Provenance Store** entry in the main menu.
@@ -48,7 +51,8 @@ Clicking on **Explore Records** opens main explore entiries screen.
 
 Different class of Entities are coloured individually. To explore these, click on the dropdown box **Filter** to see the types availabe:
 
-|                                   Entity Types                     |
+### Entity Types
+|                                   Entity types available                     |
 | :-----------------------------------------------------------------------------: | 
 | <img src="../../../assets/images/provenance/50_EntityTypes.png" alt="drawing" width="600"/>      |
 
@@ -77,6 +81,9 @@ Different class of Entities are coloured individually. To explore these, click o
 | :-----------------------------------------------------------------------------: | 
 | <img src="../../../assets/images/provenance/65_TypePerson.png" alt="drawing" width="600"/>      |
 
-|                                   List can be sorted by various attributes :                            |
+### Sorting
+
+Listings can be sorted by various attributes :
+|                                   Sort by :                            |
 | :-----------------------------------------------------------------------------: | 
 | <img src="../../../assets/images/provenance/70_Sort.png" alt="drawing" width="600"/>      |
