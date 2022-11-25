@@ -71,6 +71,8 @@ Sometimes the resources that should be present in a [dataset](../../data-store/o
 
 Sometimes, we know that a dataset will contain some resources, but we don't know the specific path to that data until the model run is created. We refer to these resources as **deferred resources**. A deferred resource has an unpredictable or variable file path which changes between model runs.
 
+### More information
+
 In the same way that model runs satisfy model run workflow templates, datasets (in the data store) satisfy dataset templates. When you register a model run, you will need to provide for each dataset template:
 
 -   a [data store](../../data-store/overview) dataset ID which refers to a registered dataset which conforms to the template
@@ -83,13 +85,13 @@ It may be worth noting the following when deciding how to structure your dataset
 -   a dataset template must be satisfiable by a **single** dataset (you can't combine datasets together to satisfy a dataset template)
 -   if your model uses a shared dataset which other modellers are likely to use (or already do), consider creating a distinct dataset template which refers to this dataset so that you can share your work with other modellers more easily
 -   you don't always have to satisfy a dataset template with the same dataset in different model runs. For example - you may define a 'reef geometry file' dataset template which contains a 'reefs.json' GeoJSON file. Different model runs could use a different dataset which contains a different version of this file.
--   a single dataset may satisfy multiple dataset templates within a model run record. For example, you may have two dataset templates, one defines a configuration file with a deferred resource with key "config_file", another defines a parameter file with a defined resource "model_params.json". A model run could provide a single dataset which contains a "model_params.json" file and a config file with name "config_2012_2030.json" file, satisfying both templates.
+-   a single dataset may satisfy multiple dataset templates within a model run record. For example, you may have two dataset templates, one defines a configuration file with a deferred resource with key "config_file", another defines a parameter file with a defined resource "model_params.json". A model run could use a single dataset which contains a "model_params.json" file and a config file with name "config_2012_2030.json" file, satisfying both templates.
 
 ### How do I register a dataset template?
 
 If the dataset template you are creating refers to shared input data that multiple models likely reference, it is worth [exploring the registry](../registry/exploring_the_registry) to see if others have registered a dataset template you could reuse.
 
-To begin registration, navigate to the new entity form (for help, see [registering an entity](../registry/registering_and_updating.html)). Select the "Dataset Template" entity type. Information on the various metadata fields has been provided below.
+To begin registration, navigate to the new entity form in the registry (for help, see [registering an entity](../registry/registering_and_updating.html)). Select the "Dataset Template" entity type. Information on the various metadata fields has been provided below.
 
 -   **Display Name**\*: A user friendly, brief name for this dataset template? E.g. "Connectivity Matrices Input Template"
 -   **Description**\*: A description which helps you and other users understand the purpose, contents and resources of this dataset template.
@@ -107,7 +109,7 @@ Each dataset template contains a list of defined resources - to add a new define
 
 **Deferred Resources**
 
-The registration details for a deferred resource are the same as a defined resource (above), with one exception:
+The metadata for a deferred resource are the same as a defined resource (above), with one exception:
 
 -   the **path** is unknown at dataset template registration time - instead, we define a **key** which is a unique (within the entity) identifier for the deferred resource. Choose a key that will help you remember which resource is which when using the template later in the provenance workflow.
 
@@ -117,8 +119,30 @@ Once you have completed your registration, you can view the record and take note
 
 ### What is a model run workflow template?
 
-TODO definition
+A model run workflow template describes the inputs and outputs of a model run. A workflow template is intimately related to a [model](./establishing-required-entities#model) and therefore refers to a registered model entity.
+
+Inputs and outputs are described by linking to registered [dataset templates](#dataset-template). For this reason - you must have registered your dataset templates before being able to register a model run workflow template.
+
+|                                    Understanding templates                                     |
+| :--------------------------------------------------------------------------------------------: |
+| <img src="../../../assets/images/provenance/templates_diagram.png" alt="drawing" width="800"/> |
+
+### More information
+
+As the name suggests, a model run workflow template acts as a blueprint for a model run. Configuring a rich workflow template facilitates detailed and useful provenance information by providing a traceable lineage of structured inputs and outputs. We not only know _what_ was used, but also _why_ and _how_ it was used.
+
+Additionally, a model run workflow template allows the user to enforce a set of annotations that must be provided at model run registration time. These annotations are searchable, facilitating the discovery of model runs in a predictable way.
+
+Workflow templates have been designed to facilitate reusability. By configuring a workflow template, you abstract all of the unchanging details of a model run activity into a persistent entity, minimising repetition. At model run time, this enables you to provide a minimal payload which satisfies the template in a way that the system understands and can validate.
 
 ### How do I register a model run workflow template?
 
-TODO process
+To begin registration, navigate to the new entity form in the registry (for help, see [registering an entity](../registry/registering_and_updating.html)). Select the "Model Run Workflow Template" entity type. This form makes use of search tools which allow you to rapidly locate existing registered entities which you need to refer to in the form. For more information about using the search tools, see [filling out registry forms](../registry/registering_and_updating#step-3-filling-out-the-form). For help discovering and finding registered entities, see [exploring the registry](../registry/exploring_the_registry). Information on the various metadata fields has been provided below.
+
+-   **Display Name**\*: A user friendly, brief name for this model run workflow template? E.g. "Simple Coral Model v1.5 Workflow Template"
+-   **Model**\*: A reference to a registered [model](./establishing-required-entities#model) which this workflow template is a blueprint to. You can use the search tool to help find the registered model.
+-   **Software Version**\*: Specify the version of the model software that this workflow template was designed to use. E.g. "1.0.3"
+-   **Input Dataset Templates**\*: A model run workflow template describes the inputs that must be provided by a model run. These inputs are described by referring to [Dataset Templates](#dataset-template). Use the "+ Add Item" button to add an input template to the list. You can use the search tool on the form to help find the input dataset template.
+-   **Output Dataset Templates**\*: Outputs are defined in the same way as inputs. Ensure you have registered your output dataset template(s) and use the search tool to help locate it.
+
+Once you have completed your registration, you can view the record and take note of the identifier (noting that you can find your entity again at any time by [exploring the registry](../registry/exploring_the_registry.html)).
