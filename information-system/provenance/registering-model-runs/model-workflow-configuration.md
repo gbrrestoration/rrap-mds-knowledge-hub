@@ -29,11 +29,11 @@ Registering a model run record requires referring to configuration entities whic
 -   the expected inputs of the model run
 -   the expected outputs of the model run
 
-This configuration is contained in two critical entities.
+This configuration is contained in two critical types of entities.
 
-The [model run workflow template](#model-run-workflow-template) provides a blueprint or template for a modelling activity which consumes inputs, and produces outputs using a particular [model](./establishing-required-entities#model) at a particular point in time (version). Model run workflow templates point to input and output dataset templates.
+A [model run workflow template](#model-run-workflow-template) provides a blueprint or template for a modelling activity which consumes inputs, and produces outputs using a particular [model](./establishing-required-entities#model) at a particular point in time (version). Model run workflow templates point to input and output dataset templates.
 
-The [dataset template](#dataset-template) provides a blueprint for a dataset which is _instantiated_ or _satisfied_ at model run registration time. Dataset templates usually specify a set of _resources_ (files and/or folders) which must be provided in the conforming dataset.
+A [dataset template](#dataset-template) provides a blueprint for a dataset which is _instantiated_ or _satisfied_ at model run registration time. Dataset templates usually specify a set of _resources_ (files and/or folders) which must be provided in the conforming dataset.
 
 {% include notes.html content="It may be useful to consider templates as <i>containers</i> of a particular shape, which provide a structure to the data which is <i>instantiated</i> in a model run record. Templates (dataset and workflow) are reusable (see <a href=\"./establishing-required-entities#when-to-create-and-when-to-reuse\">occurants vs continuants</a> for more discussion about entity reusability), while model run records are not.
 " %}
@@ -144,5 +144,6 @@ To begin registration, navigate to the new entity form in the registry (for help
 -   **Software Version**\*: Specify the version of the model software that this workflow template was designed to use. E.g. "1.0.3"
 -   **Input Dataset Templates**\*: A model run workflow template describes the inputs that must be provided by a model run. These inputs are described by referring to [Dataset Templates](#dataset-template). Use the "+ Add Item" button to add an input template to the list. You can use the search tool on the form to help find the input dataset template.
 -   **Output Dataset Templates**\*: Outputs are defined in the same way as inputs. Ensure you have registered your output dataset template(s) and use the search tool to help locate it.
+-   **Annotations**\*: A model run workflow template can optionally specify a collection of required or optional annotation keys. These annotations are provided at model run time. If required keys are not provided in a model run record, the system will not accept the record. To add annotations, tick the "Add required or optional annotations" box, and use the "+ Add Item" button in the Required or Optional sections below to add required and optional annotations respectively.
 
 Once you have completed your registration, you can view the record and take note of the identifier (noting that you can find your entity again at any time by [exploring the registry](../registry/exploring_the_registry.html)).
