@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Register model run records by CSV Templates
-nav_order: 4
+title: Register model run records by API
+nav_order: 2
 has_children: false
-grand_parent: Provenance
-parent: Registering model runs
+grand_parent: Registering model runs
+parent: Creating and registering model run records
 ---
 
 {: .no_toc }
@@ -19,4 +19,4 @@ parent: Registering model runs
 ____
 </details>
 
-# Register model run records by CSV Templates
+# Register model run records by API
