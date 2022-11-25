@@ -3,7 +3,7 @@ layout: default
 title: FAQ
 nav_order: 5
 parent: Information System
-grand_parent: Reef Restoration and Adaptation Program M&DS
+grand_parent: RRAP M&DS
 ---
 
 {: .no_toc }
