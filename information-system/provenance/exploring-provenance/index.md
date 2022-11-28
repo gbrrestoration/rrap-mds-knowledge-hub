@@ -52,6 +52,7 @@ Clicking on **Explore Records** opens main explore entiries screen.
 Different class of Entities are coloured individually. To explore these, click on the dropdown box **Filter** to see the types availabe:
 
 ### Entity Types
+
 |                                   Entity types available                     |
 | :-----------------------------------------------------------------------------: | 
 | <img src="../../../assets/images/provenance/50_EntityTypes.png" alt="drawing" width="600"/>      |
