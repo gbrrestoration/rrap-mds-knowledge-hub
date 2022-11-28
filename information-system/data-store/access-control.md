@@ -106,7 +106,7 @@ Each dataset specifies an access configuration. This configuration defines a set
 
 ### Finding dataset settings
 
-The dataset settings (1) and access settings (2) (shown below) are only visible if you are a dataset adminstrator.
+The dataset settings (1) and access settings (2) (shown below) are only visible if you are a dataset administrator.
 
 |                                         Finding dataset settings                                          |
 | :-------------------------------------------------------------------------------------------------------: |
@@ -146,7 +146,7 @@ A dataset can be made available to more than one group with differing accessibil
 
 ### Adding group access to a dataset
 
-You can grant group acces to a dataset you have administrative control over by viewing the dataset, navigating to the settings panel (1), expanding the Access Control section (2), and selecting "+ Add Group" (3), as highlighted below.
+You can grant group access to a dataset you have administrative control over by viewing the dataset, navigating to the settings panel (1), expanding the Access Control section (2), and selecting "+ Add Group" (3), as highlighted below.
 
 |                                      Adding groups to a dataset                                       |
 | :---------------------------------------------------------------------------------------------------: |

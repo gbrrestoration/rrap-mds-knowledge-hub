@@ -78,7 +78,7 @@ If you would like to explore the dataset with a GUI and download files individua
 To download all the files of a dataset, you need to use the AWS CLI.
 Please note that you need to have the AWS CLI v2 installed to follow the below steps. For more information on how to prepare your system for CLI upload (and download), visit this [guide](setting-up-the-aws-cli.html){:target="\_blank"}.
 
-* Your temporary read-only AWS programmatic access creditals will be shown. Choose the format that you require (Linux, Windows CMD or Windows Powershell) and click the _click to copy_ button on the right hand side.
+* Your temporary read-only AWS programmatic access credentials will be shown. Choose the format that you require (Linux, Windows CMD or Windows Powershell) and click the _click to copy_ button on the right hand side.
 * Paste the credentials into your AWS CLI terminal environment.
 * Using the terminal, navigate to where you want the data to be downloaded to. Click on the _click to copy_ button and paste into the terminal, remembering to change the name `folder` to something meaningful for you.
 * You can use other AWS CLI commands to explore the directory or you can use the GUI to preview the datasets contents.
@@ -92,7 +92,7 @@ Ensure that you create a new folder on your system, and navigate (using the term
 
 The data store provides a command ready to copy and paste - you will just need to change the name `folder` to suit the name of the folder you created.
 
-If you have issues following these instructions, please don't hesistate to contact the M&DS IS team for more detailed assistance.
+If you have issues following these instructions, please don't hesitate to contact the M&DS IS team for more detailed assistance.
 
 ___
 ### Updating local files from updated dataset (`aws sync` command)
@@ -101,7 +101,7 @@ The AWS CLI provides more than one option for copying data from a bucket to your
 
 {% include notes.html content="Files that exist locally which have been removed from the dataset will not be deleted locally. To enable this optional behaviour, you can use the --delete flag. Please use with caution as improperly using this option (for example, if you are in the wrong working directory in your AWS CLI terminal environment) could cause significant damage to your local filesystem." %}
 
-To use the sync operation, replace `cp` with `sync` in the generated copy command. Also remove the `--recursive` option. Remember you will need to have active AWS credentails to run this command. For example:
+To use the sync operation, replace `cp` with `sync` in the generated copy command. Also remove the `--recursive` option. Remember you will need to have active AWS credentials to run this command. For example:
 
 ```
 aws s3 sync s3://<provided path here> local_folder

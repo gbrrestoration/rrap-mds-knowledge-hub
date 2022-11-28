@@ -24,32 +24,32 @@ ____
 
 ### Browsing and Exploring
 
-Users can explore the provenace by :
+Users can explore the provenance by :
 
 - Clicking the **Provenance Store** entry in the main menu.
 
-|                                     Exolore Entities                             |
+|                                     Explore Entities                             |
 | :-----------------------------------------------------------------------------: |
 | <img src="../../../assets/images/provenance/10_Main.png" alt="drawing" width="600"/>      |
 
-Clicking on **Explore Registred Entities** users are then taken to the Explore and Regsiter Page.
+Clicking on **Explore Registered Entities** users are then taken to the Explore and Register Page.
 
 |                                     Provenance Store                                |
 | :-----------------------------------------------------------------------------: |
 | <img src="../../../assets/images/provenance/../provenance/20_MainView.png" alt="drawing" width="600"/>    |
 
 
-Clicking on **Explore Records** opens main explore entiries screen.
+Clicking on **Explore Records** opens main explore entries screen.
 
 |                                   Explore Entities                     |
 | :------------------------------------------------------------------------------: |
 | <img src="../../../assets/images/provenance/30_ExploreRecords.png" alt="drawing" width="600"/>      |
 
-|                                     Sample **Explore Registery Entities** screen                                |
+|                                     Sample **Explore Registry Entities** screen                                |
 | :-----------------------------------------------------------------------------: |
 | <img src="../../../assets/images/provenance/40_ExploreRegisterEntities.png" alt="drawing" width="600"/>      |
 
-Different class of Entities are coloured individually. To explore these, click on the dropdown box **Filter** to see the types availabe:
+Different class of Entities are coloured individually. To explore these, click on the dropdown box **Filter** to see the types available:
 
 ### Entity Types
 |                                   Entity types available                     |

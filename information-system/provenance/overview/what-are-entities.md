@@ -20,7 +20,7 @@ In addition to this, the persistent IDs for each entity in the RRAP M&DS IS is a
 
 These registered entities can then referenced in provenance records, e.g. a provenance record about a model run references a computational model that was used, the agent or person who ran the model, a list of input datasets, and the output dataset/results. The ability to refer to entities reduces manual error and duplication of descriptions, as they can be reused and simply referred to. 
 
-Registering provenance records using cross-references to the registered entity provides the IS with the ability to create provenance graphs. Provenance graphs provide a represenatation of the provenance data, where nodes in the graph are entities, and links between the nodes are associations and relationships between them. An example of a provenance graph is shown below relating the Model Run record (MR) with input and output datasets (D) from that model run as well as the Agent/Person who ran it (P):
+Registering provenance records using cross-references to the registered entity provides the IS with the ability to create provenance graphs. Provenance graphs provide a representation of the provenance data, where nodes in the graph are entities, and links between the nodes are associations and relationships between them. An example of a provenance graph is shown below relating the Model Run record (MR) with input and output datasets (D) from that model run as well as the Agent/Person who ran it (P):
 
 | Provenance graph example |
 |:-:|

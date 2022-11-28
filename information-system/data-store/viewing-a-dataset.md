@@ -82,7 +82,7 @@ The metadata page has the following information
 
 ## Collaborating
 Users can share the dataset with others using the Handle link. Using the Handle link to share data is an easy way of sharing files as updates to the data can be made and the user with the link will always have access the most up to date data.
-The Handle link is a persitent digital identifier for the dataset. See [About digital object identifiers](../digital-object-identifiers.html){:target="\_blank"} for more information.  
+The Handle link is a persistent digital identifier for the dataset. See [About digital object identifiers](../digital-object-identifiers.html){:target="\_blank"} for more information.  
   
 To share, click on the **Click to copy link** button. Then paste the link into an email, document etc... that is to be shared with other RRAP M&DS Information System users. 
 
