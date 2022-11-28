@@ -29,4 +29,6 @@ ____
 
 After [exploring](./exploring_the_registry.html) the registry to find a record and [viewing its details](./exploring_the_registry#viewing-records), you can click the "Share Entity" button on the right to copy to your cliboard a unique, persistent and shareable link.
 
-TODO validate this after updates to the share button.
+|                              Finding the share button                              |
+| :--------------------------------------------------------------------------------: |
+| <img src="../../../assets/images/registry/sharing.png" alt="drawing" width="800"/> |
