@@ -77,7 +77,7 @@ The IDs and values used in these records are not real.
         "RCP": "45",
         "species": "speciesA"
     },
-    "description": "This model run is not real but is used to demontstrate the model run record payload structure.",
+    "description": "This model run is not real but is used to demonstrate the model run record payload structure.",
     "associations": {
         "modeller_id": "1234",
         "requesting_organisation_id": "1234"

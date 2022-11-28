@@ -58,7 +58,7 @@ To add new data to a dataset you must first have write permissions into the data
 <div class="info"><strong>Note!</strong> If you use the CLI, you can run the usual sync command from the same directory and <strong>only the new files will be uploaded</strong>. For more information about how the <a href='https://docs.aws.amazon.com/cli/latest/reference/s3/sync.html'>AWS CLI sync command works</a></div>
 
 
-## Can I add to someone elses dataset?
+## Can I add to someone else's dataset?
 
 Using the [groups](https://gbrrestoration.github.io/rrap-mds-knowledge-hub/information-system/groups.html) feature, users may be granted write access to a dataset belonging to another person. The registrant of the dataset would need to specify a group, and grant it write access (e.g. Group A).
 The group would need to specify the required members to be added as users in the group (e.g. Mary in Group A). 

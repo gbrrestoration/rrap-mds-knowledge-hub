@@ -61,7 +61,7 @@ You can refine the list of entities by using the sorting and filtering options. 
 
 **Link**: [https://registry.rrap-is.com/search](https://registry.rrap-is.com/search)
 
-This method of exploration is ideal when you are looking for a specific entity in the registry. The search tool can quickly search the entire registery across multiple record fields to look the words in your search term. If results are found, they are ordered by the strength of the match.
+This method of exploration is ideal when you are looking for a specific entity in the registry. The search tool can quickly search the entire registry across multiple record fields to look the words in your search term. If results are found, they are ordered by the strength of the match.
 
 Simply enter the search query, paying attention to the spelling of your search terms - the search results will appear as you type. You can click on a result to view the detailed record information. To select a record, click on the record card.
 

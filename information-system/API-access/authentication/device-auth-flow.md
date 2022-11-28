@@ -57,7 +57,7 @@ Some implementation notes:
 
 -   the `DeviceFlowManager` expects a `keycloak_endpoint` as an input argument - use `https://auth.rrap-is.com/auth/realms/rrap`.
 -   by default, the access and refresh tokens are cached in a local file called `.tokens.json` - this avoids having to repeatedly login
--   the class `DeviceFlowManager` exposes a method `get_auth` which can be used directly with the Python `Requests` library - an example of using this method is provided as discused below
+-   the class `DeviceFlowManager` exposes a method `get_auth` which can be used directly with the Python `Requests` library - an example of using this method is provided as discussed below
 -   a browser window is automatically opened when possible - otherwise, the user would need to open the link themselves
 
 The blog [notebooks](https://gbrrestoration.github.io/rrap-demo-blog/) make extensive use of this authorisation workflow and serve as a good example of how to use it.

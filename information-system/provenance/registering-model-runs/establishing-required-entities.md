@@ -64,7 +64,7 @@ All model runs must be linked to these contextualising entities.
 
 Before registering a reusable entity, such as those below, ensure the [entity doesn't already exist](#when-to-create-and-when-to-reuse). You can find records by [exploring the registry](../registry/exploring_the_registry.html).
 
-The below sections will provide specific advice on how to create each entitity type. If you aren't sure how to use the entity registry and would like more specific guidance on how to login, request access, register, update and find entities, read more [here](../registry/index.html).
+The below sections will provide specific advice on how to create each entity type. If you aren't sure how to use the entity registry and would like more specific guidance on how to login, request access, register, update and find entities, read more [here](../registry/index.html).
 
 {% include warning.html content="From this point on, it is assumed that you know how to use the entity registry to create, update, find and share entities. If not, you should see our documentation <a href=\"../registry/index.html\">here</a> before proceeding." %}
 
@@ -72,7 +72,7 @@ The below sections will provide specific advice on how to create each entitity t
 
 #### What is a Person Entity?
 
-A person is a type of Agent in the [provenance conceptual model](../index.html). All modelling activity must be attributed to an agent that performed it. Currently, this agent is assumed to be a Person, though other types of agents may be registerable in the future.
+A person is a type of Agent in the [provenance conceptual model](../index.html). All modelling activity must be attributed to an agent that performed it. Currently, this agent is assumed to be a Person, though other types of agents may be registrable in the future.
 
 #### How to register a Person Entity?
 
@@ -90,7 +90,7 @@ Once you have completed your registration, you can view the record and take note
 
 ### Organisation
 
-#### What is an Organistion Entity?
+#### What is an Organisation Entity?
 
 An organisation is a type of Agent in the [provenance conceptual model](../index.html). All modelling activity is associated with a registered organisation.
 
