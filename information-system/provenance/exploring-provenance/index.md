@@ -90,7 +90,7 @@ Listings can be sorted by various attributes :
 | :-----------------------------------------------------------------------------: | 
 | <img src="../../../assets/images/provenance/70_Sort.png" alt="drawing" width="600"/>      |
  
- ### Free-text search 
+### Free-text search 
 
 Listings can be searched by free text :
 
