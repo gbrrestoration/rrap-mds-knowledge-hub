@@ -27,7 +27,9 @@ For more information about the provenance conceptual model, see [what is provena
 
 ## When to create and when to reuse
 
-The [registry](../registry/index.html) contains various types of entities. Some entities reference persistent and reusable _things_ such as:
+The [registry](../registry/index.html) contains various types of things.
+
+Some entries refer to persistent things (continuants) which can participate in multiple activities or events, such as:
 
 -   agents
     -   people
@@ -37,14 +39,16 @@ The [registry](../registry/index.html) contains various types of entities. Some 
     -   dataset templates
     -   workflow templates
 
-Some entities are artefacts of activities and are not reusable:
+Some entries relate to things that happened (occurrents) which will not be later re-used:
 
 -   activities
     -   model runs
 
-Whenever reusable entities which describe the same _thing_ are being referenced, it is critical to the integrity of the provenance graph that the same identifier (and therefore entity) is used.
+Whenever we refer to reusable things, it is critical to the integrity of the provenance graph that a consistent identifier is used, so that we know we are talking about the same thing.
 
-For example - before registering a new organisation, ensure that the organisation doesn't already exist. To find existing entities, you can [explore the registry](../registry/exploring_the_registry.html).
+For example - before registering a new organisation, ensure that the organisation doesn't already exist.
+
+To discover existing entities, you can [explore the registry](../registry/exploring_the_registry.html).
 
 ## What entities are required to register provenance?
 
@@ -74,7 +78,7 @@ A person is a type of Agent in the [provenance conceptual model](../index.html).
 
 Start by [exploring the registry](../registry/exploring_the_registry.html) to ensure that a record describing you (or the agent you are registering) does not already exist in the registry.
 
-Navigate to the new registry form (for help, see [registering an entity](../registry/registering_and_updating.html)). Select the "Person" entity type. Information on the various metadata fields has been provided below.
+Navigate to the new entity form (for help, see [registering an entity](../registry/registering_and_updating.html)). Select the "Person" entity type. Information on the various metadata fields has been provided below.
 
 -   **Display Name**\*: How would you like your name to appear when viewed as a system entity? E.g. "Peter Baker"
 -   **Email**\*: Your email address, please specify the email address that you have logged in with if registering yourself e.g. "your.email@gmail.com"
@@ -94,7 +98,7 @@ An organisation is a type of Agent in the [provenance conceptual model](../index
 
 Start by [exploring the registry](../registry/exploring_the_registry.html) to ensure that a record describing the organisation does not already exist in the registry.
 
-Navigate to the new registry form (for help, see [registering an entity](../registry/registering_and_updating.html)). Select the "Organisation" entity type. Information on the various metadata fields has been provided below.
+Navigate to the new entity form (for help, see [registering an entity](../registry/registering_and_updating.html)). Select the "Organisation" entity type. Information on the various metadata fields has been provided below.
 
 -   **Display Name**\*: How would you like the name of the organisation to appear when viewed as a system entity? E.g. "CSIRO"
 -   **Name**\*: What is the full title/name of the organisation e.g. "Commonwealth Scientific and Industrial Research Organisation"
@@ -112,7 +116,7 @@ A model is a type of Entity in the [provenance conceptual model](../index.html).
 
 Start by [exploring the registry](../registry/exploring_the_registry.html) to ensure that a record describing the model does not already exist in the registry.
 
-Navigate to the new registry form (for help, see [registering an entity](../registry/registering_and_updating.html)). Select the "Model" entity type. Information on the various metadata fields has been provided below.
+Navigate to the new entity form (for help, see [registering an entity](../registry/registering_and_updating.html)). Select the "Model" entity type. Information on the various metadata fields has been provided below.
 
 -   **Display Name**\*: How would you like the model's name to appear when viewed as a system entity? E.g. "MALM"
 -   **Name**\*: The complete title of the model e.g. "Marine and Land Model"

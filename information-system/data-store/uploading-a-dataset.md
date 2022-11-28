@@ -43,10 +43,10 @@ ___
 
 {% include notes.html content="You will require a set of RRAP-IS AWS credentials to be able to upload data to the AWS S3 data store.  See details on the dataset metadata page obtaining AWS credentials." %}
 
-Dataset files can be uploaded once the metadata record is created. Users can choose between using a GUI or command line. The AWS web console (GUI) can be used for files/folders up to 5GB in size. Larger files should be uploaded using a program like WinSCP or the AWS CLI v2.  
+Dataset files can be uploaded once the metadata record is created. You can choose between using a GUI or command line. The AWS web console (GUI) can be used for files/folders up to 5GB in size. Larger files should be uploaded using a program like WinSCP or the AWS CLI v2.  
 ___
 ### Uploading data via AWS Web Console (small to medium files)
-Click on the **Upload data** tab.
+To start the upload process, click on the **Upload data** tab.
 
 
 Request credentials by clicking the **Request Credentials** button. 
@@ -56,7 +56,7 @@ Request credentials by clicking the **Request Credentials** button.
 | :---------------------------------------------------------------------------------:      |
 | <img src="../../assets/images/data_store/uploadSmallMediumFilesStep1.png" alt="drawing" width="600"/> |
 
-Next, open the link to AWS system, by either clicking on the **Click to open storage location** button or the link in the text. Users will then be taken to the AWS S3 bucket location which will house the dataset files. The associated metadata record will be seen as a ro-create-meatadata.json file.  
+Next, open the link to AWS system, by either clicking on the **Click to open storage location** button or the link in the text. You will then be taken to the AWS S3 bucket location which will house the dataset files. The associated metadata record will be seen as a ro-create-meatadata.json file.  
 
 
 |                                Uploading small to medium files                          |
@@ -72,15 +72,16 @@ In the AWS envrionment:
 * Click **Close** to return to the S3 bucket. 
 * Close the browser to exit.
 
-Users can add additional files to the dataset by repeating the steps above.
+You can add additional files to the dataset by repeating the steps above.<br>
+For further information, see the AWS uploading objects documentation [here](https://docs.aws.amazon.com/AmazonS3/latest/userguide/upload-objects.html).
 
 ___
 ### Uploading files  via WinSCP
-If users would prefer to use WinSCP to upload files of any size, instructions on how to do this are [here](./WinSCP-data-access.html){:target="\_blank"}.
+If you would prefer to use WinSCP to upload files of any size, instructions on how to do this are [here](./WinSCP-data-access.html){:target="\_blank"}.
 
 ___
 ### Uploading files via the AWS Command Line Interface (AWS CLI)
-If users would prefer to the AWS CLI to upload files of any size, instructions on how to use the AWS CLI are [here](./AWSCLI-data-access.html){:target="\_blank"}.  
+If you would prefer to the AWS CLI to upload files of any size, instructions on how to use the AWS CLI are [here](./AWSCLI-data-access.html){:target="\_blank"}.  
 
 
 {% include notes.html content="In order for you to use the AWS CLI for uploading you will need to install it first." %}

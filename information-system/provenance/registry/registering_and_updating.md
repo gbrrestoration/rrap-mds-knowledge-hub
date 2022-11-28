@@ -30,7 +30,7 @@ ____
 
 ## Process
 
-### Navigating to the Register Entity page
+### Step 1. Navigating to the Register Entity page
 
 From the home page of the Registry, click the "Register a new entity" button, as shown below:
 
@@ -38,7 +38,7 @@ From the home page of the Registry, click the "Register a new entity" button, as
 | :---------------------------------------------------------------------------------------: |
 | <img src="../../../assets/images/registry/register_start.png" alt="drawing" width="800"/> |
 
-### Selecting an Entity Type
+### Step 2. Selecting an Entity Type
 
 At the top of the page, you can select the entity type from the dropdown. Simply click on the dropdown and click on the desired type:
 
@@ -46,7 +46,7 @@ At the top of the page, you can select the entity type from the dropdown. Simply
 | :----------------------------------------------------------------------------------------: |
 | <img src="../../../assets/images/registry/register_select.png" alt="drawing" width="800"/> |
 
-### Filling out the form
+### Step 3. Filling out the form
 
 Once you have selected your entity type, the updated form will load.
 
@@ -77,7 +77,7 @@ Form fields can be of various types:
 | :-------------------------------------------------------------------------------------------------: |
 | <img src="../../../assets/images/registry/selecting_other_entities.png" alt="drawing" width="800"/> |
 
-### Submitting the entity and handling errors
+### Step 4. Submitting the form and handling errors
 
 Once you have completed the form, use the "Submit" button at the bottom of the page to register the entity.
 

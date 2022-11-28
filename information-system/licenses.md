@@ -26,6 +26,8 @@ Products within the **Reef Restoration and Adaptation Program Modelling and Deci
 
 The details of the relevant licence conditions are available on the [Creative Commons](https://creativecommons.org/){:target="\_blank"} website, as is the full legal code for the CC BY 4.0 licence.
 
+Below are the licences that are currently used.
+<br>
 ___
 ### [Copyright](https://www.ipaustralia.gov.au/understanding-ip/getting-started-ip/types-of-ip#copyright){:target="\_blank"} (All Rights Reserved) © 
 

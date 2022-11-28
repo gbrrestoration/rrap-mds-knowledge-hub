@@ -50,3 +50,9 @@ The login process for the registry is the same as other components, see [logging
 ## Requesting access
 
 The process of requesting access for the Registry is the same as other components. See [requesting access](../../getting-started-is/requesting-access-is.html) for more information.
+
+## Next steps
+
+-   [registering an entity](./registering_and_updating.html)
+-   [exploring the registry](./exploring_the_registry.html)
+-   [sharing entities](./sharing_an_entity.html)
