@@ -82,9 +82,9 @@ Different class of Entities are coloured individually. To explore these, click o
 | <img src="../../../assets/images/provenance/65_TypePerson.png" alt="drawing" width="600"/>      |
 
 ### Sorting
-
 Listings can be sorted by various attributes :
-|                                   Sort by :                            |
+
+|                                   Sort by:                             |
 | :-----------------------------------------------------------------------------: | 
 | <img src="../../../assets/images/provenance/70_Sort.png" alt="drawing" width="600"/>      |
  
