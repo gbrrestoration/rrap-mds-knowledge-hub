@@ -5,6 +5,7 @@ nav_order: 2
 has_children: true
 grand_parent: Information System
 parent: Provenance
+has_children: true
 ---
 # Exploring provenance
 ---
