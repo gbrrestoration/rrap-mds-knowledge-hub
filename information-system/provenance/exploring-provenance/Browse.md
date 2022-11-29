@@ -1,15 +1,15 @@
 ---
 layout: default
 title: Browse
-nav_order: 2
-has_children: true
+nav_order: 1
+has_children: false
 grand_parent: Provenance
 parent: Exploring provenance
 ---
 # Exploring provenance
 ---
 {: .no_toc }
-# Viewing a dataset
+# Browsing
 <details  open markdown="block">
   <summary>
     Table of contents
