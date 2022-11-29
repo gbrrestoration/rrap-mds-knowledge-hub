@@ -92,8 +92,16 @@ Listings can be sorted by various attributes :
  
 ### Free-text search 
 
-Listings can be searched by free text :
+Listings can be searched by free text entry :
 
 |                                   Search :                               |
 | :-----------------------------------------------------------------------------: | 
 | <img src="../../../assets/images/provenance/80_Search.png" alt="drawing" width="600"/>      |
+
+### View 
+
+Click on any of the tiles to view the record details :
+
+|                                   Search :                               |
+| :-----------------------------------------------------------------------------: | 
+| <img src="../../../assets/images/provenance/90_ViewRecord.png" alt="drawing" width="600"/>      |
