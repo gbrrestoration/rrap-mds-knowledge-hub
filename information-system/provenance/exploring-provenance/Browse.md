@@ -18,7 +18,6 @@ parent: Explore Provenance
 ____
 </details>
 
-## Exploring provenance
 
 ### Browsing and Exploring
 
