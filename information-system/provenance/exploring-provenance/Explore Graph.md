@@ -6,10 +6,8 @@ has_children: false
 grand_parent: Provenance
 parent: Explore Provenance
 ---
-# Exploring provenance
----
 {: .no_toc }
-# Browsing
+# Exploring provenance
 <details  open markdown="block">
   <summary>
     Table of contents
@@ -20,7 +18,7 @@ parent: Explore Provenance
 ____
 </details>
 
-## Provenance Graoh
+## Provenance Graph XX
 
 
 ### View 
