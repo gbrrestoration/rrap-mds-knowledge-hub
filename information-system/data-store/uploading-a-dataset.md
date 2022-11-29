@@ -26,7 +26,7 @@ The diagram below outlines the steps undertaken when registering and uploading a
 _Note: draft figure_
 
 ![Workflow diagram](../../assets/images/DRAFTv2_upload_data.png)
-_A User logs into the RRAP information system & selects DATASTORE then REGISTER DATASET from the website. A metadata form prefilled with the User’s name & email address opens and the User fills out information relating to the data being uploaded (see [Filling out form fields](../data-store/user-metadata-fields.md){:target="\_blank"} for more detailed information). After the metadata form is completed the User uploads the dataset by one of these [methods](#uploading-dataset-files){:target="\_blank"}, depending on the size of the file(s). The data is assigned its own unique PID (Persistent Identifier). The data is securely stored on an AWS S3 server, ready for future reference and usage._
+_A User logs into the RRAP information system & selects DATASTORE then REGISTER DATASET from the website. A metadata form prefilled with the User’s name & email address opens and the User fills out information relating to the data being uploaded (see [Filling out form fields](../data-store/registering-a-dataset.md#filling-out-form-fields){:target="\_blank"} for more detailed information). After the metadata form is completed the User uploads the dataset by one of these [methods](#uploading-dataset-files){:target="\_blank"}, depending on the size of the file(s). The data is assigned its own unique PID (Persistent Identifier). The data is securely stored on an AWS S3 server, ready for future reference and usage._
 <br>
 
 ___
