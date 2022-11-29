@@ -9,7 +9,7 @@ parent: Explore Provenance
 
 ---
 {: .no_toc }
-# Browsing
+
 <details  open markdown="block">
   <summary>
     Table of contents
