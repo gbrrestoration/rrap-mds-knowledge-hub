@@ -4,7 +4,7 @@ title: Explore Provenance Graph
 nav_order: 1
 has_children: false
 grand_parent: Provenance
-parent: Exploring provenance Graph
+parent: Explore Provenance Graph
 ---
 # Exploring provenance
 ---

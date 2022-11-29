@@ -4,9 +4,9 @@ title: Search
 nav_order: 1
 has_children: false
 grand_parent: Provenance
-parent: Exploring provenance
+parent: Explore Provenance
 ---
-# Exploring provenance
+# Search
 ---
 {: .no_toc }
 # Browsing
