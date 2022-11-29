@@ -6,10 +6,8 @@ has_children: false
 grand_parent: Provenance
 parent: Explore Provenance
 ---
-# Browse
----
 {: .no_toc }
-
+# Browse
 <details  open markdown="block">
   <summary>
     Table of contents
