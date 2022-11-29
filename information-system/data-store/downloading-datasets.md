@@ -47,7 +47,7 @@ In order to download a dataset, you must first identify it in the system. Once y
 ___
 ### Using the registry
 
-Once you open the [data store](https://data.rrap-is.com){:target="\_blank"} and log in, you can navigate to datasets using the banner at the top and use the listing, filtering and searching functionality to locate the desired dataset to download. Select the dataset you wish to view and download from the list.
+Once you open the [data store](https://data.rrap-is.com){:target="\_blank"} and log in, you can navigate to datasets using the banner at the top and use the listing, filtering and searching functionality to locate the desired dataset to download. Select the dataset you wish to view and download from the list. See [viewing a dataset](../data-store/viewing-a-dataset.md){:target="\_blank"} for instructions on how to find a dataset.
 
 {% include notes.html content="Currently the search functionality of the data store is not complete and will only select exact text matches." %}
 
@@ -59,7 +59,7 @@ The [persistent identifier](../digital-object-identifiers.html){:target="\_blank
 ___
 ## Downloading files
 
-Once you select the dataset you want to download, you can click the entry and you will be redirected to a view of the dataset. This view shows four options _overview_, _download data_, _upload data_ and _settings_. After using the preview section to view information about the dataset, you should choose the _download data_ option and then click the _request credentials_ button.
+Once you select the dataset you want to download, you can click the entry and you will be redirected to a view of the dataset. This view shows four options **overview**, **download data**, **upload data** and _settings_. After using the preview section to view information about the dataset, you should choose the **download data** option and then click the **request credentials** button.
 The download dataset files page will appear.
 
 |                                 Downloading dataset files                          |
@@ -70,17 +70,17 @@ You will be able to download individual files (using a GIU) or the whole dataset
 
 ### Using the GUI to download individual files
 If you would like to explore the dataset with a GUI and download files individually:
-* Open the link or click the _Click to open storage location_ button to login to the AWS system. You will be brought to your storage location automatically.
+* Open the link or click the **Click to open storage location** button to login to the AWS system. You will be brought to your storage location automatically.
 * You can now explore the dataset 
-* To download individual files, check the box next to the file name and click the orange _Download_ button.
+* To download individual files, check the box next to the file name and click the orange **Download** button.
 
 ### Downloading the entire dataset
 To download all the files of a dataset, you need to use the AWS CLI.
 Please note that you need to have the AWS CLI v2 installed to follow the below steps. For more information on how to prepare your system for CLI upload (and download), visit this [guide](setting-up-the-aws-cli.html){:target="\_blank"}.
 
-* Your temporary read-only AWS programmatic access credentials will be shown. Choose the format that you require (Linux, Windows CMD or Windows Powershell) and click the _click to copy_ button on the right hand side.
+* Your temporary read-only AWS programmatic access credentials will be shown. Choose the format that you require (Linux, Windows CMD or Windows Powershell) and click the **click to copy** button on the right hand side.
 * Paste the credentials into your AWS CLI terminal environment.
-* Using the terminal, navigate to where you want the data to be downloaded to. Click on the _click to copy_ button and paste into the terminal, remembering to change the name `folder` to something meaningful for you.
+* Using the terminal, navigate to where you want the data to be downloaded to. Click on the **click to copy** button and paste into the terminal, remembering to change the name `folder` to something meaningful for you.
 * You can use other AWS CLI commands to explore the directory or you can use the GUI to preview the datasets contents.
 
 ___
@@ -88,7 +88,7 @@ ___
 
 If you have not downloaded this dataset before, you can use the provided AWS CLI commands to download the files.
 
-Ensure that you create a new folder on your system, and navigate (using the terminal environment in which your AWS CLI tool is installed) to the location containing that folder. You will also need to use the 'Generate Credentials' button in the data store to produce temporary access credentials. The data store provides the commands to set the required [environment variables](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-envvars.html){:target="\_blank"} which enable access to the data. Be sure to choose the format which suits your terminal environment.
+Ensure that you create a new folder on your system, and navigate (using the terminal environment in which your AWS CLI tool is installed) to the location containing that folder. You will also need to use the **Generate Credentials** button in the data store to produce temporary access credentials. The data store provides the commands to set the required [environment variables](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-envvars.html){:target="\_blank"} which enable access to the data. Be sure to choose the format which suits your terminal environment.
 
 The data store provides a command ready to copy and paste - you will just need to change the name `folder` to suit the name of the folder you created.
 
