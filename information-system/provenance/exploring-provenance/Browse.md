@@ -25,7 +25,7 @@ Users can explore the provenance by :
 
 - Clicking the **Provenance Store** entry in the main menu.
 
-|                                     Exolore Entities                             |
+|                                     Explore Entities                             |
 | :-----------------------------------------------------------------------------: |
 | <img src="../../../assets/images/provenance/10_Main.png" alt="drawing" width="600"/>      |
 

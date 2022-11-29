@@ -109,7 +109,7 @@ Select "Choose file" (2) to select the file to upload. Click upload (3) if you'r
 
 ### Confirming Success (Step 5)
 
-Upon upload, you will be taken to the following screen where a batch ID (1) is provided for this upload. Press refresh (2) to get a live update of the provenance system processing your model runs. There will be a job ID (3) for each new model run (row) in the CSV template you uploaded, and each newly recorded Model Run is generated a unique ID (4). You can view the Job Status (5) and Error information (6) if any errors occured during the process.
+Upon upload, you will be taken to the following screen where a batch ID (1) is provided for this upload. Press refresh (2) to get a live update of the provenance system processing your model runs. There will be a job ID (3) for each new model run (row) in the CSV template you uploaded, and each newly recorded Model Run is generated a unique ID (4). You can view the Job Status (5) and Error information (6) if any errors occurred during the process.
 
 |                                                   Finishing the Upload                                                   |
 | :----------------------------------------------------------------------------------------------------------------------: |

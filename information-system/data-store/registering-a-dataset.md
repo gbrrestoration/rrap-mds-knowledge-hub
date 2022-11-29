@@ -48,7 +48,7 @@ User entered metadata fields are listed below, some of which are pre-populated, 
 
 
 <br>
-If you know an individual or organisation's Research Organisation Registry number (ROR) you can use the **Manual overide** button to manually enter it in.
+If you know an individual or organisation's Research Organisation Registry number (ROR) you can use the **Manual override** button to manually enter it in.
 
 |                               Using the manual override                                   |
 | :---------------------------------------------------------------------------------:      |

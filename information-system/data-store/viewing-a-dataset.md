@@ -50,7 +50,7 @@ Once you have found the dataset you are looking for, click on the dataset name a
 | <img src="../../assets/images/data_store/viewDataset3.png" alt="drawing" width="600"/>      |
 
 ## Metadata
-The metadata overivew gives the basic information about the data that is stored in the RRAP M&DS Information System. See [describing a dataset](../data-store/describing-dataset.md) for more information on metadata.
+The metadata overview gives the basic information about the data that is stored in the RRAP M&DS Information System. See [describing a dataset](../data-store/describing-dataset.md) for more information on metadata.
 
 
 ## Collaborating
