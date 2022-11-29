@@ -41,7 +41,7 @@ When registering a dataset with the RRAP-IS Data Store you are initially require
 
 ___
 ### Filling out form fields
-User entered metadata fields are listed below, some of which are prepopulated, others are selected or searched for with the help of form widgets. 
+User entered metadata fields are listed below, some of which are pre-populated, others are selected or searched for with the help of form widgets. 
 
 {% include_relative user-metadata-fields.md %}
 
@@ -50,7 +50,7 @@ User entered metadata fields are listed below, some of which are prepopulated, o
 <br>
 If you know an individual or organisation's Research Organisation Registry number (ROR) you can use the **Manual overide** button to manually enter it in.
 
-|                               Using the manual overide                                   |
+|                               Using the manual override                                   |
 | :---------------------------------------------------------------------------------:      |
 | <img src="../../assets/images/data_store/metadataOrganisationROR.png" alt="drawing" width="600"/> |
 
@@ -94,4 +94,4 @@ The M&DS IS Data Store can store a variety of data files e.g. text, csv, netCDF,
 
 While the AWS CLI can handle large files (>100GB) and the AWS Console GUI can handle up to 160GB uploads, please contact the RRAP M&DS IS team if you know you will be uploading large or numerous files. For technical information about the storage limitations of the S3 service (which the data store is built on) you can review the AWS FAQ [here](https://aws.amazon.com/s3/faqs/#:~:text=How%20much%20data%20can%20I%20store%20in%20Amazon%20S3?){:target="\_blank"}.
 
-The maxium file size that can be uploaded is 5TB.  
+The maximum file size that can be uploaded is 5TB.  

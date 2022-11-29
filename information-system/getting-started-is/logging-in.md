@@ -45,7 +45,7 @@ Click the **GITHUB** option which will take you to your GitHub login screen, ent
 ### Google
 Click the **Google** option which will take you to your Google login screen, enter your Google credentials and click **Sign in**. You will be redirected back to RRAP M&DS IS if successful.
 ### Microsoft
-Click the **Mircosoft** option which will take you to your Microsoft login page. You will be redirected back to RRAP M&DS IS if successful.
+Click the **Microsoft** option which will take you to your Microsoft login page. You will be redirected back to RRAP M&DS IS if successful.
 ### Australian Access Federation (AAF)
  Click the **Australian Access Federation** option which will take you to the AAF Central login page
 
@@ -53,7 +53,7 @@ Click the **Mircosoft** option which will take you to your Microsoft login page.
 |:-:|
 |<img src="../../assets/images/access/aaf_access.png" alt="drawing" width="400"/>|
 
-Search and select your orgainisation then select **Continue to your organisation**.  You will then sign in with your usual organisation credentials, you will be redirected back to RRAP M&DS IS if successful.
+Search and select your organisation then select **Continue to your organisation**.  You will then sign in with your usual organisation credentials, you will be redirected back to RRAP M&DS IS if successful.
 
 ## Access Roles
 After signing in for the first time you will need to request access to appropriate roles. To perform this task please see [Requesting Access](requesting-access-is.md#user-roles){:target="\_blank"}.

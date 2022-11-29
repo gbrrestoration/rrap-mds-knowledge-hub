@@ -35,7 +35,7 @@ A [model run workflow template](#model-run-workflow-template) provides a bluepri
 
 A [dataset template](#dataset-template) provides a blueprint for a dataset which is _instantiated_ or _satisfied_ at model run registration time. Dataset templates usually specify a set of _resources_ (files and/or folders) which must be provided in the conforming dataset.
 
-{% include notes.html content="It may be useful to consider templates as <i>containers</i> of a particular shape, which provide a structure to the data which is <i>instantiated</i> in a model run record. Templates (dataset and workflow) are reusable (see <a href=\"./establishing-required-entities#when-to-create-and-when-to-reuse\">occurants vs continuants</a> for more discussion about entity reusability), while model run records are not.
+{% include notes.html content="It may be useful to consider templates as <i>containers</i> of a particular shape, which provide a structure to the data which is <i>instantiated</i> in a model run record. Templates (dataset and workflow) are reusable (see <a href=\"./establishing-required-entities#when-to-create-and-when-to-reuse\">occurrents vs continuants</a> for more discussion about entity reusability), while model run records are not.
 " %}
 
 Before proceeding, an understanding about the inputs and outputs of your model will be required, consider:

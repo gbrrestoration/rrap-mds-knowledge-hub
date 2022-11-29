@@ -36,7 +36,7 @@ The M&DS IS Data Store can store a variety of data files e.g. text, csv, netCDF,
 
 While the AWS CLI can handle large files (>100GB) and the AWS Console GUI can handle up to 160GB uploads, please contact the RRAP M&DS IS team if you know you will be uploading large or numerous files. For technical information about the storage limitations of the S3 service (which the data store is built on) you can review the AWS FAQ [here](https://aws.amazon.com/s3/faqs/#:~:text=How%20much%20data%20can%20I%20store%20in%20Amazon%20S3?){:target="\_blank"}.
 
-The maxium file size that can be uploaded is 5TB.  
+The maximum file size that can be uploaded is 5TB.  
 
 ___
 ## Uploading dataset files
@@ -56,7 +56,7 @@ Request credentials by clicking the **Request Credentials** button.
 | :---------------------------------------------------------------------------------:      |
 | <img src="../../assets/images/data_store/uploadSmallMediumFilesStep1.png" alt="drawing" width="600"/> |
 
-Next, open the link to AWS system, by either clicking on the **Click to open storage location** button or the link in the text. You will then be taken to the AWS S3 bucket location which will house the dataset files. The associated metadata record will be seen as a ro-create-meatadata.json file.  
+Next, open the link to AWS system, by either clicking on the **Click to open storage location** button or the link in the text. You will then be taken to the AWS S3 bucket location which will house the dataset files. The associated metadata record will be seen as a ro-create-metadata.json file.  
 
 
 |                                Uploading small to medium files                          |
@@ -64,10 +64,10 @@ Next, open the link to AWS system, by either clicking on the **Click to open sto
 | <img src="../../assets/images/data_store/uploadSmallMediumFilesStep2.png" alt="drawing" width="600"/> |
 
 
-In the AWS envrionment: 
+In the AWS environment: 
 * Click the orange **Upload** button.
-* Click on **Add files** or **Add folder** depending on what you want to upload. Nagivate to where the files are in your system and select them.
-* Click OK. The files should appear in the **Files and folders** section in the AWS envrionment.
+* Click on **Add files** or **Add folder** depending on what you want to upload. Navigate to where the files are in your system and select them.
+* Click OK. The files should appear in the **Files and folders** section in the AWS environment.
 * Click on the orange **Upload** button at the bottom of the screen to complete the process. 
 * Click **Close** to return to the S3 bucket. 
 * Close the browser to exit.
