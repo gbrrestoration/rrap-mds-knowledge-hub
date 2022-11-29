@@ -30,16 +30,14 @@ _A User logs into the RRAP information system & selects DATASTORE then REGISTER 
 
 ___
 ## Registering a dataset
-Users start the dataset registration process by logging into the RRAP M&DS Information System. They then select **Data Store** from the menu <img src="../../assets/images/data_store/hamburgerMenu.png" alt="menu_button" width = "20"/>.
-
-Then clicking on the **Register Dataset** button.  
+Users start the dataset registration process by logging into the RRAP M&DS Information System. They then select **Data Store** from the menu <img src="../../assets/images/data_store/hamburgerMenu.png" alt="menu_button" width = "20"/>, then they click on the **Register Dataset** button.  
 
 |                                 Registering a dataset                                    |
 | :---------------------------------------------------------------------------------:      |
 | <img src="../../assets/images/data_store/registerDataset.png" alt="drawing" width="600"/> |
 
 
-When registering a dataset with the RRAP-IS Data Store users are initially required to complete a metadata record. The inputs requested are listed below, make sure you have these prior to filling out the form. After submitting, the system generates a persistent unique identifier that can be used similarly to a Digital Object Identifier (DOI). The generation of metadata records will facilitate the sharing and discovery of data.
+When registering a dataset with the RRAP-IS Data Store you are initially required to complete a metadata record. The inputs requested are listed below, make sure you have these prior to filling out the form. After submitting, the system generates a persistent unique identifier that can be used similarly to a Digital Object Identifier (DOI). The generation of metadata records will facilitate the sharing and discovery of data.
 
 ___
 ### Filling out form fields
@@ -50,17 +48,25 @@ User entered metadata fields are listed below, some of which are prepopulated, o
 
 
 <br>
-If it is known, users can use the **Manual overide** button to manually enter in an individual or organisation's Research Organisation Registry number (ROR).
+If you know an individual or organisation's Research Organisation Registry number (ROR) you can use the **Manual overide** button to manually enter it in.
 
 |                               Using the manual overide                                   |
 | :---------------------------------------------------------------------------------:      |
 | <img src="../../assets/images/data_store/metadataOrganisationROR.png" alt="drawing" width="600"/> |
 
 
+<br>
+The ROR has been selected when you can see you can use the publisher name and publisher ROR appear above the search bar. A **clear selection** button will also appear. You can use this if you have made a mistake and need to re-enter the publisher's information.
+
+|                               ROR selected                                   |
+| :---------------------------------------------------------------------------------:      |
+| <img src="../../assets/images/data_store/metadataOrganisationRORSelected.png" alt="drawing" width="600"/> |
+
+<br>
 
 #### Auto generated metadata fields
 
-After the user **Submits** the newly registered dataset, the RRAP-IS system will mint a **Handle** and allocate a directory in RRAP-IS online data storage. The **Handle** identifier and data directory path will be included in the metadata record.
+After you **Submit** the newly registered dataset, the RRAP-IS system will mint a **Handle** and allocate a directory in RRAP-IS online data storage. The **Handle** identifier and data directory path will be included in the metadata record.
 
 {% include_relative generated-metadata-fields.md %}
 
@@ -69,12 +75,12 @@ ___
 
 After clicking **Submit** if a mandatory/**required** field is not given a popup will appear indicating that important information is missing.
 
-Users will not be able to progress unless all required fields are entered.
+You will not be able to progress unless all required fields are entered.
 
 ___
 ### Usage licence
 
-Users can attribute the appropriate licence from the dropdown list. There are four licenses to choose from, although all data produced by RRAP is by default attributed Copyright 'All rights reserved'. For details of each license please see the [Licenses](../licenses.md){:target="\_blank"} page.
+You can attribute the appropriate licence from the dropdown list. There are ten licences to choose from, although all data produced by RRAP is by default attributed Copyright 'All rights reserved'. For details of each licence please see the [Licenses](../licenses.md){:target="\_blank"} page.
 
 ___
 ### What happens during the minting dataset process?
