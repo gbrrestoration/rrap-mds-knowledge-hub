@@ -1,10 +1,10 @@
 ---
 layout: default
 title: Explore Provenance Graph
-nav_order: 1
+nav_order: 3
 has_children: false
 grand_parent: Provenance
-parent: Explore Provenance Graph
+parent: Explore Provenance
 ---
 # Exploring provenance
 ---

@@ -4,7 +4,7 @@ title: Browse
 nav_order: 1
 has_children: false
 grand_parent: Provenance
-parent: Exploring provenance
+parent: Explore Provenance
 ---
 # Browse
 ---
