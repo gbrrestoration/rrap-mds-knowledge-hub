@@ -18,14 +18,15 @@ parent: Explore Provenance
 ____
 </details>
 
-## Provenance Graph XX
+## Provenance Graph
 
+Opening a record allows the user to access other information and tools such as editing the data or displaying the provenance graph associated with the record
 
 ### View 
 
 Click on any of the tiles to view the record details, edit, share or explore lineage:
 
-|                                   Search :                               |
+|                                   View :                               |
 | :-----------------------------------------------------------------------------: | 
 | <img src="../../../assets/images/provenance/90_ViewRecord.png" alt="drawing" width="600"/>      |
 

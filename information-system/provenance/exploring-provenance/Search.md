@@ -19,7 +19,8 @@ ____
 </details>
 
 ## Sort and Search
-
+Users can search for specific records or sort the records by various fields to find those of interest
+ 
 ### Sorting 
 
 Listings can be sorted by various attributes :
