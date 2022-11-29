@@ -1,15 +1,13 @@
 ---
 layout: default
-title: Exploring provenance
-nav_order: 2
-has_children: true
-grand_parent: Information System
-parent: Provenance
----
-# Exploring provenance
+title: Browse
+nav_order: 1
+has_children: false
+grand_parent: Provenance
+parent: Explore Provenance
 ---
 {: .no_toc }
-# Viewing a dataset
+# Browse
 <details  open markdown="block">
   <summary>
     Table of contents
@@ -20,7 +18,6 @@ parent: Provenance
 ____
 </details>
 
-## Exploring provenance
 
 ### Browsing and Exploring
 
@@ -52,6 +49,7 @@ Clicking on **Explore Records** opens main explore entiries screen.
 Different class of Entities are coloured individually. To explore these, click on the dropdown box **Filter** to see the types availabe:
 
 ### Entity Types
+
 |                                   Entity types available                     |
 | :-----------------------------------------------------------------------------: | 
 | <img src="../../../assets/images/provenance/50_EntityTypes.png" alt="drawing" width="600"/>      |
@@ -80,11 +78,3 @@ Different class of Entities are coloured individually. To explore these, click o
 |                                   Entity Type : Person                     |
 | :-----------------------------------------------------------------------------: | 
 | <img src="../../../assets/images/provenance/65_TypePerson.png" alt="drawing" width="600"/>      |
-
-### Sorting
-
-Listings can be sorted by various attributes :
-|                                   Sort by :                            |
-| :-----------------------------------------------------------------------------: | 
-| <img src="../../../assets/images/provenance/70_Sort.png" alt="drawing" width="600"/>      |
- 
