@@ -12,6 +12,10 @@ Deployment range
 
 Particle trajectories
 
+## Category
+
+Connectivity, Spawning
+
 ## Utility 
 ### Connectivity
 

@@ -12,6 +12,10 @@ Ocean currents
 
 Currents 
 
+## Category
+
+Connectivity, Spawning
+
 ## Utility 
 ### Connectivity
 

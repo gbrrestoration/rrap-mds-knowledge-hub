@@ -12,6 +12,10 @@ Settling rules (?? RM, CD, PH, JO to discuss this line)
 
 Connectivity matrices 
 
+## Category
+
+Connectivity, Spawning
+
 ## Utility 
 ### Connectivity
 

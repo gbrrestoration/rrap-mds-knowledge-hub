@@ -12,6 +12,10 @@ Merulinidae Acropora (release times, size-based fecundity, surv rates, comp curv
 
 --
 
+## Category
+
+Connectivity, Spawning
+
 ## Utility 
 ### Connectivity
 

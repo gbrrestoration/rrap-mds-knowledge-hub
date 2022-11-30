@@ -12,6 +12,10 @@ Spawning date
 
 Particle trajectories 
 
+## Category
+
+Connectivity, Spawning
+
 ## Utility 
 ### Connectivity
 

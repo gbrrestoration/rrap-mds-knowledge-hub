@@ -12,6 +12,10 @@ Release sites
 
 Particle trajectories
 
+## Category
+
+Connectivity, Spawning
+
 ## Utility 
 ### Connectivity
 

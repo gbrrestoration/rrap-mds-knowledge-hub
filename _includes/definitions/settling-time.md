@@ -12,6 +12,10 @@ Time period after fertilisation for competency of settling
 
 Connectivity matrices 
 
+## Category
+
+Connectivity, Spawning
+
 ## Utility 
 ### Connectivity
 

@@ -12,6 +12,10 @@ Re-seed area per coral - 0.5/1m2 per coral?
 
 --
 
+## Category
+
+Spatial
+
 ## Utility 
 ### Connectivity
 

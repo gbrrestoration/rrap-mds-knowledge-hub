@@ -12,6 +12,10 @@ Larval depth trajectory
 
 Particle trajectories 
 
+## Category
+
+Connectivity, Spawning
+
 ## Utility 
 ### Connectivity
 

@@ -12,6 +12,10 @@ Background mortality rate of deployed corals (inherent to deployment method - eg
 
 --
 
+## Category
+
+Intervention characteristics
+
 ## Utility 
 ### Connectivity
 

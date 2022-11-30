@@ -12,6 +12,10 @@ Capture volume - pools, transport tanks;
 
 --
 
+## Category
+
+Connectivity, Spawning
+
 ## Utility 
 ### Connectivity
 

@@ -14,6 +14,10 @@ Connectivity matrices
 
 Ecological modelling
 
+## Category
+
+Vital rates
+
 ## Utility 
 ### Connectivity
 

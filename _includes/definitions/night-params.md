@@ -12,6 +12,10 @@ Different night parameters????
 
 --  
 
+## Category
+
+Connectivity, Spawning
+
 ## Utility 
 ### Connectivity
 

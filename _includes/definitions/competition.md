@@ -12,6 +12,10 @@ Direct competition natural to natural and natural to enhanced coral ?
 
 --
 
+## Category
+
+Enhanced-Natural interactions
+
 ## Utility 
 ### Connectivity
 

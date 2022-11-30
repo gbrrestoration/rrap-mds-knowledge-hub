@@ -12,6 +12,10 @@ Density of 1 yo corals contributed by larval slicks
 
 --
 
+## Category
+
+Intervention characteristics
+
 ## Utility 
 ### Connectivity
 

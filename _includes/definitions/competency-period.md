@@ -12,6 +12,10 @@ Competency period (species specific)
 
 Connectivity matrices 
 
+## Category
+
+Connectivity, Spawning
+
 ## Utility 
 ### Connectivity
 

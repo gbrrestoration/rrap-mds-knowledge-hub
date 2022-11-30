@@ -12,6 +12,10 @@ How long to track for
 
 Particle trajectories 
 
+## Category
+
+Connectivity, Spawning
+
 ## Utility 
 ### Connectivity
 

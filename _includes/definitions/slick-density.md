@@ -12,6 +12,10 @@ Slick density
 
 --
 
+## Category
+
+Connectivity, Spawning
+
 ## Utility 
 ### Connectivity
 

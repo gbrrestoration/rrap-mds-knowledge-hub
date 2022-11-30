@@ -12,6 +12,10 @@ Mortality rate (daily) (species specific)
 
 Connectivity matrices 
 
+## Category
+
+Connectivity, Spawning
+
 ## Utility 
 ### Connectivity
 

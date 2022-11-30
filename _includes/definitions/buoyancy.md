@@ -12,6 +12,10 @@ Buoyancy
 
 Particle trajectories 
 
+## Category
+
+Connectivity, Spawning
+
 ## Utility 
 ### Connectivity
 

@@ -1,4 +1,4 @@
-# Cairns regions
+# Thermal tolerance of different coral groups
 <!-- 
 {: .no_toc .text-delta }
 * TOC
@@ -6,7 +6,7 @@
 
 ## Definition
 
-Cairns regions: Moore, Norman, Agincourt, Lizard, Hardy, Heron????
+What level of added thermal tolerance (as enhanced survivorship) is feasible for different coral groups and size classes – dependent of ECT/CAD treatment
 
 ## Processing stage
 
@@ -14,26 +14,26 @@ Cairns regions: Moore, Norman, Agincourt, Lizard, Hardy, Heron????
 
 ## Category
 
-Spatial
+Tolerance
 
 ## Utility 
 ### Connectivity
 
-RECOM models available for some
+N/A
 
 ### <1yo characterisation
 
---
+Yes 
 
 ### >1yo characterisation
 
---
+Yes 
 
 ## Parameter Collection
 ### Parameter Focal Point
 
-BR
+JO
 
 ## Documentation
 
-N/A
+n/a

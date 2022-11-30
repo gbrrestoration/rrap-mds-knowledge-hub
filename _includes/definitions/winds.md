@@ -12,6 +12,10 @@ Winds
 
 Currents 
 
+## Category
+
+Connectivity, Spawning
+
 ## Utility 
 ### Connectivity
 

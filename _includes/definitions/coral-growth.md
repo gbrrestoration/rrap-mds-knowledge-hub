@@ -12,6 +12,10 @@ Coral growth and survival rate at different age classes for different coral grou
 
 --
 
+## Category
+
+Vital rates
+
 ## Utility 
 ### Connectivity
 

@@ -1,4 +1,4 @@
-# Cairns regions
+# Thermal tolerance affect on growth rates
 <!-- 
 {: .no_toc .text-delta }
 * TOC
@@ -6,7 +6,7 @@
 
 ## Definition
 
-Cairns regions: Moore, Norman, Agincourt, Lizard, Hardy, Heron????
+How different levels of thermal tolerance (assisted adaptation) might affect coral growth rates (i.e. survival-growth trade-offs)
 
 ## Processing stage
 
@@ -14,26 +14,26 @@ Cairns regions: Moore, Norman, Agincourt, Lizard, Hardy, Heron????
 
 ## Category
 
-Spatial
+Trade-offs
 
 ## Utility 
 ### Connectivity
 
-RECOM models available for some
+N/A
 
 ### <1yo characterisation
 
---
+Yes 
 
 ### >1yo characterisation
 
---
+Yes 
 
 ## Parameter Collection
 ### Parameter Focal Point
 
-BR
+JO
 
 ## Documentation
 
-N/A
+n/a

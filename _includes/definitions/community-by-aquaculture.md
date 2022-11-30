@@ -12,6 +12,10 @@ Deployment of corals from aquaculture will be simulated as the addition of 1-yr 
 
 --
 
+## Category
+
+Intervention characteristics
+
 ## Utility 
 ### Connectivity
 

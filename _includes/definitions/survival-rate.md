@@ -12,6 +12,10 @@ Survival rate - (capture to settlement) & (settlement to 1YOE)
 
 Connectivity matrices
 
+## Category
+
+Connectivity, Spawning
+
 ## Utility 
 ### Connectivity
 

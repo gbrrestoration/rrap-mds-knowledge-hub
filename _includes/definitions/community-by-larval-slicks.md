@@ -14,6 +14,10 @@ Larval enrichment will be simulated as the addition of 1-yr old coral recruits o
 
 --
 
+## Category
+
+Intervention characteristics
+
 ## Utility 
 ### Connectivity
 

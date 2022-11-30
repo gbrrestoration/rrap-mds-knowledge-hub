@@ -12,6 +12,10 @@ At what time of year will deployment of intervention corals occur, how long will
 
 --
 
+## Category
+
+Intervention characteristics
+
 ## Utility 
 ### Connectivity
 

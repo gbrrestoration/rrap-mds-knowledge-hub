@@ -12,6 +12,10 @@ Interbreeding between enhanced and natural corals?
 
 -- 
 
+## Category
+
+Enhanced-Natural interactions
+
 ## Utility 
 ### Connectivity
 
