@@ -19,3 +19,4 @@ The original definitions were collected in a spreadsheet. The information has be
 
 To request addition of a new definition, please use [this form](https://github.com/gbrrestoration/mds-is-issues/issues/new?template=request-a-new-shared-definition.yaml). 
 
+An alternative rendition is [available from Research Vocabularies Australia](https://demo.vocabs.ardc.edu.au/viewById/962)
