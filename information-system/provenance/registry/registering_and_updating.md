@@ -21,7 +21,7 @@ ____
 
 # Registering an entity
 
-**Link**: [https://registry.rrap-is.com/registerentity](https://registry.rrap-is.com/registerentity)
+**Link**: [https://registry.mds.gbrrestoration.org/registerentity](https://registry.mds.gbrrestoration.org/registerentity)
 
 ## Required Permissions
 

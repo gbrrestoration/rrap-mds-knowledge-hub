@@ -29,7 +29,7 @@ ____
 
 ### Listing, sorting and filtering entities
 
-**Link**: [https://registry.rrap-is.com/records](https://registry.rrap-is.com/records)
+**Link**: [https://registry.mds.gbrrestoration.org/records](https://registry.mds.gbrrestoration.org/records)
 
 This method of exploration is ideal for when you want to browse or filter a list of all the registered entities. Various filtering and sorting options means you can narrow the list to find relevant entities or get an idea of system activity.
 
@@ -59,7 +59,7 @@ You can refine the list of entities by using the sorting and filtering options. 
 
 ### Searching the registry
 
-**Link**: [https://registry.rrap-is.com/search](https://registry.rrap-is.com/search)
+**Link**: [https://registry.mds.gbrrestoration.org/search](https://registry.mds.gbrrestoration.org/search)
 
 This method of exploration is ideal when you are looking for a specific entity in the registry. The search tool can quickly search the entire registry across multiple record fields to look the words in your search term. If results are found, they are ordered by the strength of the match.
 

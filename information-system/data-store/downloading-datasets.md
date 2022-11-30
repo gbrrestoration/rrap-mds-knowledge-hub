@@ -26,7 +26,7 @@ Without taking some initial steps, data that other users share with you won't be
 
 Ensure you have followed the below steps before attempting to download data from the RRAP M&DS IS data store.
 
-___
+---
 
 ### Appropriate access
 
@@ -34,56 +34,65 @@ In order to **download** data you need to have **read** access for the data stor
 
 {% include notes.html content="If you are also intending to upload data, you should request access to the 'write' level for the data store, as well as 'write' access to the handle service. The levels of access required for common sets of operations is described in more detail in the link above." %}
 
-___
+---
+
 ### AWS CLI installation
 
 Downloading data is possible using only the AWS web console, however the features are very limited (in particular, you can only download one file at a time). We recommend and will focus on supporting the usage of the AWS CLI v2. Instructions on how to install this easy to use tool are available [here](setting-up-the-aws-cli.html){:target="\_blank"}.
 
-___
+---
+
 ## Finding the dataset
 
 In order to download a dataset, you must first identify it in the system. Once you reach the listing for that dataset in the data store, tailored instructions on how to download that dataset will be generated for you, making downloading a very quick process.
 
-___
+---
+
 ### Using the registry
 
-Once you open the [data store](https://data.rrap-is.com){:target="\_blank"} and log in, you can navigate to datasets using the banner at the top and use the listing, filtering and searching functionality to locate the desired dataset to download. Select the dataset you wish to view and download from the list. See [viewing a dataset](../data-store/viewing-a-dataset.md){:target="\_blank"} for instructions on how to find a dataset.
+Once you open the [data store](https://data.mds.gbrrestoration.org){:target="\_blank"} and log in, you can navigate to datasets using the banner at the top and use the listing, filtering and searching functionality to locate the desired dataset to download. Select the dataset you wish to view and download from the list. See [viewing a dataset](../data-store/viewing-a-dataset.md){:target="\_blank"} for instructions on how to find a dataset.
 
 {% include notes.html content="Currently the search functionality of the data store is not complete and will only select exact text matches." %}
 
-___
+---
+
 ### Using a shared link
 
 The [persistent identifier](../digital-object-identifiers.html){:target="\_blank"} generated when a dataset is minted can be shared in a special form to enable one click persistent navigation to that dataset. If someone shares a M&DS data store link with you, you will be navigated to the dataset listing directly. You can follow on with the instructions below once you have reached the dataset listing.
 
-___
+---
+
 ## Downloading files
 
 Once you select the dataset you want to download, you can click the entry and you will be redirected to a view of the dataset. This view shows four options **overview**, **download data**, **upload data** and _settings_. After using the preview section to view information about the dataset, you should choose the **download data** option and then click the **request credentials** button.
 The download dataset files page will appear.
 
-|                                 Downloading dataset files                          |
-| :---------------------------------------------------------------------------------:      |
+|                                   Downloading dataset files                                    |
+| :--------------------------------------------------------------------------------------------: |
 | <img src="../../assets/images/data_store/downloadDatasetFiles.png" alt="drawing" width="600"/> |
 
 You will be able to download individual files (using a GIU) or the whole dataset (using AWS CLI) following the instructions on the screen (also listed below).
 
 ### Using the GUI to download individual files
+
 If you would like to explore the dataset with a GUI and download files individually:
-* Open the link or click the **Click to open storage location** button to login to the AWS system. You will be brought to your storage location automatically.
-* You can now explore the dataset 
-* To download individual files, check the box next to the file name and click the orange **Download** button.
+
+-   Open the link or click the **Click to open storage location** button to login to the AWS system. You will be brought to your storage location automatically.
+-   You can now explore the dataset
+-   To download individual files, check the box next to the file name and click the orange **Download** button.
 
 ### Downloading the entire dataset
+
 To download all the files of a dataset, you need to use the AWS CLI.
 Please note that you need to have the AWS CLI v2 installed to follow the below steps. For more information on how to prepare your system for CLI upload (and download), visit this [guide](setting-up-the-aws-cli.html){:target="\_blank"}.
 
-* Your temporary read-only AWS programmatic access credentials will be shown. Choose the format that you require (Linux, Windows CMD or Windows Powershell) and click the **click to copy** button on the right hand side.
-* Paste the credentials into your AWS CLI terminal environment.
-* Using the terminal, navigate to where you want the data to be downloaded to. Click on the **click to copy** button and paste into the terminal, remembering to change the name `folder` to something meaningful for you.
-* You can use other AWS CLI commands to explore the directory or you can use the GUI to preview the datasets contents.
+-   Your temporary read-only AWS programmatic access credentials will be shown. Choose the format that you require (Linux, Windows CMD or Windows Powershell) and click the **click to copy** button on the right hand side.
+-   Paste the credentials into your AWS CLI terminal environment.
+-   Using the terminal, navigate to where you want the data to be downloaded to. Click on the **click to copy** button and paste into the terminal, remembering to change the name `folder` to something meaningful for you.
+-   You can use other AWS CLI commands to explore the directory or you can use the GUI to preview the datasets contents.
 
-___
+---
+
 ### First time download (`aws cp` command)
 
 If you have not downloaded this dataset before, you can use the provided AWS CLI commands to download the files.
@@ -94,7 +103,8 @@ The data store provides a command ready to copy and paste - you will just need t
 
 If you have issues following these instructions, please don't hesitate to contact the M&DS IS team for more detailed assistance.
 
-___
+---
+
 ### Updating local files from updated dataset (`aws sync` command)
 
 The AWS CLI provides more than one option for copying data from a bucket to your local machine. The `cp` command above assumes that you don't have any of the files on your local machine. The `sync` command will only download **new files** or **files that have changed**. This means that if only some of a dataset is updated, you don't need to download it all again. For more information about how the sync command works, please see the official [AWS documentation](https://docs.aws.amazon.com/cli/latest/reference/s3/sync.html){:target="\_blank"}.

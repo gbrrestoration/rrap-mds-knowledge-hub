@@ -32,8 +32,8 @@ See the sections below for information about how to use the API.
 The RRAP IS APIs are [REST](https://www.redhat.com/en/topics/api/what-is-a-rest-api)ful Python [ASGI](https://asgi.readthedocs.io/en/latest/) compliant services. All APIs exposes two documentation endpoints. The Provenance API documentation is linked below:
 
 -   Provenance Store API
-    -   [Swagger](https://swagger.io) documentation - [https://prov-api.rrap-is.com/docs](https://prov-api.rrap-is.com/docs)
-    -   [Redoc](https://github.com/Redocly/redoc) documentation - [https://prov-api.rrap-is.com/redoc](https://prov-api.rrap-is.com/redoc)
+    -   [Swagger](https://swagger.io) documentation - [https://prov-api.mds.gbrrestoration.org/docs](https://prov-api.mds.gbrrestoration.org/docs)
+    -   [Redoc](https://github.com/Redocly/redoc) documentation - [https://prov-api.mds.gbrrestoration.org/redoc](https://prov-api.mds.gbrrestoration.org/redoc)
 
 ## Authentication and authorisation
 

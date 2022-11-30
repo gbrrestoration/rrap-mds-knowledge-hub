@@ -9,7 +9,7 @@ parent: Provenance
 
 # Registry
 
-Click [here](https://registry.rrap-is.com){:target="\_blank"} to visit the RRAP M&DS IS Registry.
+Click [here](https://registry.mds.gbrrestoration.org){:target="\_blank"} to visit the RRAP M&DS IS Registry.
 
 ## What's in this section?
 

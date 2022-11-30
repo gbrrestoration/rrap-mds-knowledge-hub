@@ -31,21 +31,21 @@ All RRAP user interfaces use these APIs to perform system operations - anything 
 The RRAP IS APIs are [REST](https://www.redhat.com/en/topics/api/what-is-a-rest-api)ful Python [ASGI](https://asgi.readthedocs.io/en/latest/) compliant services. The API endpoints are linked below. Each API publishes two documentation pages:
 
 -   **Data Store API**:
-    -   API: [https://data-api.rrap-is.com](https://data-api.rrap-is.com)
-    -   Swagger Documentation: [https://data-api.rrap-is.com/docs](https://data-api.rrap-is.com/docs)
-    -   Redoc Documentation: [https://data-api.rrap-is.com/redoc](https://data-api.rrap-is.com/redoc)
+    -   API: [https://data-api.mds.gbrrestoration.org](https://data-api.mds.gbrrestoration.org)
+    -   Swagger Documentation: [https://data-api.mds.gbrrestoration.org/docs](https://data-api.mds.gbrrestoration.org/docs)
+    -   Redoc Documentation: [https://data-api.mds.gbrrestoration.org/redoc](https://data-api.mds.gbrrestoration.org/redoc)
 -   **Registry API**:
-    -   API: [https://registry-api.rrap-is.com](https://registry-api.rrap-is.com)
-    -   Swagger Documentation: [https://registry-api.rrap-is.com/docs](https://registry-api.rrap-is.com/docs)
-    -   Redoc Documentation: [https://registry-api.rrap-is.com/redoc](https://registry-api.rrap-is.com/redoc)
+    -   API: [https://registry-api.mds.gbrrestoration.org](https://registry-api.mds.gbrrestoration.org)
+    -   Swagger Documentation: [https://registry-api.mds.gbrrestoration.org/docs](https://registry-api.mds.gbrrestoration.org/docs)
+    -   Redoc Documentation: [https://registry-api.mds.gbrrestoration.org/redoc](https://registry-api.mds.gbrrestoration.org/redoc)
 -   **Provenance API**:
-    -   API: [https://prov-api.rrap-is.com](https://prov-api.rrap-is.com)
-    -   Swagger Documentation: [https://prov-api.rrap-is.com/docs](https://prov-api.rrap-is.com/docs)
-    -   Redoc Documentation: [https://prov-api.rrap-is.com/redoc](https://prov-api.rrap-is.com/redoc)
+    -   API: [https://prov-api.mds.gbrrestoration.org](https://prov-api.mds.gbrrestoration.org)
+    -   Swagger Documentation: [https://prov-api.mds.gbrrestoration.org/docs](https://prov-api.mds.gbrrestoration.org/docs)
+    -   Redoc Documentation: [https://prov-api.mds.gbrrestoration.org/redoc](https://prov-api.mds.gbrrestoration.org/redoc)
 -   **Auth API**:
-    -   API: [https://auth-api.rrap-is.com](https://auth-api.rrap-is.com)
-    -   Swagger Documentation: [https://auth-api.rrap-is.com/docs](https://auth-api.rrap-is.com/docs)
-    -   Redoc Documentation: [https://auth-api.rrap-is.com/redoc](https://auth-api.rrap-is.com/redoc)
+    -   API: [https://auth-api.mds.gbrrestoration.org](https://auth-api.mds.gbrrestoration.org)
+    -   Swagger Documentation: [https://auth-api.mds.gbrrestoration.org/docs](https://auth-api.mds.gbrrestoration.org/docs)
+    -   Redoc Documentation: [https://auth-api.mds.gbrrestoration.org/redoc](https://auth-api.mds.gbrrestoration.org/redoc)
 
 ## How to use the RRAP APIs
 
