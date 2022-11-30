@@ -3,7 +3,7 @@ layout: default
 title: Shared definitions
 nav_order: 5
 grand_parent:
-parent: Reef Restoration and Adaptation Program M&DS
+parent: RRAP M&DS
 has_children: true
 ---
 

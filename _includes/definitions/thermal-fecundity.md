@@ -12,7 +12,7 @@ How thermal stress might affect the fecundity of surviving colonies
 
 Connectivity matrices 
 
-Ecological modeling
+Ecological modelling
 
 ## Utility 
 ### Connectivity

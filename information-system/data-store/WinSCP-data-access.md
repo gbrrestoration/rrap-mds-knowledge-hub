@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Data access to s3 with WinSCP 
-nav_order: 9
+nav_order: 11
 grand_parent: Information System
 parent: Data store
 ---
@@ -29,7 +29,7 @@ ___
 
 ___
 ### Required inputs to establish connection
-You can obtain authernitcation parameters from a dataset record from within [RRAP Data Store](https://data.rrap-is.com/datasets){:target="\_blank"}.  Select a target preconfigure dataset and then the **'Upload Data'** tab. Then click the **'Generate Credentials'** button.  You will notice that there are three parts to the credentials.
+You can obtain authentication parameters from a dataset record from within [RRAP Data Store](https://data.rrap-is.com/datasets){:target="\_blank"}.  Select a target preconfigure dataset and then the **'Upload Data'** tab. Then click the **'Generate Credentials'** button.  You will notice that there are three parts to the credentials.
 1. AWS_ACCESS_KEY_ID
 1. AWS_SECRET_ACCESS_KEY
 1. AWS_SESSION_TOKEN
@@ -39,7 +39,7 @@ Also on Step 4. you will notice a command similar to ```aws s3 ls s3://rrap-stor
 These are the requirements to establish a connection
 
 ___
-## Estabishing a connection to Data Store S3 with WinSCP
+## Establishing a connection to Data Store S3 with WinSCP
 Open WinSCP and the Login dialog will appear, on the dialog enter the above credentials.
 1. Make sure the **'New site node'** is selected
 1. On the New site node, select ``Amazon S3`` as the **'File protocol'**

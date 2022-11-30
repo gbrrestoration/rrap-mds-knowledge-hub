@@ -6,7 +6,7 @@
 
 ## Definition
 
-Deployment of corals from aquaculture will be simulated as the addition of 1-yr old coral recruits with specific life-history characteristics (such specificallyas thermal tolerance and a trade-off represented as a decrease in, growth etc.) on a set of reefs (ReefMod/CoCoNet) or reef sites (IPMF/CoCoNet). 
+Deployment of corals from aquaculture will be simulated as the addition of 1-yr old coral recruits with specific life-history characteristics (specifically such as thermal tolerance and a trade-off represented as a decrease in, growth etc.) on a set of reefs (ReefMod/CoCoNet) or reef sites (IPMF/CoCoNet). 
 
 ## Processing stage
 

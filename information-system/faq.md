@@ -3,7 +3,7 @@ layout: default
 title: FAQ
 nav_order: 5
 parent: Information System
-grand_parent: Reef Restoration and Adaptation Program M&DS
+grand_parent: RRAP M&DS
 ---
 
 {: .no_toc }
@@ -42,7 +42,9 @@ In all of the M&DS IS web pages there is a button on the right side of the page;
 
 ## Can I upload data on behalf of someone, as I'm not the owner of the data?
 
-TO DO
+In some cases, it might be useful to republish a dataset in the RRAP M&DS IS for various reasons, e.g. automation, and long term storage of important data.
+For this reason, users can upload other people's data as long as they have permission or rights to republish that data. It may be useful to add this information to the dataset (e.g. written permission in an email attachment file, or description of details in the README file). 
+
 
 ## My computer crashed while uploading the data - how do I see what was loaded?
 
@@ -56,9 +58,11 @@ To add new data to a dataset you must first have write permissions into the data
 <div class="info"><strong>Note!</strong> If you use the CLI, you can run the usual sync command from the same directory and <strong>only the new files will be uploaded</strong>. For more information about how the <a href='https://docs.aws.amazon.com/cli/latest/reference/s3/sync.html'>AWS CLI sync command works</a></div>
 
 
-## Can I add to someone elses dataset?
+## Can I add to someone else's dataset?
 
-TO DO
+Using the [groups](https://gbrrestoration.github.io/rrap-mds-knowledge-hub/information-system/groups.html) feature, users may be granted write access to a dataset belonging to another person. The registrant of the dataset would need to specify a group, and grant it write access (e.g. Group A).
+The group would need to specify the required members to be added as users in the group (e.g. Mary in Group A). 
+If this is configured correctly, the user (e.g. Mary in Group A) will be able to access the dataset as an editor and [upload files to the dataset](https://gbrrestoration.github.io/rrap-mds-knowledge-hub/information-system/data-store/uploading-a-dataset.html#uploading-dataset-files).
 
 
 ## How do I share my dataset?
