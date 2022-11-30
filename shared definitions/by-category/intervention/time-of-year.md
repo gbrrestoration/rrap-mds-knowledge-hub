@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Time of year for intervention
+title: Intervention time
 nav_order: 5
 grand_parent: Category
 parent: Intervention characteristics
 has_children: false
 ---
-{% include definitions/time-of-year.md %}
+{% include definitions/deployment-time.md %}

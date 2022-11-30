@@ -1,4 +1,4 @@
-# Tracking time
+# Tracking duration
 <!-- 
 {: .no_toc .text-delta }
 * TOC
@@ -10,7 +10,7 @@ How long to track for
 
 ## Processing stage
 
-Particle trajectories 
+-- 
 
 ## Category
 
