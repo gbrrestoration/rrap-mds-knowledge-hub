@@ -47,7 +47,7 @@ The section below will provide a detailed breakdown of a model run record.
 
 ### Model run record fields
 
-The schema which is validated by the provenance API is available [here](https://prov-api.testing.rrap-is.com/docs#/Model%20Runs/register_complete_model_run). A summary is provided below:
+The schema which is validated by the provenance API is available [here](https://prov-api.mds.gbrrestoration.org/docs#/Model%20Runs/register_complete_model_run). A summary is provided below:
 
 -   **workflow_template_id**\*: The entity registry identifier of the model run workflow template which this model run is using. See [Model Run Workflow Template](../model-workflow-configuration#model-run-workflow-template) for more information.
 -   **description**\*: A description of the model run. The text in this field is searchable, and should help yourself and others understand the purpose, inputs and outputs of this model run.
@@ -76,6 +76,6 @@ Understanding the model run record is critical to the next step - registering mo
 
 There are two primary methods of registering provenance in a scalable way.
 
-If you would like to work directly with the [Provenance Store API](https://prov-api.rrap-is.com/docs) you can follow [this guide](./register-model-run-records-by-api).
+If you would like to work directly with the [Provenance Store API](https://prov-api.mds.gbrrestoration.org/docs) you can follow [this guide](./register-model-run-records-by-api).
 
 If you would prefer to record and lodge model runs in a special system generated CSV template, you can follow [this guide](./register-model-run-records-by-csv-template).

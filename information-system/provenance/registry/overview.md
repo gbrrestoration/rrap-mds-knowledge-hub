@@ -29,7 +29,7 @@ The Registry is a critical part of the [RRAP Provenance Store](../index.html) as
 
 ## Navigating to the registry
 
-The Registry is hosted at [https://registry.rrap-is.com](https://registry.rrap-is.com).
+The Registry is hosted at [https://registry.mds.gbrrestoration.org](https://registry.mds.gbrrestoration.org).
 
 ## Logging in
 

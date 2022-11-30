@@ -11,7 +11,7 @@ aux_links_new_tab: true
 markdown: kramdown
 aux_links:
   "RRAP-IS M&DS":
-    - "https://www.rrap-is.com/"
+    - "https://mds.gbrrestoration.org/"
   "RRAP":
     - "https://gbrrestoration.org/"
 
