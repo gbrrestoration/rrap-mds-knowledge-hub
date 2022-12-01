@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Currents
-nav_order: 1
+nav_order: 2
 parent: Processing stage
 grand_parent: Shared definitions
 has_children: true

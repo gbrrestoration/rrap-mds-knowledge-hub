@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Spawning date
-nav_order: 1
+nav_order: 5
 parent: Particle trajectories
 grand_parent: Processing stage
 has_children: false
