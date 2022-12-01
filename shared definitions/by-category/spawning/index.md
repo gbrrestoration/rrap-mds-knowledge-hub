@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Spawning
-nav_order: 1
+nav_order: 5
 parent: Category
 grand_parent: Shared definitions
 has_children: true

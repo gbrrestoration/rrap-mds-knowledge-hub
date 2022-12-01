@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Buoyancy
-nav_order: 4
+nav_order: 1
 parent: Connectivity
 grand_parent: Category
 has_children: false

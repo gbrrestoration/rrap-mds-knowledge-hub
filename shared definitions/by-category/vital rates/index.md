@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Vital rates
-nav_order: 7
+nav_order: 8
 parent: Category
 grand_parent: Shared definitions
 has_children: true

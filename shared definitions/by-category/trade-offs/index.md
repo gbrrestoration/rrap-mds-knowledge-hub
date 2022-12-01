@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Trade-offs
-nav_order: 6
+nav_order: 7
 parent: Category
 grand_parent: Shared definitions
 has_children: true

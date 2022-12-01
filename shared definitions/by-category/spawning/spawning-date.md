@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Spawning date
-nav_order: 1
+nav_order: 14
 parent: Spawning
 grand_parent: Category
 has_children: false

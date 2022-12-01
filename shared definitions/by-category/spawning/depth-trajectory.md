@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Larval depth trajectory
-nav_order: 10
+nav_order: 7
 parent: Spawning
 grand_parent: Category
 has_children: false

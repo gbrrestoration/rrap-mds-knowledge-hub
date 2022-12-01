@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Capture volume
-nav_order: 19
+nav_order: 2
 parent: Spawning
 grand_parent: Category
 has_children: false

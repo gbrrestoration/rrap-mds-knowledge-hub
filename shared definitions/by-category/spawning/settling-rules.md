@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Settling rules
-nav_order: 5
+nav_order: 11
 parent: Spawning
 grand_parent: Category
 has_children: false

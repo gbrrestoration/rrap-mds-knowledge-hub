@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Settling time
-nav_order: 15
+nav_order: 12
 parent: Spawning
 grand_parent: Category
 has_children: false

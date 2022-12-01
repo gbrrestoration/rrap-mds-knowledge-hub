@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Different night parameters
-nav_order: 13
+nav_order: 5
 parent: Spawning
 grand_parent: Category
 has_children: false

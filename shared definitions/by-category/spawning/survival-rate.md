@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Survival rate
-nav_order: 18
+nav_order: 17
 parent: Spawning
 grand_parent: Category
 has_children: false

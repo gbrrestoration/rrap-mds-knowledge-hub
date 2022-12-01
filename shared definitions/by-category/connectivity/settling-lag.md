@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Lag to settling
-nav_order: 12
+nav_order: 7
 parent: Connectivity
 grand_parent: Category
 has_children: false
