@@ -3,7 +3,7 @@ layout: default
 title: Exploring the Registry
 nav_order: 3
 has_children: false
-grand_parent: Provenance
+grand_parent: Information System 
 parent: Registry
 ---
 

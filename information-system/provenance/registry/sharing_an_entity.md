@@ -3,7 +3,7 @@ layout: default
 title: Sharing an Entity
 nav_order: 4
 has_children: false
-grand_parent: Provenance
+grand_parent: Information System
 parent: Registry
 ---
 
