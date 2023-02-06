@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Uploading a dataset
+title: Uploading dataset files
 nav_order: 5
 grand_parent: Information System
 parent: Data store
@@ -8,7 +8,7 @@ parent: Data store
 
 {: .no_toc }
 
-# Uploading a dataset
+# Uploading dataset files
 
 <details  open markdown="block">
   <summary>
@@ -22,7 +22,7 @@ ____
 
 ## Overview of the process
 
-The diagram below outlines the steps undertaken when registering and uploading a dataset.  
+The diagram below outlines the steps undertaken when registering and uploading dataset files.  
 _Note: draft figure_
 
 ![Workflow diagram](../../assets/images/DRAFTv2_upload_data.png)
