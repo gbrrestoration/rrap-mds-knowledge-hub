@@ -30,11 +30,10 @@ Ensure you have followed the below steps before attempting to download data from
 
 ### Appropriate access
 
-In order to **download** data you need to have **read** access for the data store. See [requesting access](../getting-started-is/requesting-access-is.html){:target="\_blank"} for information on how to request access.
+To download dataset files, two access types are required:
 
-{% include notes.html content="If you are also intending to upload data, you should request access to the 'write' level for the data store, as well as 'write' access to the handle service. The levels of access required for common sets of operations is described in more detail in the link above." %}
-
----
+-   Role level access: you must have **read** access to the Entity Registry - see [requesting access](../getting-started-is/requesting-access-is.html){:target="\_blank"} for information on how to request access.
+-   Resource role access: datasets are registered resources in the [Registry](../provenance/registry/overview) - downloading dataset files requires the 'Dataset Data Read' role. For more information about access control for registered entitites, see [access control](../provenance/registry/access-control).
 
 ### AWS CLI installation
 
@@ -52,13 +51,11 @@ In order to download a dataset, you must first identify it in the system. Once y
 
 Once you open the [data store](https://data.mds.gbrrestoration.org){:target="\_blank"} and log in, you can navigate to datasets using the banner at the top and use the listing, filtering and searching functionality to locate the desired dataset to download. Select the dataset you wish to view and download from the list. See [viewing a dataset](../data-store/viewing-a-dataset.md){:target="\_blank"} for instructions on how to find a dataset.
 
-{% include notes.html content="Currently the search functionality of the data store is not complete and will only select exact text matches." %}
-
 ---
 
 ### Using a shared link
 
-The [persistent identifier](../digital-object-identifiers.html){:target="\_blank"} generated when a dataset is minted can be shared in a special form to enable one click persistent navigation to that dataset. If someone shares a M&DS data store link with you, you will be navigated to the dataset listing directly. You can follow on with the instructions below once you have reached the dataset listing.
+The [persistent identifier](../digital-object-identifiers.html){:target="\_blank"} generated when a dataset is minted can be shared in a special form to enable one click persistent navigation to that dataset. If someone shares a M&DS data store link with you, you will be navigated to the registry entry for the dataset. Clicking on the 'View in Datastore' button will display the dataset in the Data Store. You can follow on with the instructions below once you have reached the dataset listing.
 
 ---
 
@@ -81,13 +78,13 @@ If you would like to explore the dataset with a GUI and download files individua
 -   You can now explore the dataset
 -   To download individual files, check the box next to the file name and click the orange **Download** button.
 
-### Downloading the entire dataset
+### Downloading the entire dataset or many files
 
-To download all the files of a dataset, you need to use the AWS CLI.
+To download a large number of dataset files, we recommend using the AWS CLI.
 Please note that you need to have the AWS CLI v2 installed to follow the below steps. For more information on how to prepare your system for CLI upload (and download), visit this [guide](setting-up-the-aws-cli.html){:target="\_blank"}.
 
 -   Your temporary read-only AWS programmatic access credentials will be shown. Choose the format that you require (Linux, Windows CMD or Windows Powershell) and click the **click to copy** button on the right hand side.
--   Paste the credentials into your AWS CLI terminal environment.
+-   Paste the credentials into your AWS CLI terminal environment, ensuring the pasted commands are executed
 -   Using the terminal, navigate to where you want the data to be downloaded to. Click on the **click to copy** button and paste into the terminal, remembering to change the name `folder` to something meaningful for you.
 -   You can use other AWS CLI commands to explore the directory or you can use the GUI to preview the datasets contents.
 
