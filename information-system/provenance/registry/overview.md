@@ -3,7 +3,7 @@ layout: default
 title: Registry Overview
 nav_order: 1
 has_children: false
-grand_parent: Information System 
+grand_parent: Information System
 parent: Registry
 ---
 
@@ -56,3 +56,5 @@ The process of requesting access for the Registry is the same as other component
 -   [registering an entity](./registering_and_updating.html)
 -   [exploring the registry](./exploring_the_registry.html)
 -   [sharing entities](./sharing_an_entity.html)
+-   [access control](./access-control)
+-   [resource locks](./resource_lock)
