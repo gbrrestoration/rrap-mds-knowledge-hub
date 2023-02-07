@@ -61,7 +61,7 @@ Access is configured by toggling sliders in the Granted column (1). Roles apply 
 | :-------------------------------------------------------------------------------------------------------: |
 | <img src="../../../assets/images/data_store/access_control/access_layout.png" alt="drawing" width="600"/> |
 
-Once a change is detected, you will see a popup appear at the top of the page. You can press "Submit Changes" to lodge this change, or "Revert Changes" to restore the access configuration to it's prior state. Once submission is completed, press the resulting refresh button to reload the new access configuration.
+Once a change is detected, you will see a popup appear at the top of the page. You can press "Submit Changes" to lodge this change, or "Revert Changes" to restore the access configuration to it's prior state. Once submission is completed the page will automatically refresh with the updated access configuration.
 
 {% include warning.html content="No changes will be saved to the access configuration until the submit button is pressed." %}
 
@@ -73,19 +73,21 @@ The "General Users" group contains all users of the Registry. Each resource must
 
 When a new resource is created, the General Users group is assigned only metadata read permission. This configuration can be modified using the processes detailed below.
 
+{% include notes.html content="Datasets also receive the General User 'Dataset Data Read' role by default." %}
+
 ### Where to manage general user access
 
 Upon registering a resource, the general Registry user access rights can be managed by navigating to the 'settings' tab when viewing the resource. The general access roles can be modified by using the toggle sliders under the "General Access" heading - as shown previously.
 
 ## Group access
 
-If granting access to all users does not provide enough control, a resource administrator can configure access grants on a group-by-group basis. Configuring access for a group grants this access to all registered members of the group.
+If configuring access for all users does not provide enough control, a resource administrator can configure access grants on a group-by-group basis. Configuring access for a group grants this access to all registered members of the group.
 
 A resource can be made available to more than one group with differing accessibility levels (see note below). For example, you may wish to have a group of resource contributors which will require write access, and another group for resource viewing only, meanwhile the more general system users may not have access at all.
 
 {% include notes.html content="If a user is accessing a resource which has access rules for multiple groups of which the user is a part of, the user will be granted the most permissive combination of those access rights" %}
 
-### Adding group access to a dataset
+### Adding group access to a resource
 
 You can grant group access to a resource you have administrative control over by viewing the resource, navigating to the settings panel (1), expanding the Access Control section (2), and selecting "+ Add Group" (3), as highlighted below.
 
@@ -109,9 +111,9 @@ Once the selected groups are added, you will see a row for each group in the Gro
 
 To remove the access grants for a group, remove the group using the "x" icon (1). This will not delete the group. Make sure to submit your changes!
 
-|                                           Removing a group                                            |
-| :---------------------------------------------------------------------------------------------------: |
-| <img src="../../assets/images/data_store/access_control/remove_group.PNG" alt="drawing" width="600"/> |
+|                                             Removing a group                                             |
+| :------------------------------------------------------------------------------------------------------: |
+| <img src="../../../assets/images/data_store/access_control/remove_group.png" alt="drawing" width="600"/> |
 
 ### Creating a group
 
