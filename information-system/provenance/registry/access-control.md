@@ -89,48 +89,50 @@ A resource can be made available to more than one group with differing accessibi
 
 You can grant group access to a resource you have administrative control over by viewing the resource, navigating to the settings panel (1), expanding the Access Control section (2), and selecting "+ Add Group" (3), as highlighted below.
 
-|                                      Adding groups to a dataset                                       |
-| :---------------------------------------------------------------------------------------------------: |
-| <img src="../../assets/images/data_store/access_control/adding_group.png" alt="drawing" width="600"/> |
+|                                              Adding groups                                               |
+| :------------------------------------------------------------------------------------------------------: |
+| <img src="../../../assets/images/data_store/access_control/adding_group.png" alt="drawing" width="600"/> |
 
 The resulting popup will allow you to select from the created groups. If you only want to show groups you are in, select the toggle button (1). If you can't see the group you are looking for, you may need to visit the next page (2). Select one or more groups by clicking on the row(s), and pressing submit (3).
 
-|                                          Submitting selected groups                                          |
-| :----------------------------------------------------------------------------------------------------------: |
-| <img src="../../assets/images/data_store/access_control/adding_groups_panel.png" alt="drawing" width="600"/> |
-
-Once the selected groups are added, you will see the collapsed access configuration for each group in the Access Control section. By default, each group is configured with metadata read permission only. The change the access configuration for a group, press the "Expand" button next to it's name (1) and use the toggles to grant access.
-
-|                                            Configuring group access                                             |
+|                                           Submitting selected groups                                            |
 | :-------------------------------------------------------------------------------------------------------------: |
-| <img src="../../assets/images/data_store/access_control/selecting_group_access.png" alt="drawing" width="600"/> |
+| <img src="../../../assets/images/data_store/access_control/adding_groups_panel.png" alt="drawing" width="600"/> |
+
+Once the selected groups are added, you will see a row for each group in the Group Access subsection. By default, each group is configured with no roles. To change the access configuration for a group, press the "Edit" pencil icon in it's row (1) and use the toggles on the resulting popup to grant access.
+
+|                                              Configuring group access                                              |
+| :----------------------------------------------------------------------------------------------------------------: |
+| <img src="../../../assets/images/data_store/access_control/selecting_group_access.png" alt="drawing" width="600"/> |
 
 ### Remove Group Access
 
-A group's access rights to a dataset can be removed by removing the entire group from the datasets list of groups as opposed to disabling the groups roles. This will not delete the group.
+To remove the access grants for a group, remove the group using the "x" icon (1). This will not delete the group. Make sure to submit your changes!
 
-|                         General User Read access to dataset metadata and data                         |
+|                                           Removing a group                                            |
 | :---------------------------------------------------------------------------------------------------: |
 | <img src="../../assets/images/data_store/access_control/remove_group.PNG" alt="drawing" width="600"/> |
 
 ### Creating a group
 
-Group creation is currently performed by Information System Administrators. Please get in touch and we can help facilitate this for you.
+Group creation is currently performed by Information System Administrators. Please get in touch and we can help facilitate this for you. You can lodge a request for a new group using the Issue Template [here](https://github.com/gbrrestoration/mds-is-issues/issues/new?assignees=&labels=new+group%2Ctriage&template=request-a-new-group.md&title=%5BNew+Group+Request%5D+).
 
-### Group Access typical configuration examples
+### Group Access typical dataset configuration examples
 
-If you would like all Data Store users to be able to view and download your dataset, but not edit the contents of it,
+The below screenshots will highlight some common access configurations for dataset resources.
+
+If you would like all registry users to be able to view and download your dataset, but not edit the contents of it,
 grant general user read access for both metadata read and dataset read:
 
-|                       Enabling general user read access to dataset metadata and data                       |
-| :--------------------------------------------------------------------------------------------------------: |
-| <img src="../../assets/images/data_store/access_control/general_user_read.PNG" alt="drawing" width="600"/> |
+|                        Enabling general user read access to dataset metadata and data                         |
+| :-----------------------------------------------------------------------------------------------------------: |
+| <img src="../../../assets/images/data_store/access_control/general_user_read.png" alt="drawing" width="600"/> |
 
 Furthermore, if you'd like to limit the editing rights to a group of team members, you can create an editors group and enable
 write permissions for them whilst leaving the general user write permissions (for metadata and data) _not_ granted.
 
-|                          General User Read access to dataset metadata and data                           |
-| :------------------------------------------------------------------------------------------------------: |
-| <img src="../../assets/images/data_store/access_control/dataset_editors.png" alt="drawing" width="600"/> |
+|                                        Editors group dataset access                                         |
+| :---------------------------------------------------------------------------------------------------------: |
+| <img src="../../../assets/images/data_store/access_control/dataset_editors.png" alt="drawing" width="600"/> |
 
-If at some point you wish to temporarily disable all updates/writes to the dataset, it may be easier to apply a [resource lock](./information-system/registry/resource_lock.html){:target="\_blank"} as opposed to the potentially more complex task of managing the group/user roles.
+If at some point you wish to temporarily disable all updates/writes to the dataset, it may be easier to apply a [resource lock](./resource_lock) as opposed to the potentially more complex task of managing the group/user roles.
