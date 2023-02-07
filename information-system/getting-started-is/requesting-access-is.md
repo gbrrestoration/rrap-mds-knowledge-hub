@@ -22,7 +22,12 @@ ____
 
 ## User Roles
 
-You will need to be granted roles to be able to perform tasks in the M&DS Information System. Once you are logged in on the RRAP M&DS IS [landing page](https://mds.gbrrestoration.org){:target="\_blank"}, select the **User profile** menu <img src="../../assets/images/access/profileIcon.png" alt="drawing" width="15"/>. <br>
+You will need to be granted roles to be able to perform tasks in the M&DS Information System. Once you are logged in on the RRAP M&DS IS [landing page](https://mds.gbrrestoration.org){:target="\_blank"}, select the **User profile icon**, highlighted below.
+
+|                               User Profile Icon                                |
+| :----------------------------------------------------------------------------: |
+| <img src="../../assets/images/access/userIcon.png" alt="drawing" height="50"/> |
+
 You then select the **Roles** tab on the left hand side of your profile page.
 
 |                                   Roles tab                                    |
@@ -33,22 +38,18 @@ You then select the **Roles** tab on the left hand side of your profile page.
 
 The roles page allows you to request levels of access (read only, read and write, administration) to particular parts of the information system.
 
-|      Component       |             Role name             | Access level |                                                          Description                                                          |
-| :------------------: | :-------------------------------: | :----------: | :---------------------------------------------------------------------------------------------------------------------------: |
-|    **Data Store**    |    Data store read only access    |     READ     |            Allows read-only access to the Data Store. This will enable users to view, share and download datasets.            |
-|                      |      Data store write access      |    WRITE     | Allows read and write access to the Data Store. This will enable users to view, share, register, download and upload datasets |
-| **Entity registry**  | Entity registry read only access  |     READ     |                                 Allows read only access to the entity registry - list, view.                                  |
-|                      | Entity registry write/read access |    WRITE     |                        Allows write level access to the entity registry - all actions except deletion.                        |
-| **Provenance store** | Provenance store read only access |     READ     |                               Allows read only access to the provenance store - view and query.                               |
-|                      |   Provenance store write access   |    WRITE     |                        Allows read and write access to the provenance store - view, query and produce.                        |
+|      Component      |             Role name             | Access level |                                                                                                            Description                                                                                                             |
+| :-----------------: | :-------------------------------: | :----------: | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+| **Entity registry** | Entity registry read only access  |     READ     |                                                                                    Allows read only access to the entity registry - list, view.                                                                                    |
+|                     | Entity registry write/read access |    WRITE     | Allows write level access to the entity registry - all actions except deletion. This enables the registration of records of **all types** including **Datasets** (in the Data Store) and **Model Runs** (in the Provenance Store). |
 
-Below is an image of the Profile page with the access levels shown. To request access to roles, including admin roles, slide the appropriate toggle slider to the right.
+Below is an image of the Profile page with the access levels shown. To request access to a role, slide the appropriate toggle slider to the right. By default, only standard user roles are shown. If you need to request administrative permissions, use the "Include admin-only roles" slider at the top of the page.
 
 |                                   User Roles                                    |
 | :-----------------------------------------------------------------------------: |
 | <img src="../../assets/images/access/userRoles.png" alt="drawing" width="600"/> |
 
-Once you have completed selecting the roles you require, click the **Request Roles Update** button.
+Once you have completed selecting the roles you require, click the **Request Roles Update** button at the top of the page.
 
 |                                    User Roles Request                                    |
 | :--------------------------------------------------------------------------------------: |
@@ -65,5 +66,3 @@ You go back to the to the RRAP M&DS IS home page by clicking the **Return Home**
 |                                   Return home                                    |
 | :------------------------------------------------------------------------------: |
 | <img src="../../assets/images/access/returnHome.png" alt="drawing" width="600"/> |
-
-{% include notes.html content="We are intending to identify users without roles applied and provide a <strong>Welcome</strong> page with further instructions to requests roles." %}
