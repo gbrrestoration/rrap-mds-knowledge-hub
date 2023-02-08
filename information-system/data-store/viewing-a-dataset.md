@@ -85,9 +85,9 @@ If you see the "Load More" button at the bottom of the list (1), click it to loa
 
 Once you have found the dataset you are looking for, click on the dataset name in the list and you will be taken to the dataset's metadata page.
 
-|                                 Dataset metadata view                                 |
-| :-----------------------------------------------------------------------------------: |
-| <img src="../../assets/images/data_store/viewDataset.png" alt="drawing" width="600"/> |
+|                                   Dataset metadata view                                   |
+| :---------------------------------------------------------------------------------------: |
+| <img src="../../assets/images/data_store/datasetMetadata.png" alt="drawing" width="600"/> |
 
 ## Metadata
 
