@@ -117,7 +117,7 @@ To remove the access grants for a group, remove the group using the "x" icon (1)
 
 ### Creating a group
 
-Group creation is currently performed by Information System Administrators. Please get in touch and we can help facilitate this for you. You can lodge a request for a new group using the Issue Template [here](https://github.com/gbrrestoration/mds-is-issues/issues/new?assignees=&labels=new+group%2Ctriage&template=request-a-new-group.md&title=%5BNew+Group+Request%5D+).
+Group creation is currently performed by Information System Administrators. For help requesting a group, see [groups](../../groups).
 
 ### Group Access typical dataset configuration examples
 
