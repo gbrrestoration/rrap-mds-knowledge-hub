@@ -3,7 +3,7 @@ layout: default
 title: Exploring the Registry
 nav_order: 3
 has_children: false
-grand_parent: Information System 
+grand_parent: Information System
 parent: Registry
 ---
 
@@ -31,7 +31,9 @@ ____
 
 **Link**: [https://registry.mds.gbrrestoration.org/records](https://registry.mds.gbrrestoration.org/records)
 
-This method of exploration is ideal for when you want to browse or filter a list of all the registered entities. Various filtering and sorting options means you can narrow the list to find relevant entities or get an idea of system activity.
+This method of exploration is ideal for when you want to browse or filter a list
+of registered entities. Various filtering and sorting options means you can
+narrow the list to find relevant entities or get an idea of system activity.
 
 Start by navigating to the above link. Once the registry list loads, you will see a scrollable list of entities.
 
@@ -45,13 +47,14 @@ To view detailed information about a record, click on it's card in the grid.
 
 You can refine the list of entities by using the sorting and filtering options. Shown below:
 
-1. Sorting - click the dropdown and select an order this includes:
-    - Oldest first
-    - Newest first
-    - Name
-    - Entity ID
-2. Filtering by type - click the dropdown and select the entity type
-3. Filtering by text - click in the input box and type your query - this filters the record list for resources which contain your specified substring. You do not need to submit or confirm the search query, it will automatically search as you type.
+1. Sorting - click the dropdown and select from the sort options:
+    - Created Time (Oldest First)
+    - Created Time (Newest First)
+    - Updated Time (Oldest First)
+    - Updated Time (Newest First) (Default)
+    - Display Name (A-Z)
+    - Display Name (Z-A)
+2. Filtering by item type - tick "Filter by type" then select the desired entity type in the dropdown above. To stop filtering by type, untick the box.
 
 |                                 Sorting and filtering                                 |
 | :-----------------------------------------------------------------------------------: |
@@ -59,15 +62,17 @@ You can refine the list of entities by using the sorting and filtering options. 
 
 ### Searching the registry
 
-**Link**: [https://registry.mds.gbrrestoration.org/search](https://registry.mds.gbrrestoration.org/search)
+**Link**: [https://registry.mds.gbrrestoration.org/records](https://registry.mds.gbrrestoration.org/records)
 
 This method of exploration is ideal when you are looking for a specific entity in the registry. The search tool can quickly search the entire registry across multiple record fields to look the words in your search term. If results are found, they are ordered by the strength of the match.
 
-Simply enter the search query, paying attention to the spelling of your search terms - the search results will appear as you type. You can click on a result to view the detailed record information. To select a record, click on the record card.
+Simply enter the search query, paying attention to the spelling of your search terms - the search results will appear as you type. Currently, results usually only appear when complete words have been entered. You can click on a result to view the detailed record information. To select a record, click on the record card.
 
-You can also filter by entity type by ticking the "Filter by subtype?" box and selecting an entity type.
+You can also filter results by entity type by ticking the "Filter by subtype?" box and selecting an entity type.
 
-For example, the following search query "Counterfactual disturbance_file" found model run records which included a "counterfactual" annotation, and "disturbance_file" deferred resource key
+Sort options are disabled while searching. To start searching, start typing. To stop searching, remove all input from the search box.
+
+For example, the following search query "Moore" found datasets which referenced the "Moore Reef":
 
 |                                         Searching                                         |
 | :---------------------------------------------------------------------------------------: |
