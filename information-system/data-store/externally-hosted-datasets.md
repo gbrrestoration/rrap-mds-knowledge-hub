@@ -14,8 +14,10 @@ parent: Data store
 
 By default, datasets registered in the [Data Store](./index) include dataset files which are hosted as part of the Information System. There are various reasons which could make it a better choice to instead reference an existing source of the dataset files, e.g.
 
--   Dataset size - if the datasets is extremely large, it may be cost prohibitive to rehost it
--   Duplication and synchronisation - if the dataset is already hosted in a reliable external repository, and changes often or is subject to change, it may be more accurate to reference the existing hosted files rather than duplicating and attempting to regularly update the RRAP IS Data Store copy of the data
+-   Dataset size - if the dataset is extremely large, it may be cost prohibitive to rehost it
+-   Unnecessary duplication - if the dataset is already hosted in a reliable external repository, there is no need to rehost it in the Data Store
+
+If you are unsure about whether a dataset can or should be stored in the Data Store, please get in touch with us.
 
 ## What can I do with an externally hosted dataset?
 
