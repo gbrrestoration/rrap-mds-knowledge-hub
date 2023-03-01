@@ -16,6 +16,7 @@ aux_links:
 
 exclude:
   - development.md
+  - EDITING.md
 
 # Back to top link
 back_to_top: true
