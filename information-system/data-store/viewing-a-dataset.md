@@ -45,7 +45,7 @@ As you type, results will appear which match the search query.
 
 If you would like to stop searching and return to sorting and listing - simply delete the search input.
 
-{% include notes.html content="Currently, searching works best when complete, correctly spelled words are typed. We are working to improve search flexibility." %}
+{% include notes.html content="While it is a good idea to try to correctly spell search terms, the RRAP IS is now capable of returning search results which include partial matches or incorrectly spelled terms." %}
 
 ### Sorting datasets
 

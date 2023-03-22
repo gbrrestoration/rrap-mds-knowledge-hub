@@ -66,9 +66,11 @@ You can refine the list of entities by using the sorting and filtering options. 
 
 This method of exploration is ideal when you are looking for a specific entity in the registry. The search tool can quickly search the entire registry across multiple record fields to look the words in your search term. If results are found, they are ordered by the strength of the match.
 
-Simply enter the search query, paying attention to the spelling of your search terms - the search results will appear as you type. Currently, results usually only appear when complete words have been entered. You can click on a result to view the detailed record information. To select a record, click on the record card.
+Simply enter the search query, the search results will appear as you type. You can click on a result to view the detailed record information. To select a record, click on the record card.
 
 You can also filter results by entity type by ticking the "Filter by subtype?" box and selecting an entity type.
+
+{% include notes.html content="The RRAP IS Search is now capable of matching incorrectly spelled words or partial words. If you are trying to find resources of a particular type, it can help to narrow search results by filtering the items by type." %}
 
 Sort options are disabled while searching. To start searching, start typing. To stop searching, remove all input from the search box.
 
