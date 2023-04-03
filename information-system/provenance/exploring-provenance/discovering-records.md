@@ -7,7 +7,19 @@ grand_parent: Provenance
 parent: Exploring Provenance
 ---
 
+{: .no_toc }
+
 # Discovering Records
+
+<details  open markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+{: .text-delta }
+* TOC
+{:toc}
+____
+</details>
 
 ## Finding records
 
