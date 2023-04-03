@@ -1,2 +1,2 @@
 #!/bin/bash
-jekyll server --config _config_development.yml -l
+jekyll server --config _config_development.yml -l --incremental

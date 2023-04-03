@@ -50,7 +50,7 @@ The names and meanings of the relationships are described below:
 -   A - **wasGeneratedBy** -> B - The "wasGeneratedBy" relationship means that the entity A exists because of the activity B. For example, a model run produces output datasets.
 -   A - **wasAssociatedWith** -> B - The "wasAssociatedWith" relationship means that the activity A was associated with an agent B. An agent refers to a participant or actor in a process (e.g. a Person or Organisation). Association could imply attribution or responsibility. For example, a model run is associated with a Person and, optionally, an Organisation.
 -   A - **wasAttributedTo** -> B - The "wasAttributedTo" relationship means that the entity A exists because of the activities associated with the agent B. For example, a dataset produced as an output of a model run is attributed to the Person which ran the model.
--   A - **wasInfluencedBy** -> B - The "wasInfluencedBy" relationship means that the entity A was significantly informed by, or possibly exists because of, B. For example, a dataset in a model run must satsify a dataset template - we say that the dataset 'wasInfluencedBy' the dataset template.
+-   A - **wasInfluencedBy** -> B - The "wasInfluencedBy" relationship means that the entity A was significantly informed by, or possibly exists because of, B. For example, a dataset in a model run must satisfy a dataset template - we say that the dataset 'wasInfluencedBy' the dataset template.
 -   A - **hadMember** -> B - The "hadMember" relationship means that the entity A is composed, at least in part, of B. For example, we say that a model run workflow template has a dataset template as a member.
 
 For more detailed information about the meaning of these relationships, see [the PROV Ontology](https://www.w3.org/TR/prov-o/).
@@ -69,7 +69,7 @@ The top section of the provenance explorer tool (shown below) provides detailed 
 | :-------------------------------------------------------------------------------------------------------: |
 | <img src="../../../assets/images/provenance/exploring/graph/overview_top.png" alt="drawing" width="800"/> |
 
-The **root record** is the "starting point" of the exploration - the central node in the provenance graph. Later, we will see how to change the root node.
+The **root record** is the "starting point" of the exploration - the central node in the provenance graph. Later, we will see [how to change the root node](#understanding-and-changing-the-root-node).
 
 ## The bottom section
 
@@ -196,13 +196,13 @@ In light of the above, we can explain the initial state of the graph as follows:
 
 ### Expanding the graph by exploring
 
-As per the [definitions above](#important-terms-and-concepts-for-provenance-exploration), the initial state of the provenance graph is an upstream and downstream query of depth 1. To explore to a greater depth, you can request an upstream and downstream query from a specified starting node to be merged into the existing graph.
+To explore to a greater depth than the initial view, you can request an upstream and downstream query from a specified starting node to be merged into the existing graph.
 
-To explore from a node, **double click the node**. A loading icon will appear in the bottom section of the graph while the query is made. This query is usually quick and the results will be merged into the existing graph. If there are no more nodes connected to the requested node, the graph will not change.
+To explore from a node, **double click the node**. A loading icon will appear in the bottom section of the graph while the upstream and downstream queries are made. This query is usually quick and the results will be merged into the existing graph. If there are no new nodes connected to the requested node, the graph will not change.
 
-In the below before and after graphs, we can see below that a model run record is being visualised. The record shows some input and output datasets and associations (i.e. a person and organisation). We may wish to understand the lineage of the dataset being used in this model run. To do so, we double click on it (1).
+In the below _before_ and _after_ graphs, we can see below that a model run record is being visualised. The record shows some input and output datasets and associations (i.e. a person and organisation). We may wish to understand the lineage of the dataset being used in this model run. To do so, we double click on it (1).
 
-This results in the after graph. We can see some highlighted new nodes. In particular, note that there is a model run which produced the input dataset (2) - this is a good example of upstream lineage. If you wanted to understand more about the history of the item, you could continue exploring, for example, by expanding the model run (2) with a double click.
+This results in the _after_ graph. We can see some highlighted new nodes. In particular, note that there is a model run which produced the input dataset (2) - this is a good example of upstream lineage. If you wanted to understand more about the history of the item, you could continue exploring, for example, by expanding the model run (2) with a double click.
 
 |                                                   Before                                                    |
 | :---------------------------------------------------------------------------------------------------------: |
@@ -214,6 +214,63 @@ This results in the after graph. We can see some highlighted new nodes. In parti
 
 ### Resetting the graph
 
+If you would like to reset your graph to the starting view, you can use the reset button (1) below. If you have dragged nodes (and therefore locked their positions), resetting the graph will **not** unlock them. You can use the unlock button to do so. See [unlocking nodes](#moving-locking-and-unlocking-nodes).
+
+|                                            Reset Graph                                             |
+| :------------------------------------------------------------------------------------------------: |
+| <img src="../../../assets/images/provenance/exploring/graph/reset.png" alt="drawing" width="800"/> |
+
 ### Understanding and changing the root node
 
-# Common issues and FAQ
+The root node of the provenance graph explorer refers to the starting point of the graph. Being a registered entity in the [Registry](../registry/overview) means that the root node is identified by a [persistent identifier](../../digital-object-identifiers).
+
+The root node's record details are always displayed in the [top section](#the-top-section), alongside the graph legend. If you have expand the graph, hiding the root record details, you can expand it by pressing the expand button, as detailed in [resizing the graph](#panning-zooming-and-resizing).
+
+If you are exploring a provenance graph, observe that the URL includes the `rootId` query string e.g. `https://.../record/view?rootId=102.100.100/1234`. This means that if you share this URL, the authorised user of the system will see the same starting point in their exploration.
+
+To change the root node you can either
+
+1. Restart exploration from a different point in the registry, see [discovering records](./discovering-records#exploring-record-lineage-in-the-provenance-store) for more information, or
+2. Use the "View selected entity" button to reload the provenance graph explorer, focused on the selected node.
+
+To perform the second process, first select the node to show it's [detailed view](#viewing-node-details), then select "View Selected Entity" (1).
+
+|                                     Changing the selected root node                                      |
+| :------------------------------------------------------------------------------------------------------: |
+| <img src="../../../assets/images/provenance/exploring/graph/view_entity.png" alt="drawing" width="800"/> |
+
+# Common issues and FAQs
+
+## Why is there a 401 error when viewing a node's details
+
+It is not uncommon to see the following error message when exploring the provenance graph:
+
+|                                                Details 401 Error                                                |
+| :-------------------------------------------------------------------------------------------------------------: |
+| <img src="../../../assets/images/provenance/exploring/graph/errors/details_401.png" alt="drawing" width="800"/> |
+
+This error message occurs when the provenance graph tries to retrieve the metadata of an item for which the user does not have the required permissions to view. See [controlling access](../registry/access-control) for more information about access in the registry. The graph will still allow you to [explore the record](#traversing-and-exploring-the-graph), however, you will not be able to view any details of the item beyond it's identifier and type.
+
+If you believe the system should be granting access to an item, but isn't, try refreshing the page. If this doesn't fix it, please use the contact us form in the top panel to report an issue.
+
+## Why do I have insufficient permissions to view entity record details
+
+If you receive the following error message, it means the system believes you do not have the correct permissions to read from the registry. See [requesting access](../../getting-started-is/requesting-access-is) for more information.
+
+|                                                   Insufficient Permissions                                                   |
+| :--------------------------------------------------------------------------------------------------------------------------: |
+| <img src="../../../assets/images/provenance/exploring/graph/errors/insufficient_permissions.png" alt="drawing" width="800"/> |
+
+If you think the error is incorrect, you should first try refreshing the page. If that doesn't fix the issue, try logging out and back in. If you still experience this issue, follow the process in [requesting access](../../getting-started-is/requesting-access-is) to request access. Otherwise, please report an issue using the Contact Us link in the top panel.
+
+## Why is the graph display empty
+
+An empty graph can be caused by a few issues
+
+**There are no connections from the given starting point** - if you are trying to explore the lineage of a node which is not linked to any other entities, the following message is shown. This behaviour is expected - there is no graph to view.
+
+|                                             Empty provenance graph                                              |
+| :-------------------------------------------------------------------------------------------------------------: |
+| <img src="../../../assets/images/provenance/exploring/graph/errors/empty_graph.png" alt="drawing" width="800"/> |
+
+**An issue fetching or loading the graph** - if you are experiencing an empty graph without any explanation or clear error messages, try refreshing the page. If that doesn't fix the issue, try using the graph reset button [explained here](#resetting-the-graph). If neither approach fixes the issue, please use the contact us button in the top panel to report the issue. Please note the root node ID in the report.
