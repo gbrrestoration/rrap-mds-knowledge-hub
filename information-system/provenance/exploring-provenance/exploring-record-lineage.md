@@ -200,9 +200,9 @@ To explore to a greater depth than the initial view, you can request an upstream
 
 To explore from a node, **double click the node**. A loading icon will appear in the bottom section of the graph while the upstream and downstream queries are made. This query is usually quick and the results will be merged into the existing graph. If there are no new nodes connected to the requested node, the graph will not change.
 
-In the below _before_ and _after_ graphs, we can see below that a model run record is being visualised. The record shows some input and output datasets and associations (i.e. a person and organisation). We may wish to understand the lineage of the dataset being used in this model run. To do so, we double click on it (1).
+In the below _before_ and _after_ graphs, we can see that a model run record is being visualised. The record shows some input and output datasets and associations (i.e. a person and organisation). We may wish to understand the lineage of the dataset being used in this model run. To do so, we double click on it (1).
 
-This results in the _after_ graph. We can see some highlighted new nodes. In particular, note that there is a model run which produced the input dataset (2) - this is a good example of upstream lineage. If you wanted to understand more about the history of the item, you could continue exploring, for example, by expanding the model run (2) with a double click.
+This results in the _after_ graph. We can see some highlighted new nodes. In particular, there is now a model run which produced the input dataset (2) displayed - this is a good example of upstream lineage. If you wanted to understand more about the history of the item, you could continue exploring, for example, by expanding the model run (2) with a double click.
 
 |                                                   Before                                                    |
 | :---------------------------------------------------------------------------------------------------------: |
@@ -226,14 +226,14 @@ The root node of the provenance graph explorer refers to the starting point of t
 
 The root node's record details are always displayed in the [top section](#the-top-section), alongside the graph legend. If you have expand the graph, hiding the root record details, you can expand it by pressing the expand button, as detailed in [resizing the graph](#panning-zooming-and-resizing).
 
-If you are exploring a provenance graph, observe that the URL includes the `rootId` query string e.g. `https://.../record/view?rootId=102.100.100/1234`. This means that if you share this URL, the authorised user of the system will see the same starting point in their exploration.
+If you are exploring a provenance graph, observe that the URL includes the `rootId` query string e.g. `https://.../record/view?rootId=102.100.100/1234`. This means that if you share this URL, with an authorised user of the system, they will see the same starting point in their exploration.
 
 To change the root node you can either
 
-1. Restart exploration from a different point in the registry, see [discovering records](./discovering-records#exploring-record-lineage-in-the-provenance-store) for more information, or
-2. Use the "View selected entity" button to reload the provenance graph explorer, focused on the selected node.
+1. restart exploration from a different point in the registry, see [discovering records](./discovering-records#exploring-record-lineage-in-the-provenance-store) for more information, or
+2. use the "View Selected Entity" button to reload the provenance graph explorer, focused on the selected node.
 
-To perform the second process, first select the node to show it's [detailed view](#viewing-node-details), then select "View Selected Entity" (1).
+To use the "View Selected Entity" button, first select the node to show it's [detailed view](#viewing-node-details), then click the "View Selected Entity" button (1). This button will be disabled if the selected node is the same as the current root node.
 
 |                                     Changing the selected root node                                      |
 | :------------------------------------------------------------------------------------------------------: |
