@@ -200,11 +200,17 @@ As per the [definitions above](#important-terms-and-concepts-for-provenance-expl
 
 To explore from a node, **double click the node**. A loading icon will appear in the bottom section of the graph while the query is made. This query is usually quick and the results will be merged into the existing graph. If there are no more nodes connected to the requested node, the graph will not change.
 
-An example is shown below through a before and after.
+In the below before and after graphs, we can see below that a model run record is being visualised. The record shows some input and output datasets and associations (i.e. a person and organisation). We may wish to understand the lineage of the dataset being used in this model run. To do so, we double click on it (1).
 
-| Before | After |
-| :--------------------------------------------------------------------------------------------------: | |
-| <img src="../../../assets/images/provenance/exploring/graph/details.png" alt="drawing" width="800"/> | |
+This results in the after graph. We can see some highlighted new nodes. In particular, note that there is a model run which produced the input dataset (2) - this is a good example of upstream lineage. If you wanted to understand more about the history of the item, you could continue exploring, for example, by expanding the model run (2) with a double click.
+
+|                                                   Before                                                    |
+| :---------------------------------------------------------------------------------------------------------: |
+| <img src="../../../assets/images/provenance/exploring/graph/explore_before.png" alt="drawing" width="800"/> |
+
+|                                                   After                                                    |
+| :--------------------------------------------------------------------------------------------------------: |
+| <img src="../../../assets/images/provenance/exploring/graph/explore_after.png" alt="drawing" width="800"/> |
 
 ### Resetting the graph
 
