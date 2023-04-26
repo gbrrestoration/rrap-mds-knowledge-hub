@@ -3,7 +3,7 @@ layout: default
 title: Registering an Entity
 nav_order: 2
 has_children: false
-grand_parent: Information System 
+grand_parent: Information System
 parent: Registry
 ---
 
@@ -112,4 +112,16 @@ Start by navigating to the entity (see [exploring the registry](./exploring-the-
 | :------------------------------------------------------------------------------------: |
 | <img src="../../../assets/images/registry/edit_button.png" alt="drawing" width="800"/> |
 
+When updating a registered entity, you will need to provide a reason for performing the update. This reason is documented and helps to understand how a resource may have changed over time, and why. Enter your reason in the text field as highlighted below (1).
+
+|                                      Updating reason                                       |
+| :----------------------------------------------------------------------------------------: |
+| <img src="../../../assets/images/registry/updating_reason.png" alt="drawing" width="800"/> |
+
 Then make the desired changes to the record on the resulting form, clicking submit when you are ready to publish the updates. For help completing these forms, see [registering an entity](#registering-an-entity) above.
+
+If you see the following warning and cannot submit then please double check you have entered a reason for the update, as mentioned above.
+
+|                                      No reason provided                                       |
+| :-------------------------------------------------------------------------------------------: |
+| <img src="../../../assets/images/registry/no_reason_provided.png" alt="drawing" width="800"/> |
