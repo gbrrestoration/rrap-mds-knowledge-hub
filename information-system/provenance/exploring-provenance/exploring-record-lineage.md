@@ -81,6 +81,12 @@ The graph contains nodes (1) and links (2). The meaning of these nodes and links
 | :----------------------------------------------------------------------------------------------------------: |
 | <img src="../../../assets/images/provenance/exploring/graph/overview_bottom.png" alt="drawing" width="800"/> |
 
+You can always come back to this page by using the help button, highlighted below (1).
+
+|                                               Getting Help                                               |
+| :------------------------------------------------------------------------------------------------------: |
+| <img src="../../../assets/images/provenance/exploring/graph/help_button.png" alt="drawing" width="800"/> |
+
 # Interacting with and traversing the provenance graph
 
 The provenance graph explorer is an interactive visualisation with various controls. We will explore these controls in three sections.

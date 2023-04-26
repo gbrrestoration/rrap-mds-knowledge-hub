@@ -32,7 +32,7 @@ There are two methods to discover explorable records:
 
 ### Finding model run records
 
-[Registered model run records](../registering-model-runs/index) records are good candidates for provenance exploration as they are complex collections of connected entities. They may form a good starting point if you would to explore provenance.
+[Registered model run records](../registering-model-runs/index) records are good candidates for provenance exploration as they are complex collections of connected entities. They may form a good starting point if you would like to explore provenance.
 
 To discover model run records - visit the [registry](../registry/overview), [explore the records](../registry/exploring_the_registry), [filtering](../registry/exploring_the_registry#listing-sorting-and-filtering-entities) by "Model Run".
 
