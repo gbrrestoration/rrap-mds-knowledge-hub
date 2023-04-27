@@ -132,4 +132,4 @@ Some registry item types either don't have history enabled, or require modifying
 | :---------------------------------------------------------------------------------------: |
 | <img src="../../../assets/images/registry/revert_dataset.png" alt="drawing" width="800"/> |
 
--   **Model Runs** - model runs currently cannot be updated, and therefore do not have any history. You cannot revert to a previous version of a dataset.
+-   **Model Runs** - model runs currently cannot be updated and therefore do not have any history. Consequently, you cannot revert to a previous version of a model run.
