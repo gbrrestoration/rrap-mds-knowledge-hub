@@ -26,9 +26,9 @@ Cloning a dataset is the same as [cloning other Registry items](../provenance/re
 
 If you have sufficient [permissions](../provenance/registry/clone#required-permissions), the "Clone Dataset" button will appear (1).
 
-|                                    Clone Dataset Button                                    |
-| :----------------------------------------------------------------------------------------: |
-| <img src="../../../assets/images/data_store/clone_dataset.png" alt="drawing" width="800"/> |
+|                                  Clone Dataset Button                                   |
+| :-------------------------------------------------------------------------------------: |
+| <img src="../../assets/images/data_store/clone_dataset.png" alt="drawing" width="800"/> |
 
 Cloning a Dataset is no different to cloning other [Registry](../provenance/registry/overview) entity types - the metadata details will be prefilled.
 
