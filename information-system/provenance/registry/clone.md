@@ -24,6 +24,8 @@ ____
 
 In the registry, you can _clone_ an item. Cloning an item is the same as registering a **new** item, however the form is prefilled with the details of an existing record.
 
+**Cloning a dataset does not copy any dataset files**. For more information, see the [FAQ](#faq).
+
 This enables you to quickly produce multiple records with similar contents.
 
 This could be useful for producing similar [Datasets](../../data-store/overview) or [Dataset Templates](../registering-model-runs/model-workflow-configuration#dataset-template), for example.
@@ -54,6 +56,10 @@ Clicking the clone button will bring you to the registration form. From there, y
 | <img src="../../../assets/images/registry/clone_item_form.png" alt="drawing" width="800"/> |
 
 ## FAQ
+
+**Can I clone a Dataset?**
+
+Datasets can be cloned, however the clone **does not include any dataset files**, only the metadata. To clone a dataset, click "View in Datastore" in the top buttons panel. The "Clone Dataset" button will appear in the same location as the Registry, if you have the required permissions.
 
 **Are the access settings cloned from the source item?**
 
