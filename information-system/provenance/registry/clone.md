@@ -65,6 +65,10 @@ Datasets can be cloned, however the clone **does not include any dataset files**
 
 No, cloning an item is equivalent to creating a new item with existing details pre-filled. Any access settings applied to the source item will not be transferred to the destination item.
 
+**Is the history of the source item copied?**
+
+No, cloning an item is equivalent to creating a new item with existing details pre-filled. The history of the source item is not part of the history of the new item.
+
 **Does the RRAP IS API support cloning?**
 
 No, cloning is not implemented for programmatic API use. Instead, you can `fetch` the contents of an existing record, modify them, and post the new item using the appropriate `create` endpoint.
