@@ -8,7 +8,6 @@ grand_parent: RRAP M&DS
 
 {: .no_toc }
 
-# Licenses
 
 <details  open markdown="block">
   <summary>
