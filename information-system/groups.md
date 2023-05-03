@@ -8,7 +8,6 @@ grand_parent: RRAP M&DS
 
 {: .no_toc }
 
-# Licenses
 
 <details  open markdown="block">
   <summary>
@@ -58,4 +57,4 @@ Once the group is created, you may use it in the IS.
 
 ## Related pages
 
-[Group access and configuration for datasets in the Data Store](https://gbrrestoration.github.io/rrap-mds-knowledge-hub/information-system/registry/access-control.html#group-access)
+[Group access and configuration for datasets in the Data Store](https://gbrrestoration.github.io/rrap-mds-knowledge-hub/information-system/provenance/registry/access-control.html#group-access)
