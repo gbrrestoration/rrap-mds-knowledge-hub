@@ -26,6 +26,11 @@
         "prefix": "danger",
         "body": "{% include danger.html content=\"$1\" %}"
     },
+    "warning snippet": {
+        "scope": "markdown",
+        "prefix": "warning",
+        "body": "{% include warning.html content=\"$1\" %}"
+    },
     "success snippet": {
         "scope": "markdown",
         "prefix": "success",
