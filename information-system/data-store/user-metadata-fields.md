@@ -18,7 +18,7 @@
 -   **_Indigenous Knowledge and Consent\*_**: Does this dataset contain Indigenous knowledge? If so, do you have consent from the relevant Indigenous communities for its use and access via this data store?
     -   **_Contains Indigenous knowledge?_**: Use the tick box to specify whether this dataset contains Indigenous knowledge.
     -   **_Necessary permission acquired?_**: This tick box will only appear if the dataset contains Indigenous knowledge. If you have not acquired the necessary consents and permissions, the dataset should not be registered and submission will fail.
--   **_Export Controls\*_**: DIs this dataset subject to any export controls permits? If so, has this dataset cleared any required due diligence checks and have you obtained any required permits?
+-   **_Export Controls\*_**: Is this dataset subject to any export controls permits? If so, has this dataset cleared any required due diligence checks and have you obtained any required permits?
     -   **_Subject to export controls?_**: Use the tick box to specify whether this dataset is subject to export controls.
     -   **_Cleared due diligence checks and obtained required permits?_**: This tick box will only appear if the dataset was marked as subject to export controls. If you have not performed the necessary due diligence checks and acquired the relevant permits, the dataset should not be registered and submission will fail.
 
