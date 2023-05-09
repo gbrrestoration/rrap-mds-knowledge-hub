@@ -85,6 +85,12 @@ Navigate to the new entity form (for help, see [registering an entity](../regist
 -   **First Name**\*: Your first name, e.g. Peter
 -   **Last Name**\*: Your last name, e.g. Baker
 -   **Open Researcher and Contributor ID ([ORCID](https://orcid.org){:target="\_blank"})** : An ORCID uniquely identifies you as an academic Person. Providing an ORCID is optional though recommended if you are registered. To select an orcid, you can search for your name and organisation using the tool e.g. "Peter Baker CSIRO". When you see your name appear, click it in the list and the form will show your selection. Alternatively, you can directly copy your ORCID iD in the form XXXX-XXXX-XXXX-XXXX into the box and select the matching result.
+-   **Ethics Approved**\*: Have you received consent and been granted permission from the person to be registered in the registry? If you do not approve, the Person cannot be registered. By registering a person, you consent to:
+    1.  Having a Handle identifier being assigned to the person
+    1.  The person being included and referenced in provenance and dataset records in the information system
+    1.  Enabling users of the information system to query the system using the person identifier, e.g. related provenance and/or data records
+
+{% include warning.html content="All Person(s) registered in the Entity Registry must supply explicit consent for their registration and usage in the system. For this reason, we recommend that you only register yourself as a Person in the RRAP IS Registry. If someone requests that you register them in the system, you should recommend that they instead login and perform the process themselves. If it is required that you register someone else's identity, please ensure you explicitly seek their consent." %}
 
 Once you have completed your registration, you can view the record and take note of the identifier (noting that you can find your entity again at any time by [exploring the registry](../registry/exploring_the_registry.html)).
 
