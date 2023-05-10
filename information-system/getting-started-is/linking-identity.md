@@ -114,6 +114,68 @@ If validation succeeds, you will be prompted to confirm the assignment (1) or cl
 | :--------------------------------------------------------------------------------------------: |
 | <img src="../../assets/images/link_service/validation_success.png" alt="drawing" width="800"/> |
 
-If 
+If a validation error occurs, the error will be displayed. For example, the below error indicates that the selected Person is not owned by you, therefore disabling linking.
+
+|                                       Failed Validation                                       |
+| :-------------------------------------------------------------------------------------------: |
+| <img src="../../assets/images/link_service/validation_failed.png" alt="drawing" width="800"/> |
+
+If you believe the validation error is incorrect, try:
+
+1. Refreshing the page and trying again
+2. Double checking you are selecting the correct search result - you can also validate this by comparing the ID with the Person in the registry
+
+If you cannot determine the cause of the issue and/or fix it yourself, please contact us to provide assistance.
+
+{% include warning.html content="You can only link a single Person to your user account. This action cannot be reverted. Please double check you have selected the correct Person before linking. If you make a mistake and need to change your linked identity, please contact us." %}
+
+Once you are confident you have selected the correct Person, you can click the "Assign to me" button. The page will take a few moments and refresh it yourself, showing you this message indicating a successfully linked identity.
+
+|                                Successfully Linked                                 |
+| :--------------------------------------------------------------------------------: |
+| <img src="../../assets/images/link_service/linked.png" alt="drawing" width="800"/> |
 
 ## FAQ
+
+### Why can't I link to a Person?
+
+There are a few requirements which could stop you from linking to a Person:
+
+-   you do not own the Person record - ownership is determined by who created the record
+-   you are already linked to a Person - you can only be linked to a single Person
+-   the selected Person ID was invalid (i.e. the entry does not exist in the system, it's metadata contents are invalid, or other issues). If you experience this problem, please contact us.
+
+### What do I do if someone else registered me in the system?
+
+In general - we do not recommend that you register another user's Person in the system. This is for a few reasons:
+
+-   as mentioned above, the other user will not be able to link to that identity as they are not the record owner
+-   registering a Person is subject to ethical considerations which requires explicit consent - the burden of proof for having gained consent is on the registrant of the Person
+-   currently, there is no purpose to registering a Person in the system other than yourself
+
+If someone has registered you in the system, you have a few options:
+
+-   if you did provide consent for this registration, please contact us and we can assist you to gain admin access to this record and link to it
+-   if you did not provide consent for this registration, please contact us and we can delete the record and contact the creator to understand why it was created
+
+### What do I do if I sign into the system with multiple accounts?
+
+It is possible for multiple users to link to the same Person identity. This means that if you sign in with multiple user accounts with different usernames, you could theoretically link both accounts to the same Person. However, a record can only have a single owner, meaning that the non registrant account would not be able to link to the records. Admins can override this requirement - please contact us if you have a valid need to use multiple accounts. In most cases we recommend you only use a single account in the system.
+
+### What will happen if I don't link to a Person?
+
+All actions which are classified as creation or modification will be blocked. You will see errors such as this:
+
+|                                   Required Person Link                                   |
+| :--------------------------------------------------------------------------------------: |
+| <img src="../../assets/images/link_service/require_link.png" alt="drawing" width="800"/> |
+
+These errors currently can appear when:
+
+-   registering, updating or cloning a dataset
+-   registering, updating or cloning (non Person) Registry entities
+-   using the CSV Provenance tool to lodge model run records
+
+### Why can't we perform this process automatically?
+
+While it would be technically possible to register a Person on your behalf when you first login, we believe that this violates our requirement to seek consent for a Person's registration in the system. We also believe that there may be situations where the user's login account details (email, name etc) are not the preferred contact details when users discover your actions in Provenance records. By separating the two identities, you can clearly understand what information is visible to other users (and [control this](../provenance/registry/access-control)), and maintain this persistently identified information through time.
