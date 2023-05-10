@@ -7,7 +7,7 @@
         },
         "editor.suggest.showWords": false
     },
-    "editor.snippetSuggestions": "top",
+    //"editor.snippetSuggestions": "top",
     "files.autoSave": "afterDelay",
     "files.autoSaveDelay": 3000,
     "cSpell.words": ["ORCID", "RRAP", "scriptable", "venv"]
