@@ -87,15 +87,15 @@ To go straight there, click [here](https://mds.gbrrestoration.org/profile?functi
 
 Otherwise, you can click the profile icon in the top right (1), then "identity" in the left hand panel (2). You will need to be [logged in](logging-in) to visit this page.
 
-|                                Identity Page                                 |
-| :--------------------------------------------------------------------------: |
-| <img src="../../assets/images/identity_page.png" alt="drawing" width="800"/> |
+|                                       Identity Page                                       |
+| :---------------------------------------------------------------------------------------: |
+| <img src="../../assets/images/link_service/identity_page.png" alt="drawing" width="800"/> |
 
 Use the search tool (1) to input your name. This will search the registry. You will see your newly registered Person in the list. Select the item in the list (2).
 
-|                            Search for yourself                             |
-| :------------------------------------------------------------------------: |
-| <img src="../../assets/images/search_link.png" alt="drawing" width="800"/> |
+|                                   Search for yourself                                   |
+| :-------------------------------------------------------------------------------------: |
+| <img src="../../assets/images/link_service/search_link.png" alt="drawing" width="800"/> |
 
 If you are not appearing try:
 
@@ -107,5 +107,13 @@ If you are not appearing try:
 If you cannot find yourself in the search results, please contact us.
 
 After selecting yourself, a validation process will begin in the background.
+
+If validation succeeds, you will be prompted to confirm the assignment (1) or clear your selection of Person (2).
+
+|                                     Successful Validation                                      |
+| :--------------------------------------------------------------------------------------------: |
+| <img src="../../assets/images/link_service/validation_success.png" alt="drawing" width="800"/> |
+
+If 
 
 ## FAQ
