@@ -129,7 +129,7 @@ If you cannot determine the cause of the issue and/or fix it yourself, please co
 
 {% include warning.html content="You can only link a single Person to your user account. This action cannot be reverted. Please double check you have selected the correct Person before linking. If you make a mistake and need to change your linked identity, please contact us." %}
 
-Once you are confident you have selected the correct Person, you can click the "Assign to me" button. The page will take a few moments and refresh it yourself, showing you this message indicating a successfully linked identity.
+Once you are confident you have selected the correct Person, you can click the "Assign to me" button. The page will take a few moments and refresh itself, showing you this message indicating a successfully linked identity.
 
 |                                Successfully Linked                                 |
 | :--------------------------------------------------------------------------------: |
