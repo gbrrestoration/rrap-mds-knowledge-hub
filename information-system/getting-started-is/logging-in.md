@@ -33,6 +33,7 @@ The M&DS IS is a suite of applications for data and information capture and acce
 ## Accessing RRAP-M&DS Information System
 
 To log into the RRAP M&DS Information system, click on the **Click to login** button on the top right on the home page.
+**Note that your name and email address will be collected.**
 
 |                      RRAP M&DS Information System home page                       |
 | :-------------------------------------------------------------------------------: |
