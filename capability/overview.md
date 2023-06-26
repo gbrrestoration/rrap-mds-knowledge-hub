@@ -43,8 +43,8 @@ Our Goal is to develop an operational suite of models and decision-support syste
 The MDS suite is a collaborative  set of environmental, ecological, and economic models working within a decision-support framework. Climate models force the environmental and ecological layers, and influence intervention scope and effectiveness. Uncertainty is propagated throughout the information supply chain.  Scenario analyses of ecological and economic outcomes feed back to inform which intervention strategies and tactics are effective, safe and robust.  ​
 
 
-[**Reef Characterisation and Selection**](./reef-charact-select/index.md){:target="\_blank"}: Capabilities to assist with reef characterisation and selection. 
+[**Reef Characterisation and Selection**](./reef-charact-select/){:target="\_blank"}: Capabilities to assist with reef characterisation and selection. 
 
-[**Counterfactuals**](./counterfactuals/index.md){:target="\_blank"}: Modelling of potential futures for reefs under various uncertainties.
+[**Counterfactuals**](./counterfactuals/){:target="\_blank"}: Modelling of potential futures for reefs under various uncertainties.
 
-[**Intervention Modelling**](./intervention-modelling/index.md){:target="\_blank"}: Characterisation of the effect of interventions on reefs.
+[**Intervention Modelling**](./intervention-modelling/){:target="\_blank"}: Characterisation of the effect of interventions on reefs.

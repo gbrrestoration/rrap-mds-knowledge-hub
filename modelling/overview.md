@@ -24,7 +24,7 @@ ____
 
 TODO some sort of preamble about the various modelling packages:
 
-[**eReefs suite**](./e-reefs/index.md){:target="\_blank"}: Modelling environmental drivers and pressures on the Reef. 
+[**eReefs suite**](./e-reefs/){:target="\_blank"}: Modelling environmental drivers and pressures on the Reef. 
 
-[**C~Scape**](./c-scape/index.md){:target="\_blank"}: Modelling of coral dynamics at fine spatial scales​.
+[**C~Scape**](./c-scape/){:target="\_blank"}: Modelling of coral dynamics at fine spatial scales​.
 
