@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Decision support
-nav_order: 4
+nav_order: 2
 parent: RRAP M&DS
 has_children: true
 ---
