@@ -3,7 +3,7 @@ layout: default
 title: Information System
 nav_order: 4
 grand_parent:
-parent: RRAP M&DS 
+parent: RRAP M&DS
 has_children: true
 has_toc: false
 ---
@@ -16,4 +16,4 @@ The RRAP M&DS Information System is based on Provena, a cloud-based knowledge ma
 
 All other features should be the same, if this is not the case please contact us.
 
-To access the Provena documentation click [here](http://docs.provena.io/){:target="\_blank"}.
+To access the Provena documentation click [here](https://docs.provena.io/){:target="\_blank"}.
