@@ -24,13 +24,13 @@ The objectives for counterfactual modelling are (non-exhaustive) to:
 
 The MDS suite delivers counterfactual modelling using three ecological models: CoCoNet, ReefMod and C~scape. 
 
-[**CoCoNet**](/rrap-mds-knowledge-hub/modelling/coconet/ "CoCoNet Model")
+[**CoCoNet**](/rrap-mds-knowledge-hub/modelling/coconet/ "CoCoNet Model"){:target="\_blank"}
 
-[**Reefmod**](/rrap-mds-knowledge-hub/modelling/reefmod/ "Reefmod Model")
+[**Reefmod**](/rrap-mds-knowledge-hub/modelling/reefmod/ "Reefmod Model"){:target="\_blank"}
 
-[**C~scape**](/rrap-mds-knowledge-hub/modelling/c-scape/ "C~scape Model")
+[**C~scape**](/rrap-mds-knowledge-hub/modelling/c-scape/ "C~scape Model"){:target="\_blank"}
 
-[**ADRIAmod**](/rrap-mds-knowledge-hub/modelling/adriamod/ "ADRIAmod Model")
+[**ADRIAmod**](/rrap-mds-knowledge-hub/modelling/adriamod/ "ADRIAmod Model"){:target="\_blank"}
 
 All three ecological models predict spatial and temporal dynamics of coral cover of several different coral taxa groups. This provides outputs which include total coral cover dynamics, coral cover community dynamics, the dynamics of total coral abundance and the size structure of corals. The models act at different scales and have distinct mode architectures, enabling them to provide various types of information. ReefMod and CoCoNet are designed to model at regional scales and can provide predictions for all reefs in the Great Barrier Reef system. C~scape operates at the 'reef cluster' scale and provides information for a mosaic network of sites with a reef cluster at a fine (~250m) scale. Downscaled temperature projections for the Reef from the latest generation of climate models (CMIP-6, those which informed the latest (6th) assessment report by the IPCC) were input into the three ecological models to run the 2022 counterfactuals. Uncertainty on future heat stress is currently captured by an ensemble of five climate models, with plans to incorporate more into the suite. 
 
@@ -44,11 +44,11 @@ Regional-scale projections show a decline in total coral cover until mid-century
 
 The most likely Shared Socioeconomic Pathway (SSP2 and SSP3) could see coral cover drop from today’s ~25-35% to ~5-10% by 2060 in the absence of intervention (Figure 1 & Figure 2) (Adaptus et al., 2022). 
 
-![Figure1](counterfactual_figure_3.png)
+![Figure3](../../assets/images/capability/counterfactual_figure_3.png)
 
 *Figure 1. Downscaled projected coral cover for all reefs on the GBR for five climate models in the CMIP6 suite under the most likely Shared Socioeconomic Pathway: SSP2-4.5 (+3 Degrees Celsius). Grey lines indicate mean trajectories for the Reef for individual model runs, black solid lines indicate model means, and coloured solid lines are the model ensemble means. Data are produced by Bozec and Adam using UQ’s model, ReefMod.*
 
-![Figure2](counterfactual_figure_4.png)
+![Figure4](../../assets/images/capability/counterfactual_figure_4.png)
 
 *Figure 2. CoCoNet projections of coral cover for SSP1‐2.6 (blue), SSP2‐4.5 (orange) and SSP3‐7.0 (red). The GBR ensemble mean (coloured lines and circles) and individual ensemble trajectories (grey) are shown over the period 2020‐2100 (Condie & Porobic, 2023).*
 
@@ -57,14 +57,15 @@ The most likely Shared Socioeconomic Pathway (SSP2 and SSP3) could see coral cov
  
  We examined how the temporal dynamics varied between sites for each of the SSP climate scenarios (Figure 4). Site variability, although considerable, was smaller than the variation between climate model realisations. Variation between sites was contracted towards later decades in the hotter SSP scenarios (Adaptus et al., 2022). Various contributors to variability between sites were identified - carrying capacity, site specific exposure to DHW, depth (influencing the exposure to cyclones and DHW) and connectivity – but more investigation is needed to disentangle the major drivers of this variation in the present simulations. 
 
- ![Figure3](counterfactual_figure_5a.png)
- ![Figure3](counterfactual_figure_5b.png)
+ ![Figure5a](../../assets/images/capability/counterfactual_figure_5a.png)
+ ![Figure5b](../../assets/images/capability/counterfactual_figure_5b.png)
  *Figure 3. Average total coral cover predicted from 2008 to 2100 for the Moore Reef Cluster for the current most likely SSP scenario (SSP2-4.5). Upper: Light grey lines show each of 20 realisations for each of the 5 climate models (100 lines total), dark grey lines show the average of these realisations for each of the 5 climate models, while the coloured line shows the overall mean coral dynamics across the five climate models. Lower: Light grey lines show the average total coral cover at each site (213 total, averaged across all of 20 realisations and across the 5 climate models), the coloured line shows the overall mean coral dynamics across the 213 sites.*
 
-![Figure4](counterfactual_figure_6.png)
+![Figure6](../../assets/images/capability/counterfactual_figure_6.png)
 *Coral cover variability between sites of the Moore Reef Cluster for three Shared Socio-economic Pathways (SSP) between the years 2040-2050.*
 
-### Capability Advancements - updated October 2023
+##  Capability Advancements - updated October 2023
+
 - The two regional models have also delivered broadly consistent counterfactuals based on CMIP-6 climate projections. These results demonstrate the sensitivity of reef health projections to climate scenarios, with responses ranging from gradual recovery after 2050 under optimistic climate scenarios to system collapse under pessimistic climate scenarios. 
 - The CoCoNet model has been expanded to represent processes such as fish predation on CoTS, ocean acidification, and a minimal realistic representation of natural selection and adaptation.
 - Downscaled bleaching projections from the last climate models (CMIP-6) are available for integration across MDS, including projections of heat stress (degree heating weeks) under five (5) warming scenarios (SSPs).
