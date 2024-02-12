@@ -6,42 +6,36 @@ parent: Modelling
 grand_parent: RRAP M&DS
 ---
 
-{: .no_toc }
-
-# RRAP M&DS Modelling
-
-<details  open markdown="block">
-  <summary>
-    Table of contents
-  </summary>
-{: .text-delta }
-* TOC
-{:toc}
-____
-</details>
-
 ## Overview
 
-The MDS suite is a unique synthesis of environmental, ecological and economic models with information systems and decision-support tools. We use the best scientific knowledge of global and regional environmental forcing and ecological responses in space and time. We translate ecological information into value functions to identify viable and lasting economic and social outcomes for The Reef and peoples. 
+The MDS suite is a unique synthesis of environmental, ecological and economic models with information systems and decision-support tools. 
+
+We use the best scientific knowledge of global and regional environmental forcing and ecological responses in space and time. 
+
+We translate ecological information into value functions to identify viable and lasting economic and social outcomes for The Reef and peoples. 
 
 
-### Environmental Modelling
+### [Environmental Modelling](./environmental_mod){:target="\_blank"}
 
-[**eReefs suite**](./common_inputs){:target="\_blank"}: Modelling environmental drivers and pressures on the Reef. 
+**eReefs suite**: Modelling environmental drivers and pressures on the Reef. 
 
-[**OceanParcels**](./common_inputs){:target="\_blank"}: Modelling particle movement at reef cluster scale to calculate coral larval connectivity. 
+**RECOM**: TODO
 
-[**CONNIE2**](./common_inputs){:target="\_blank"}: Modelling coral larval connectivity at GBR-wide scale. 
+**OceanParcels**: Modelling particle movement at reef cluster scale to calculate coral larval connectivity. 
 
-[**SWAN**](./common_inputs){:target="\_blank"}: Modelling wave dynamics to inform coral wave stress estimates. 
+**CONNIE2**: Modelling coral larval connectivity at GBR-wide scale. 
 
-### Ecological Modelling
+**SWAN**: Modelling wave dynamics to inform coral wave stress estimates. 
 
-[**CoCoNet**](./coconet/){:target="\_blank"}: Modelling of coral metapopulations at a regional spatial scale. 
+### [Ecological Modelling](./ecological_mod){:target="\_blank"}
 
-[**C~scape**](./c-scape/){:target="\_blank"}: Modelling of coral dynamics at a local spatial scales​.
+**ADRIAmod**: TODO
 
-[**Reefmod**](./reefmod/){:target="\_blank"}: Modelling of coral metapopulations at a regional spatial scale.
+**CoCoNet**: Modelling of coral metapopulations at a regional spatial scale. 
 
-### Economic Modelling
+**C~scape**: Modelling of coral dynamics at a local spatial scales​.
+
+**Reefmod**: Modelling of coral metapopulations at a regional spatial scale.
+
+### [Economic Modelling](./economic_mod){:target="\_blank"}
 TODO
