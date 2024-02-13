@@ -1,11 +1,9 @@
 ---
 layout: default
-title: Decision support
+title: Decision Support
 nav_order: 2
 parent: RRAP M&DS
 has_children: true
 ---
 
-# RRAP M&DS Decision support 
-
-TODO
+# RRAP M&DS Decision Support 
