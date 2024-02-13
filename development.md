@@ -60,16 +60,30 @@ then to serve the application locally:
 ### Windows development
 
 Use the [Jekyll Windows installer](https://jekyllrb.com/docs/installation/windows/)
-There are a number of packages that are not included which you will need to add separately
+There are a number of packages that are not included which you will need to add separately (including the `just-the-docs` Jekyll theme). Run the following commands:
 
 1. `gem install wdm`
-1. `gem install webrick`
+2. `gem install webrick`
+3. `gem install just-the-docs`
 
 ____
 
 ## Documentation writing/development
 
-Documents are written using [Markdown](https://www.markdownguide.org/cheat-sheet/) syntax
+### Quickstart
+
+Run the following commands to build and serve the site:
+
+1. `jekyll b`
+2. `jekyll server --config _config_development.yml`
+3. (Ctrl-c to stop the site)
+4. Repeat Steps 1 and 2 to iterate development
+
+Step 2 will run the Jekyll server to serve the website. Any content changes will automatically regenerate on the website (refresh browser to see changes). Structural changes (e.g. new files added) will need you to run Steps 1 and 2.
+
+### Notes 
+
+Documents are written using [Markdown](https://www.markdownguide.org/cheat-sheet/) syntax.
 
 The Jekyll site is built with `jekyll b` and the servered with `jekyll server --config _config_development.yml`, note that we use a specific `config.yml` for development as the theme is local and we include this file in the site.
 
