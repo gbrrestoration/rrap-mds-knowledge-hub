@@ -22,7 +22,7 @@ ____
 
 # Common Inputs & Processes
 
-The following environmental modelling inputs are common across all ecological models, providing the foundation for environmental forcings that inform ecological responses on The Reef.
+The following environmental modelling inputs are common across all ecological models, providing the foundation for environmental forcings that inform ecological responses on the Great Barrier Reef.
 
 To generate long-term climate change projections, eReefs and Relocatable Coastal Model (RECOM) outputs are currently combined with projected temperature trends from MIROC5 and CMIP-6 global ocean models. 
 
@@ -39,25 +39,25 @@ We are working towards incorporating more integrated downscaled models that capt
 
 ## Habitat Maps
 
-Three types of habitat maps for The Reef were developed using a combination of object-based image analysis and ecological modelling, building upon a previous mapping apporach developed for the Capricorn Bunker Group area (Roelfsema et al., 2018). 
+Three types of habitat maps for the Great Barrier Reef were developed using a combination of object-based image analysis and ecological modelling, building upon a previous mapping apporach developed for the Capricorn Bunker Group area (Roelfsema et al., 2018). 
 The following habitat maps were produced by Roelfsema et al. (2020):
 1. Geomorphic Zonation, 
 2. Benthic Cover and 
 3. Coral Type.
 
-The M&DS suite utilises the Geomorphic Zonation and Benthic Cover maps to delineate polygon boundaries and to identify suitable areas for coral restoration across The Reef. 
+The M&DS suite utilises the Geomorphic Zonation and Benthic Cover maps to delineate polygon boundaries and to identify suitable areas for coral restoration across the Great Barrier Reef. 
 
 ## eReefs Suite
 
-The eReefs modelling system (Steven et al., 2019) uses the CSIRO Environmental Modelling Suite (Baird et al., 2020) to represent the 3 dimensional hydro-dynamic, sediment and biogeochemistry and ecological processes to simulate temperature, salinity and water quality across the Reef. 
+The eReefs modelling system (Steven et al., 2019) uses the CSIRO Environmental Modelling Suite (Baird et al., 2020) to represent the 3 dimensional hydro-dynamic, sediment and biogeochemistry and ecological processes to simulate temperature, salinity and water quality across the Great Barrier Reef. 
 
-eReefs is a platform that provides a picture of what is currently happening on the reef, and what will likely happen in the future. 
+eReefs is a platform that provides a picture of what is currently happening on the Great Barrier Reef, and what will likely happen in the future. 
 
 **More information on eReefs:** [CSIRO website](https://research.csiro.au/ereefs/){:target="\_blank"}
 
 ### Hydro-dynamic Models (GBR4 & GBR1)
 
-eReefs hydro-dynamic models provide information about currents and water temperature on The Reef in three dimensions and with 1-4 km resolution (GBR1 & GBR4). These models operate in near real time, allowing current conditions to be estimated, and hindcasts date back to 2010 (4 km grid) and 2014 (1 km grid).
+eReefs hydro-dynamic models provide information about currents and water temperature on the Great Barrier Reef in three dimensions and with 1-4 km resolution (GBR1 & GBR4). These models operate in near real time, allowing current conditions to be estimated, and hindcasts date back to 2010 (4 km grid) and 2014 (1 km grid).
 
 ReefMod uses connectivity matrices from GBR4 to estimate particle movement and simulate regional connectivity, while CoCoNet processes connectivity matrices from GBR1 into dispersal kernels to model regional connectivity. 
 
@@ -91,9 +91,9 @@ Wave exposure outputs, along with other modelled variables, are used to estimate
 
 TThe Coupled Model Intercomparison Project (CMIP) is a global effort to improve climate change projections using a multi-model approach to climate model evaluation and experimentation. 
 
-To forecast possible futures for The Reef under different climate change scenarios, the M&DS suite applies projections of Sea surface Temperatures (SST) from the sixth phase of the CMIP (CMIP-6) and considers four (4) shared socio-economic pathways (SSPs) SSP1, SSP2, SSP3, and SSP5 and five (5) emission trajectories SSP1-1.9, SSP1-2.6, SSP2-4.5, SSP3-7.0, SSP5-8.5. Note that the variety of SSPs and emissions pathways investigated varies according to the specific inquiry addressed by the M&DS suite.
+To forecast possible futures for the Great Barrier Reef under different climate change scenarios, the M&DS suite applies projections of Sea surface Temperatures (SST) from the sixth phase of the CMIP (CMIP-6) and considers four (4) shared socio-economic pathways (SSPs) SSP1, SSP2, SSP3, and SSP5 and five (5) emission trajectories SSP1-1.9, SSP1-2.6, SSP2-4.5, SSP3-7.0, SSP5-8.5. Note that the variety of SSPs and emissions pathways investigated varies according to the specific inquiry addressed by the M&DS suite.
 
-The following climate models from CMIP-6 have been recently integrated into the M&DS suite after mechanistic downscaling of SST projections at 10 km resolution across The Reef (McWhorter et al., 2022):
+The following climate models from CMIP-6 have been recently integrated into the M&DS suite after mechanistic downscaling of SST projections at 10 km resolution across the Great Barrier Reef (McWhorter et al., 2022):
 - CNRM-ESM2-1
 - EC-Earth3-Veg
 - IPSL-CM6A-LR
@@ -105,7 +105,7 @@ The following climate models from CMIP-6 have been recently integrated into the 
 - MIROC6
 - NorESM2-LM 
 
-In addition, the following models of the previous generation (CMIP-5) have been integrated with four (4) representative concentration pathwways (RCP) scenarios (RCP2.6, RCP4.5, RCP6.0, RCP8.5) in their native spatial resolution across The Reef:
+In addition, the following models of the previous generation (CMIP-5) have been integrated with four (4) representative concentration pathwways (RCP) scenarios (RCP2.6, RCP4.5, RCP6.0, RCP8.5) in their native spatial resolution across the Great Barrier Reef:
 - CCSM4
 - CESM1_WACCM
 - GFDL_ESM2M

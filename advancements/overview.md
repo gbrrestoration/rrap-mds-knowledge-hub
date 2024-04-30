@@ -115,9 +115,9 @@ Not Reported
     - Data Store by: (1) addition of preferred citation field to inform users how dataset should be cited, (2) addition of ethics and consent, export control and Indigenous Knowledge metadata fields, (3) addition of ethics and consent check in Person item types. 
     - Minor bug fixes and the UI to the Registry and Provenance store
 - Improved model integration: 
-    - C-scape and ReefMod have a standardised approach for coral available substrate calculations.
-    - Improved transfer of information (coral larvae) across scales with a new developed capability to track the origin of larvae from individual reefs (ReefMod) outside the targeted high resolution reef clusters (C~Scape).
-    - Two-way workflow between ADRIA and ReefMod: ADRIA can run scenario analyses directly with ReefMod as the model engine, and inform site and reef selection for ReefMod and other models (C~Scape and CoCoNet) 
+    - C~scape and ReefMod have a standardised approach for coral available substrate calculations.
+    - Improved transfer of information (coral larvae) across scales with a new developed capability to track the origin of larvae from individual reefs (ReefMod) outside the targeted high resolution reef clusters (C~scape).
+    - Two-way workflow between ADRIA and ReefMod: ADRIA can run scenario analyses directly with ReefMod as the model engine, and inform site and reef selection for ReefMod and other models (C~scape and CoCoNet) 
 
 # References
 

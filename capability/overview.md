@@ -22,7 +22,7 @@ ____
 
 ## Our Mission
 
-Our Mission is to help environmental decision makers on The Reef explore and identify robust intervention options under uncertainty. We do this using integrated state-of-the-art environmental, ecological and economic models and decision-support tools.
+Our Mission is to help environmental decision makers on the Great Barrier Reef explore and identify robust intervention options under uncertainty. We do this using integrated state-of-the-art environmental, ecological and economic models and decision-support tools.
 
 
 ## Our Capability
@@ -31,7 +31,7 @@ Our modelling and decision-support (M&DS) suite is a unique synthesis of environ
 
 We use the best scientific knowledge of global and regional environmental forcing in space and time, and the biological and ecological responses of corals, to inform actions that can sustain a resilient Reef in the face of climate change. ​
 
-We translate ecological information to value functions and through scenario analyses of outcomes, identify intervention options that represent viable and lasting economic and social outcomes for The Reef and peoples. ​
+We translate ecological information to value functions and through scenario analyses of outcomes, identify intervention options that represent viable and lasting economic and social outcomes for the Great Barrier Reef and peoples. ​
 
 The M&DS suite informs strategic and tactical Reef intervention decisions at scale through the following capabilities: 
 
