@@ -46,7 +46,7 @@ The M&DS suite delivers counterfactual modelling using three ecological models: 
 
 The models act at different scales and have distinct mode architectures, enabling them to provide various types of information. ReefMod and CoCoNet are designed to model at regional scales and can provide predictions for all reefs in the Great Barrier Reef system. C~scape operates at the reef cluster scale and provides information for a mosaic network of sites within a reef cluster.
 
-**More information on the ecological models: [here](/../../modelling/ecological_mod)** 
+**More information on the ecological models: [here](../../modelling/ecological_mod)** 
 
 Downscaled temperature projections for The Reef from the latest generation of climate models (CMIP-6, those which informed the latest (6th) assessment report by the IPCC) were input into the three ecological models to run the 2022 counterfactuals. Uncertainty on future heat stress is currently captured by an ensemble of five climate models, with plans to incorporate more into the M&DS suite. 
 
