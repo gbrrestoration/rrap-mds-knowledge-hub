@@ -56,6 +56,6 @@ Discussions are ongoing to incorporate further environmental stressors (Crown of
 
 In terms of interventions, the model is used to simulate deployment of thermally enhanced corals, fogging and regional Marine Cloud Brightening. 
 
-**More information on ADRIAMod: [here](/../../modelling/ecological_mod)**
+**More information on ADRIAMod: [here](../../modelling/ecological_mod)**
 
 ADRIA is openly developed and fully open source. ADRIA is currently hosted at: [https://github.com/open-AIMS/ADRIA.jl](https://github.com/open-AIMS/ADRIA.jl){:target="\_blank"} with documentation providing an overview of usage and capabilities hosted at [https://open-aims.github.io/ADRIA.jl/stable/](https://open-aims.github.io/ADRIA.jl/stable/){:target="\_blank"}
