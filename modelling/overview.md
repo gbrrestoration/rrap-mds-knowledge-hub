@@ -6,36 +6,33 @@ parent: Modelling
 grand_parent: RRAP M&DS
 ---
 
-## Overview
+# Modelling Overview
 
-The MDS suite is a unique synthesis of environmental, ecological and economic models with information systems and decision-support tools. 
+## Environmental Modelling
 
-We use the best scientific knowledge of global and regional environmental forcing and ecological responses in space and time. 
+The following environmental modelling inputs are common across all ecological models, providing the foundation for environmental forcings that inform ecological responses on the Great Barrier Reef.
 
-We translate ecological information into value functions to identify viable and lasting economic and social outcomes for The Reef and peoples. 
+- **eReefs suite**: Modelling environmental drivers and pressures on Tthe Great Barrier Reef. 
 
+- **RECOM**: Modelling environmental drivers and pressures on the Great Barrier Reef at higher resolutions.
 
-### [Environmental Modelling](./environmental_mod){:target="\_blank"}
+- **OceanParcels**: Modelling particle movement at reef cluster scale to calculate coral larval connectivity.  
 
-**eReefs suite**: Modelling environmental drivers and pressures on the Reef. 
+- **SWAN**: Modelling wave dynamics to inform coral wave stress estimates. 
 
-**RECOM**: TODO
+- **Global Climate Models**: Sea Surface Temperature Projections from the sixth phase of climate models (CMIP6) to forecast possible trajectories of the Great Barrier Reef under different climate scenarios.
 
-**OceanParcels**: Modelling particle movement at reef cluster scale to calculate coral larval connectivity. 
+## Ecological Modelling
 
-**CONNIE2**: Modelling coral larval connectivity at GBR-wide scale. 
+The following models make up the ecological component of the M&DS modelling suite. Our models provide reef cluster and regional spatial scale dynamic representations of the Great Barrier Reef to help inform decision support processes and systems.
 
-**SWAN**: Modelling wave dynamics to inform coral wave stress estimates. 
+- **ADRIAmod**: Modelling of coral dynamics at regional and reef cluster spatial scale for scenario exploration. 
 
-### [Ecological Modelling](./ecological_mod){:target="\_blank"}
+- **CoCoNet**: Modelling of coral metapopulations at a regional spatial scale. 
 
-**ADRIAmod**: TODO
+- **C~scape**: Modelling of coral dynamics at a reef-cluster and reef site spatial scale​.
 
-**CoCoNet**: Modelling of coral metapopulations at a regional spatial scale. 
+- **ReefMod**: Modelling of coral metapopulations at a regional spatial scale.
 
-**C~scape**: Modelling of coral dynamics at a local spatial scales​.
-
-**Reefmod**: Modelling of coral metapopulations at a regional spatial scale.
-
-### [Economic Modelling](./economic_mod){:target="\_blank"}
+## Economic Modelling
 TODO

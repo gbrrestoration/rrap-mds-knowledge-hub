@@ -8,7 +8,7 @@ grand_parent: RRAP M&DS
 
 {: .no_toc }
 
-# RRAP M&DS Capability
+# Capability Overview
 
 <details  open markdown="block">
   <summary>
@@ -22,29 +22,21 @@ ____
 
 ## Our Mission
 
-Our Mission is to help environmental decision makers on the Reef explore and identify robust intervention options under uncertainty. We do this using integrated state-of-the-art environmental, ecological and economic models and decision-support processes.
+Our Mission is to help environmental decision makers on the Great Barrier Reef explore and identify robust intervention options under uncertainty. We do this using integrated state-of-the-art environmental, ecological and economic models and decision-support tools.
 
-Our modelling and decision-support (MDS) suite is a unique synthesis of ecological models with information systems and decision-support tools. The MDS suite is designed to help decision makers explore benefits, costs and risks of new and existing interventions under uncertainty.​
+
+## Our Capability
+
+Our modelling and decision-support (M&DS) suite is a unique synthesis of environmental, ecological, and economic models with information systems and decision-support processes and systems (tools). The M&DS suite is designed to help decision makers explore benefits, costs and risks of new and existing interventions under uncertainty.​
 
 We use the best scientific knowledge of global and regional environmental forcing in space and time, and the biological and ecological responses of corals, to inform actions that can sustain a resilient Reef in the face of climate change. ​
 
-We translate ecological information to value functions to identify intervention options that represent viable and lasting economic and social outcomes for Reef and peoples.  ​
+We translate ecological information to value functions and through scenario analyses of outcomes, identify intervention options that represent viable and lasting economic and social outcomes for the Great Barrier Reef and peoples. ​
 
-## Our Goal
+The M&DS suite informs strategic and tactical Reef intervention decisions at scale through the following capabilities: 
 
-Our Goal is to develop an operational suite of models and decision-support systems that:
+- [**Reef Characterisation and Selection**](./reef-charact-select/){:target="\_blank"}: Regional and reef-cluster characterisation and selection for intervention deployment. 
+- [**Reef Counterfactuals**](./counterfactuals/){:target="\_blank"}: Modelling of potential futures for The Reef under uncertainty.
+- [**Reef Interventions**](./intervention-modelling/){:target="\_blank"}: Characterisation of the effect of interventions on The Reef.
 
--   Produce forecasts of reef conditions and values for the GBR under different climate change scenarios & traditional management systems​ ​
--   Enable insights into intervention solutions that can deliver robust outcomes against multiple objectives in space and time under uncertainty, constraints and limited resources​
--   Support informed strategic and tactical intervention decision-making and management planning for Reef, people and industries
-
-## RRAP models and decision-support systems (MDS) inform strategic and tactical Reef interventions
-
-The MDS suite is a collaborative  set of environmental, ecological, and economic models working within a decision-support framework. Climate models force the environmental and ecological layers, and influence intervention scope and effectiveness. Uncertainty is propagated throughout the information supply chain.  Scenario analyses of ecological and economic outcomes feed back to inform which intervention strategies and tactics are effective, safe and robust.  ​
-
-
-[**Reef Characterisation and Selection**](./reef-charact-select/){:target="\_blank"}: Capabilities to assist with reef characterisation and selection. 
-
-[**Counterfactuals**](./counterfactuals/){:target="\_blank"}: Modelling of potential futures for reefs under various uncertainties.
-
-[**Intervention Modelling**](./intervention-modelling/){:target="\_blank"}: Characterisation of the effect of interventions on reefs.
+For recent advancements across the M&DS capability see [**Advancements**](/rrap-mds-knowledge-hub/../advancements/){:target="\_blank"}
