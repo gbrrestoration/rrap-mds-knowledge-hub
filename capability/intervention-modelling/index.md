@@ -52,7 +52,7 @@ The M&DS coral models ReefMod and CoCoNet are the data engines for coral dynamic
 
 ### RRAP Explorer (ReefMod Engine)
 
-The Reefmod Engine (the Engine) is a software library designed to provide a computationally fast version of ReefMod. More information on ReefMod [here](/../../modelling/ecological_mod). The Engine is useful to create bespoke restoration scenarios at the scale of one or more reefs and simulate the expected outcomes relative to a counterfactual that lacks intervention. 
+The Reefmod Engine (the Engine) is a software library designed to provide a computationally fast version of ReefMod. More information on ReefMod [here](../../modelling/ecological_mod). The Engine is useful to create bespoke restoration scenarios at the scale of one or more reefs and simulate the expected outcomes relative to a counterfactual that lacks intervention. 
 
 The user can select an appropriate context including any choice of reefs, water quality target, climate change scenario, and some additional management actions if needed including CoTS control and no-anchoring. The results are outputted into spreadsheet revealing expected change in coral cover, disaggregated into 6 major coral classes.
 
