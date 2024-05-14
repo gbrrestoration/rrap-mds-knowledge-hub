@@ -91,7 +91,7 @@ Wave exposure outputs, along with other modelled variables, are used to estimate
 
 TThe Coupled Model Intercomparison Project (CMIP) is a global effort to improve climate change projections using a multi-model approach to climate model evaluation and experimentation. 
 
-To forecast possible futures for the Great Barrier Reef under different climate change scenarios, the M&DS suite applies projections of Sea surface Temperatures (SST) from the sixth phase of the CMIP (CMIP-6) and considers four (4) shared socio-economic pathways (SSPs) SSP1, SSP2, SSP3, and SSP5 and five (5) emission trajectories SSP1-1.9, SSP1-2.6, SSP2-4.5, SSP3-7.0, SSP5-8.5. Note that the variety of SSPs and emissions pathways investigated varies according to the specific inquiry addressed by the M&DS suite.
+To forecast possible futures for the Great Barrier Reef under different climate change scenarios, the M&DS suite applies projections of Sea surface Temperatures (SST) from the sixth phase of the CMIP (CMIP-6) and considers four (4) shared socio-economic pathways (SSPs) SSP1, SSP2, SSP3, and SSP5 and five (5) emission trajectories SSP1-1.9, SSP1-2.6, SSP2-4.5, SSP3-7.0, SSP5-8.5. Note that the variety of SSPs and emissions pathways investigated vary according to the specific inquiry addressed by the M&DS suite.
 
 The following climate models from CMIP-6 have been recently integrated into the M&DS suite after mechanistic downscaling of SST projections at 10 km resolution across the Great Barrier Reef (McWhorter et al., 2022):
 - CNRM-ESM2-1
@@ -128,5 +128,5 @@ Roelfsema, C., Kovacs, E., Ortiz, J.C., Wolff, N.H., Callaghan, D., Wettle, M., 
 
 Roelfsema, C.M., Kovacs, E.M., Ortiz, J.C., Callaghan, D.P., Hock, K., Mathieu, M., Johansen, K., Mumby, P., Wettle, M., Ronan, M., Lundgren, P., Kennedy, E.V., Phinn, S.R. (2020). Habitat maps to enhance monitoring and management of the Great Barrier Reef. Coral Reefs. 39, pp.1039–1054. https://doi.org/10.1007/s00338-020-01929-3
 
-Steven, A.D., Baird, M.E., Brinkman, R., Car, N.J., Cox, S.J., Herzfeld, M., Hodge, J., Jones, E., King, E., Margvelashvili, N. and Robillot, C. (2019). eReefs: An operational information system for managing the Great Barrier Reef. Journal of Operational Oceanography, 12(sup2), pp.S12-S28. https://doi.org/10.1080/1755876X.2019.1650589 
+Steven, A.D., Baird, M.E., Brinkman, R., Car, N.J., Cox, S.J., Herzfeld, M., Hodge, J., Jones, E., King, E., Margvelashvili, N., Robillot, C., Robson, B., Schroeder, T., Skerratt, J., Tickell, S., Tuteja, N., Wild-Allen, K. and Yu, J.  (2019). eReefs: An operational information system for managing the Great Barrier Reef. Journal of Operational Oceanography, 12(sup2), pp.S12-S28. https://doi.org/10.1080/1755876X.2019.1650589 
 
