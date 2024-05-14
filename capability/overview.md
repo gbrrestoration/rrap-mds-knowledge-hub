@@ -39,4 +39,4 @@ The M&DS suite informs strategic and tactical Reef intervention decisions at sca
 - [**Reef Counterfactuals**](./counterfactuals/){:target="\_blank"}: Modelling of potential futures for The Reef under uncertainty.
 - [**Reef Interventions**](./intervention-modelling/){:target="\_blank"}: Characterisation of the effect of interventions on The Reef.
 
-For recent advancements across the M&DS capability see [**Advancements**](/rrap-mds-knowledge-hub/../advancements/){:target="\_blank"}
+For recent advancements across the M&DS capability see [**Advancements**](/rrap-mds-knowledge-hub/advancements/){:target="\_blank"}
